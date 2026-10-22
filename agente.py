@@ -170,8 +170,11 @@ def main():
     log(f"agente iniciado | modo={cfg.get('mode')} | saldo=${vida.saldo():.4f} | viva={vida.viva}")
 
     if not vida.viva:
-        log(f"agente morto: {vida.estado.get('motivo_morte')} - reinicie deletando {cfg.get('caminhoEstado')}")
-        return 0
+        if vida.talvez_reviver():
+            log("agente revivido: saldo suficiente apos recarga")
+        else:
+            log(f"agente morto: {vida.estado.get('motivo_morte')} - recarregue a carteira para reviver")
+            return 0
 
     bearer = os.environ.get("X_BEARER_TOKEN")
     if cfg.get("usarX") and not bearer:

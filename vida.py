@@ -115,3 +115,16 @@ class Vida:
         self.estado["morte_em"] = _agora()
         self.mortes += 1
         self.salvar()
+
+    def talvez_reviver(self):
+        if self.viva:
+            return True
+        minimo = float(self.cfg.get("morteSeSaldoAbaixo", 0.10)) * 2
+        if self.saldo() > minimo:
+            self.estado["viva"] = True
+            self.estado["motivo_morte"] = None
+            self.estado["ressurreicao"] = _agora()
+            self.estado["mortes"] = int(self.estado.get("mortes", 0)) + 1
+            self.salvar()
+            return True
+        return False
