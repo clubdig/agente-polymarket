@@ -252,5 +252,50 @@
         }
       ]
     }
+  },
+  "republicans|senate|texas": {
+    "ts": 1792632320.6336656,
+    "resultado": {
+      "n": 41,
+      "score": 0.066,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump offers $5k to every American if Republicans win midterm elections "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump promises $5k dividend in convention speech, but only if Republicans win "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump promises $5k payout to U.S. adults if Republicans win election "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Texas shed thousands of jobs in September, lowering 2026 growth forecast - Dallas News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas nao mencionam a eleicao para o Senado no Texas em 2026, sendo consideradas irrelevantes para a pergunta.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
   }
 }
