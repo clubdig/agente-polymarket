@@ -212,6 +212,28 @@ def registrar_sinal(cfg, sinal, executado=False, shares=0):
     pasta = os.path.dirname(caminho)
     if pasta:
         os.makedirs(pasta, exist_ok=True)
+    janela = float(cfg.get("janelaDedupeSinais", 720)) * 60
+    if os.path.exists(caminho):
+        try:
+            with open(caminho, "r", encoding="utf-8-sig") as f:
+                for linha in f:
+                    linha = linha.strip()
+                    if not linha:
+                        continue
+                    try:
+                        antigo = json.loads(linha)
+                    except Exception:
+                        continue
+                    if (antigo.get("token_id") == sinal.get("token_id")
+                            and antigo.get("lado") == sinal.get("lado")):
+                        try:
+                            ts = datetime.datetime.fromisoformat(antigo.get("ts")).timestamp()
+                        except Exception:
+                            continue
+                        if time.time() - ts < janela:
+                            return antigo
+        except Exception:
+            pass
     registro = {
         "ts": datetime.datetime.now().isoformat(timespec="seconds"),
         "mercado": sinal["pergunta"],

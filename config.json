@@ -52,5 +52,6 @@
   "caminhoExtratoPagina": "docs/extrato.csv",
   "destinoSaque": "",
   "saqueMinimo": 5.0,
-  "debug": false
+  "debug": false,
+  "janelaDedupeSinais": 720
 }
