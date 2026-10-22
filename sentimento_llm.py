@@ -1,13 +1,15 @@
 import json
 import os
+import time
 import urllib.request
 
-API = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+MODELOS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash"]
 UA = "Mozilla/5.0 (compatible; AgentePolymarket/1.0)"
 
 
-def _pedido(prompt, api_key, timeout=30):
-    url = f"{API}?key={api_key}"
+def _pedido(prompt, api_key, modelo, timeout=90):
+    url = f"{BASE}/{modelo}:generateContent?key={api_key}"
     corpo = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.0, "maxOutputTokens": 400},
@@ -21,7 +23,7 @@ def _pedido(prompt, api_key, timeout=30):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
-def avaliar_llm(pergunta, posts, api_key=None, max_posts=25):
+def avaliar_llm(pergunta, posts, api_key=None, max_posts=25, modelos=None):
     api_key = api_key or os.environ.get("GEMINI_API_KEY")
     if not api_key or not posts:
         return None
@@ -42,20 +44,29 @@ def avaliar_llm(pergunta, posts, api_key=None, max_posts=25):
         "Regras: use apenas o que esta nas noticias; se as noticias nao.allow informarem o resultado, "
         "estime pela Tendencia; nao invente fatos. Se as noticias forem irrelevantes, use p=0.5 e forca=fraca."
     )
-    try:
-        dados = _pedido(prompt, api_key)
-        texto = dados["candidates"][0]["content"]["parts"][0]["text"].strip()
-        texto = texto.replace("```json", "").replace("```", "").strip()
-        inicio = texto.find("{")
-        fim = texto.rfind("}")
-        if inicio < 0 or fim < 0:
-            return None
-        obj = json.loads(texto[inicio:fim + 1])
-        p = float(obj.get("p", 0.5))
-        p = max(0.02, min(0.98, p))
-        forca = str(obj.get("forca", "fraca")).lower()
-        confianca = {"fraca": 0.25, "media": 0.5, "forte": 0.8}.get(forca, 0.3)
-        return {"p": round(p, 4), "confianca": confianca, "forca": forca,
-                "motivo": str(obj.get("motivo", ""))[:200], "n": len(posts[:max_posts])}
-    except Exception:
-        return None
+    for modelo in (modelos or MODELOS):
+        for tentativa in range(2):
+            try:
+                dados = _pedido(prompt, api_key, modelo)
+                texto = dados["candidates"][0]["content"]["parts"][0]["text"].strip()
+                texto = texto.replace("```json", "").replace("```", "").strip()
+                inicio = texto.find("{")
+                fim = texto.rfind("}")
+                if inicio < 0 or fim < 0:
+                    break
+                obj = json.loads(texto[inicio:fim + 1])
+                p = float(obj.get("p", 0.5))
+                p = max(0.02, min(0.98, p))
+                forca = str(obj.get("forca", "fraca")).lower()
+                confianca = {"fraca": 0.25, "media": 0.5, "forte": 0.8}.get(forca, 0.3)
+                return {"p": round(p, 4), "confianca": confianca, "forca": forca,
+                        "motivo": str(obj.get("motivo", ""))[:200], "n": len(posts[:max_posts]),
+                        "modelo": modelo}
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 500, 503) and tentativa == 0:
+                    time.sleep(5)
+                    continue
+                break
+            except Exception:
+                break
+    return None

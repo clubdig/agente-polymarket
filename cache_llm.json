@@ -1,0 +1,174 @@
+{
+  "balance|power|senate": {
+    "ts": 1792631865.302249,
+    "resultado": {
+      "n": 40,
+      "score": 0.032,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Titans Finally Make a Move Up in NFL Power Rankings After Comeback Road Win vs. Colts - Sports Illustrated"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Electric rates to rise this winter in Pennsylvania as power demand outpaces supply, experts say - CBS News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Standard Topic – An AI and RSS-powered news and resource platform Hi HN,<p>I&#x27;m John, a knowledge management and AI enablement professional. I crea"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Firmendaten: Parsed balance sheets for every Austrian company Ever since January 2025 the Austrian Ministry of Justice has made the Firmenbuch public ("
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Tell HN: Wise holds my company's $22k for 27 days, then goes silent Wise closed the business accounts of my Delaware LLC and my Polish sole proprietorship. I&#x"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas tratam de tópicos não relacionados à política americana, sem informações sobre o equilíbrio do Congresso em 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "ceasefire|continues|through": {
+    "ts": 1792631892.7985961,
+    "resultado": {
+      "n": 38,
+      "score": 0.021,
+      "z": -1.2,
+      "p": 0.2,
+      "confianca": 0.5,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Trump approval hits new low as he continues campaign tour of red states - MS NOW"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump rejects Iran's conditional ceasefire proposal "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "More than 900 killed in Gaza this year despite ceasefire "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Iran war: Trump says ceasefire 'over' after fresh strikes "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Netanyahu orders Israeli army to seize 70% of Gaza Strip, violating ceasefire "
+        }
+      ],
+      "llm": {
+        "p": 0.2,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Manchetes apontam que Trump declarou o cessar-fogo com o Irã 'acabado' após novos ataques e rejeitou propostas de trégua.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "brazilian|election|presidential": {
+    "ts": 1792631913.3294144,
+    "resultado": {
+      "n": 40,
+      "score": 0.055,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Brazilian researcher who helped country's grain boom wins World Food Prize "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Meta is meddling with Brazilian democracy "
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Notícias tratam da eleição passada de 2022 e temas alheios, sem informações relevantes sobre a eleição presidencial brasileira de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "bolsonaro|brazilian|presidential": {
+    "ts": 1792631941.9090116,
+    "resultado": {
+      "n": 56,
+      "score": 0.039,
+      "z": 0.102,
+      "p": 0.5464,
+      "confianca": 0.051,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Brazilian researcher who helped country's grain boom wins World Food Prize "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Meta is meddling with Brazilian democracy "
+        }
+      ]
+    }
+  }
+}

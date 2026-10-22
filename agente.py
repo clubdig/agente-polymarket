@@ -51,24 +51,37 @@ def termos_de_busca(pergunta):
     return uniq[:3] if uniq else [limpo.strip()[:40]]
 
 
-def estimar_sentimento(pergunta, cfg):
+def estimar_sentimento(pergunta, cfg, cache=None, chamadas=None):
     bearer = os.environ.get("X_BEARER_TOKEN")
     fontes = list(cfg.get("fontesSentimento", ["reddit", "hnews", "news"]))
     if cfg.get("usarX") and bearer:
         fontes.append("x")
     termos = termos_de_busca(pergunta)
+    chave = "|".join(sorted(termos))
+    ttl = float(cfg.get("cacheLLMMinutos", 360)) * 60
+    if cache is not None and chave in cache:
+        entrada = cache[chave]
+        if time.time() - entrada.get("ts", 0) < ttl and entrada.get("resultado"):
+            return entrada["resultado"]
     posts = []
     for termo in termos:
         posts += sentimento.coletar(termo, fontes, bearer)
     lex = sentimento.avaliar(posts, cfg.get("minAmostrasSentimento", 6), termos)
     if cfg.get("usarLLM"):
-        llm = sentimento_llm.avaliar_llm(pergunta, posts)
+        teto = int(cfg.get("maxChamadasLLM", 4))
+        if chamadas is not None and chamadas["n"] >= teto:
+            return lex
+        if chamadas is not None:
+            chamadas["n"] += 1
+        llm = sentimento_llm.avaliar_llm(pergunta, posts, modelos=cfg.get("modelosLLM"))
         if llm:
             lex = dict(lex)
             lex["p"] = llm["p"]
             lex["confianca"] = llm["confianca"]
             lex["llm"] = llm
             lex["z"] = (llm["p"] - 0.5) * 4
+        if cache is not None:
+            cache[chave] = {"ts": time.time(), "resultado": lex}
     return lex
 
 
@@ -163,8 +176,137 @@ def operar_live(cfg, vida, sinal):
         return False
 
 
+def carregar_env():
+    caminho = os.path.join(RAIZ, ".env")
+    if not os.path.exists(caminho):
+        return
+    with open(caminho, "r", encoding="utf-8-sig") as f:
+        for linha in f:
+            linha = linha.strip()
+            if not linha or linha.startswith("#") or "=" not in linha:
+                continue
+            chave, valor = linha.split("=", 1)
+            os.environ.setdefault(chave.strip(), valor.strip().strip('"').strip("'"))
+
+
+def cache_llm_carregar(caminho):
+    if not os.path.exists(caminho):
+        return {}
+    try:
+        with open(caminho, "r", encoding="utf-8-sig") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def cache_llm_salvar(caminho, cache):
+    pasta = os.path.dirname(caminho)
+    if pasta:
+        os.makedirs(pasta, exist_ok=True)
+    with open(caminho, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
+
+
+def registrar_sinal(cfg, sinal, executado=False, shares=0):
+    caminho = cfg.get("caminhoSinais", "sinais.jsonl")
+    pasta = os.path.dirname(caminho)
+    if pasta:
+        os.makedirs(pasta, exist_ok=True)
+    registro = {
+        "ts": datetime.datetime.now().isoformat(timespec="seconds"),
+        "mercado": sinal["pergunta"],
+        "slug": sinal.get("slug"),
+        "token_id": sinal.get("token_id"),
+        "lado": sinal["lado"],
+        "preco": round(sinal["preco_token"], 4),
+        "p_estimada": round(sinal["p_token"], 4),
+        "p_mercado": round(sinal["p_mercado"], 4),
+        "edge": round(sinal["edge_token"], 4),
+        "preco_pago": round(sinal["preco_pago"], 4),
+        "p_paga": round(sinal["p_paga"], 4),
+        "modelo": (sinal.get("sent", {}).get("llm") or {}).get("modelo", "lexico"),
+        "motivo": (sinal.get("sent", {}).get("llm") or {}).get("motivo", ""),
+        "executado": executado,
+        "shares": shares,
+        "preco_depois": None,
+    }
+    with open(caminho, "a", encoding="utf-8") as f:
+        f.write(json.dumps(registro, ensure_ascii=False) + "\n")
+    return registro
+
+
+def marcar_executado(cfg, sinal, shares):
+    caminho = cfg.get("caminhoSinais", "sinais.jsonl")
+    if not os.path.exists(caminho):
+        return
+    linhas = []
+    with open(caminho, "r", encoding="utf-8-sig") as f:
+        for linha in f:
+            linha = linha.strip()
+            if linha:
+                try:
+                    linhas.append(json.loads(linha))
+                except Exception:
+                    pass
+    for s in reversed(linhas):
+        if s.get("token_id") == sinal.get("token_id") and s.get("lado") == sinal.get("lado"):
+            s["executado"] = True
+            s["shares"] = shares
+            break
+    with open(caminho, "w", encoding="utf-8") as f:
+        for s in linhas:
+            f.write(json.dumps(s, ensure_ascii=False) + "\n")
+
+
+def medir_sinais(cfg, horas_minimas=6):
+    caminho = cfg.get("caminhoSinais", "sinais.jsonl")
+    if not os.path.exists(caminho):
+        return {}
+    linhas = []
+    with open(caminho, "r", encoding="utf-8-sig") as f:
+        for linha in f:
+            linha = linha.strip()
+            if linha:
+                try:
+                    linhas.append(json.loads(linha))
+                except Exception:
+                    pass
+    agora = time.time()
+    medidos = 0
+    acertos = 0
+    for s in linhas:
+        if s.get("preco_depois") is not None:
+            ts = datetime.datetime.fromisoformat(s["ts"]).timestamp()
+            if agora - ts < horas_minimas * 3600:
+                continue
+            delta = float(s["preco_depois"]) - float(s["preco"])
+            s["delta"] = round(delta, 4)
+            s["acerto"] = 1 if delta > 0 else 0
+            medidos += 1
+            acertos += s["acerto"]
+        else:
+            ts = datetime.datetime.fromisoformat(s["ts"]).timestamp()
+            if agora - ts < horas_minimas * 3600:
+                continue
+            token_id = s.get("token_id")
+            if not token_id:
+                continue
+            lv = markets.livro(token_id)
+            lado = "sell" if s.get("lado") == "YES" else "buy"
+            melhor = markets.melhor_livro(lv, lado)
+            if not melhor:
+                continue
+            s["preco_depois"] = melhor["preco"]
+    with open(caminho, "w", encoding="utf-8") as f:
+        for s in linhas:
+            f.write(json.dumps(s, ensure_ascii=False) + "\n")
+    return {"sinais": len(linhas), "medidos": medidos, "acertos": acertos,
+            "acerto_pct": round(100 * acertos / medidos, 1) if medidos else None}
+
+
 def main():
     cfg = carregar_config()
+    carregar_env()
     vida = Vida(cfg)
     gerenciador = risco.Gerenciador(cfg, vida)
     log(f"agente iniciado | modo={cfg.get('mode')} | saldo=${vida.saldo():.4f} | viva={vida.viva}")
@@ -186,6 +328,7 @@ def main():
     if cap < 0.05:
         log("ATENCAO: com este saldo o teto de 6% fica abaixo do custo do lote minimo - "
             "o agente fica vivo, mas nao pode operar sem aumentar a banca")
+    cache_llm = cache_llm_carregar(cfg.get("caminhoCacheLLM", "cache_llm.json"))
 
     while True:
         if not vida.viva:
@@ -208,73 +351,87 @@ def main():
 
         books_cache = {}
         sinais = []
+        chamadas = {"n": 0}
         for m in brutos:
             pergunta = m.get("question", "")
             tokens = m.get("tokens", [])
             if not tokens:
                 continue
-            for t in tokens:
-                outcome = (t.get("outcome") or "").lower()
-                if outcome not in ("yes", "no"):
-                    continue
-                token_id = t.get("token_id")
-                if not token_id:
-                    continue
-                lv = valor_de_mercado(token_id, books_cache)
-                ask = lv.get("ask")
-                preco = None
-                if ask:
-                    preco = ask["preco"]
-                elif outcome == "yes" and m.get("best_ask"):
-                    preco = float(m["best_ask"])
-                elif outcome == "no" and m.get("best_bid"):
-                    preco = round(1.0 - float(m["best_bid"]), 4)
-                if preco is None:
-                    continue
-                if preco <= 0.02 or preco >= 0.98:
-                    continue
-                if ask and ask.get("tamanho", 0) < cfg.get("minShares", 5):
-                    continue
+            token_yes = next((t for t in tokens if (t.get("outcome") or "").lower() == "yes"), None)
+            token_no = next((t for t in tokens if (t.get("outcome") or "").lower() == "no"), None)
+            if not token_yes or not token_no:
+                continue
+            id_yes = token_yes.get("token_id")
+            id_no = token_no.get("token_id")
+            if not id_yes or not id_no:
+                continue
+            lv_yes = valor_de_mercado(id_yes, books_cache)
+            lv_no = valor_de_mercado(id_no, books_cache)
+            ask_yes = lv_yes.get("ask")
+            ask_no = lv_no.get("ask")
+            if not ask_yes and m.get("best_ask"):
+                ask_yes = {"preco": float(m["best_ask"]), "tamanho": 999}
+            if not ask_no and m.get("best_bid"):
+                ask_no = {"preco": round(1.0 - float(m["best_bid"]), 4), "tamanho": 999}
+            if not ask_yes or not ask_no:
+                continue
+            preco_yes = ask_yes["preco"]
+            preco_no = ask_no["preco"]
+            if not (0.02 < preco_yes < 0.98) or not (0.02 < preco_no < 0.98):
+                continue
+            if min(ask_yes.get("tamanho", 0), ask_no.get("tamanho", 0)) < cfg.get("minShares", 5):
+                continue
 
-                sent = estimar_sentimento(pergunta, cfg)
-                if cfg.get("debug"):
-                    log(f"  [{outcome.upper()}] {pergunta[:52]} | preco={preco:.3f} | "
-                        f"n={sent['n']} p={sent['p']} conf={sent.get('confianca')} "
-                        f"z={sent.get('z')}")
-                if sent["p"] is None or sent["confianca"] < cfg.get("confiancaMinima", 0.35):
-                    continue
+            sent = estimar_sentimento(pergunta, cfg, cache_llm, chamadas)
+            if cfg.get("debug"):
+                log(f"  {pergunta[:52]} | YES={preco_yes:.3f} NO={preco_no:.3f} | "
+                    f"n={sent['n']} p={sent['p']} conf={sent.get('confianca')} "
+                    f"llm={(sent.get('llm') or {}).get('modelo', '-')}")
+            if sent["p"] is None or sent["confianca"] < cfg.get("confiancaMinima", 0.35):
+                continue
 
-                p = sent["p"]
-                p_mercado = preco if outcome == "yes" else 1 - preco
-                edge = p - p_mercado
-                if abs(edge) < cfg.get("edgeMinimo", 0.08):
-                    continue
+            p_yes = sent["p"]
+            edge_yes = p_yes - preco_yes
+            if abs(edge_yes) < cfg.get("edgeMinimo", 0.08):
+                continue
 
-                lado = "YES" if edge > 0 else "NO"
-                preco_efetivo = preco if lado == "YES" else 1 - preco
-                p_efetiva = p if lado == "YES" else 1 - p
-                shares, risco_usado, kf = kelly.tamanho_posicao(
-                    vida.saldo(), p_efetiva, preco_efetivo,
-                    cfg.get("kellyFracao", 0.25), cfg.get("riscoMaximoOperacao", 0.06),
-                    cfg.get("minShares", 5))
-                if shares <= 0:
-                    continue
-                pode, motivo = gerenciador.pode_operar(preco_efetivo * shares)
-                if not pode:
-                    log(f"bloqueado: {motivo}")
-                    continue
-                sinais.append({
-                    "pergunta": pergunta, "slug": m.get("slug"), "token_id": token_id,
-                    "lado": lado, "preco": preco_efetivo, "p_estimada": p_efetiva,
-                    "p_mercado": p_mercado, "edge": edge, "shares": shares,
-                    "risco": risco_usado, "kelly": kf, "sent": sent,
-                })
+            if edge_yes > 0:
+                lado, token_id, preco_pago, p_paga = "YES", id_yes, preco_yes, p_yes
+            else:
+                lado, token_id, preco_pago, p_paga = "NO", id_no, preco_no, 1 - p_yes
+
+            shares, risco_usado, kf = kelly.tamanho_posicao(
+                vida.saldo(), p_paga, preco_pago,
+                cfg.get("kellyFracao", 0.25), cfg.get("riscoMaximoOperacao", 0.06),
+                cfg.get("minShares", 5))
+            sinal = {
+                "pergunta": pergunta, "slug": m.get("slug"), "token_id": token_id,
+                "lado": lado, "preco": preco_pago, "p_estimada": p_paga,
+                "p_mercado": preco_pago, "edge": edge_yes, "shares": shares,
+                "risco": risco_usado, "kelly": kf, "sent": sent,
+                "preco_token": preco_pago, "p_token": p_paga, "p_mercado": preco_pago,
+                "edge_token": edge_yes, "preco_pago": preco_pago, "p_paga": p_paga,
+            }
+            registrar_sinal(cfg, sinal, executado=bool(shares), shares=shares)
+            if shares <= 0:
+                continue
+            pode, motivo = gerenciador.pode_operar(preco_pago * shares)
+            if not pode:
+                log(f"bloqueado: {motivo}")
+                continue
+            sinais.append(sinal)
 
         for sinal in sinais:
             if cfg.get("mode") == "live":
                 operar_live(cfg, vida, sinal)
             else:
                 operar_paper(cfg, vida, sinal)
+            marcar_executado(cfg, sinal, sinal.get("shares", 0))
+
+        try:
+            cache_llm_salvar(cfg.get("caminhoCacheLLM", "cache_llm.json"), cache_llm)
+        except Exception as e:
+            log(f"erro ao salvar cache llm: {e}")
 
         vida.heartbeat()
         gerenciador.atualizar_pnl()
@@ -283,6 +440,9 @@ def main():
             dashboard.gerar(cfg)
             levamento.exportar_extrato(cfg, cfg.get("caminhoExtratoPagina", "docs/extrato.csv"))
             r = levamento.resumo(cfg)
+            med = medir_sinais(cfg, int(cfg.get("medicaoHoras", 6)))
+            if med.get("medidos"):
+                log(f"medicao de sinais: {med['medidos']} avaliados, acerto {med['acerto_pct']}%")
             log(f"ledger: {r['operacoes']} operacoes | pnl_total=${r['pnl_total']:+.4f} "
                 f"| saldo=${r['saldo']:.4f}")
         except Exception as e:

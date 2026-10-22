@@ -1,5 +1,5 @@
 {
-  "nascimento": "2026-10-21T21:45:04",
+  "nascimento": "2026-10-21T22:17:32",
   "viva": true,
   "saldo_inicial": 0.95,
   "saldo": 0.95,
@@ -11,7 +11,7 @@
   "pior_sequencia": 0,
   "sequencia": 0,
   "pico": 0.95,
-  "ultimo_heartbeat": "2026-10-22T00:50:56",
+  "ultimo_heartbeat": "2026-10-21T22:19:12",
   "motivo_morte": null,
   "exposicao": 0
 }
