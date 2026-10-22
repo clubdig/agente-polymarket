@@ -128,3 +128,23 @@ class Vida:
             self.salvar()
             return True
         return False
+
+    def llm_pode_chamar(self):
+        hoje = time.strftime("%Y-%m-%d")
+        if self.estado.get("llm_dia") != hoje:
+            self.estado["llm_dia"] = hoje
+            self.estado["llm_chamadas"] = 0
+        ultimo429 = self.estado.get("llm_ultimo_429_ts")
+        if ultimo429:
+            desde = time.time() - float(ultimo429)
+            if desde < float(self.cfg.get("cooldownLLMMinutos", 120)) * 60:
+                return False, "cooldown apos 429"
+        if int(self.estado.get("llm_chamadas", 0)) >= int(self.cfg.get("orcamentoLLMDia", 40)):
+            return False, "orcamento diario de chamadas LLM esgotado"
+        return True, "ok"
+
+    def llm_registrar_chamada(self):
+        self.estado["llm_chamadas"] = int(self.estado.get("llm_chamadas", 0)) + 1
+
+    def llm_registrar_429(self):
+        self.estado["llm_ultimo_429_ts"] = time.time()

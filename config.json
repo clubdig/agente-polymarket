@@ -21,13 +21,20 @@
   ],
   "usarX": false,
   "usarLLM": true,
+  "usarVenueLegal": true,
+  "bancadaLegalBRL": 500.0,
+  "dolarBRL": 5.0,
+  "venueMaxDias": 5000,
+  "venueMaxEventos": 40,
+  "venueMaxAnalises": 6,
+  "caminhoTickets": "docs/tickets.csv",
   "modelosLLM": [
     "gemini-3.8-flash",
     "gemini-3.6-flash",
     "gemini-3.5-flash"
   ],
-  "maxChamadasLLM": 4,
-  "cacheLLMMinutos": 360,
+  "maxChamadasLLM": 2,
+  "cacheLLMMinutos": 720,
   "caminhoCacheLLM": "cache_llm.json",
   "caminhoSinais": "sinais.jsonl",
   "medicaoHoras": 6,
@@ -53,5 +60,7 @@
   "destinoSaque": "",
   "saqueMinimo": 5.0,
   "debug": false,
-  "janelaDedupeSinais": 720
+  "janelaDedupeSinais": 720,
+  "orcamentoLLMDia": 40,
+  "cooldownLLMMinutos": 180
 }

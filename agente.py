@@ -12,6 +12,7 @@ import sentimento
 import sentimento_llm
 import dashboard
 import levamento
+import venue_legal
 from vida import Vida
 
 RAIZ = os.path.dirname(os.path.abspath(__file__))
@@ -51,7 +52,7 @@ def termos_de_busca(pergunta):
     return uniq[:3] if uniq else [limpo.strip()[:40]]
 
 
-def estimar_sentimento(pergunta, cfg, cache=None, chamadas=None):
+def estimar_sentimento(pergunta, cfg, cache=None, chamadas=None, vida=None):
     bearer = os.environ.get("X_BEARER_TOKEN")
     fontes = list(cfg.get("fontesSentimento", ["reddit", "hnews", "news"]))
     if cfg.get("usarX") and bearer:
@@ -71,10 +72,21 @@ def estimar_sentimento(pergunta, cfg, cache=None, chamadas=None):
         teto = int(cfg.get("maxChamadasLLM", 4))
         if chamadas is not None and chamadas["n"] >= teto:
             return lex
+        if vida is not None:
+            pode, _ = vida.llm_pode_chamar()
+            if not pode:
+                return lex
         if chamadas is not None:
             chamadas["n"] += 1
         llm = sentimento_llm.avaliar_llm(pergunta, posts, modelos=cfg.get("modelosLLM"))
+        if llm and llm.get("erro") == "quota":
+            if vida is not None:
+                vida.llm_registrar_429()
+            log("LLM: cota do Gemini esgotada - pausando chamadas")
+            return lex
         if llm:
+            if vida is not None:
+                vida.llm_registrar_chamada()
             lex = dict(lex)
             lex["p"] = llm["p"]
             lex["confianca"] = llm["confianca"]
@@ -404,7 +416,7 @@ def main():
             if min(ask_yes.get("tamanho", 0), ask_no.get("tamanho", 0)) < cfg.get("minShares", 5):
                 continue
 
-            sent = estimar_sentimento(pergunta, cfg, cache_llm, chamadas)
+            sent = estimar_sentimento(pergunta, cfg, cache_llm, chamadas, vida)
             if cfg.get("debug"):
                 log(f"  {pergunta[:52]} | YES={preco_yes:.3f} NO={preco_no:.3f} | "
                     f"n={sent['n']} p={sent['p']} conf={sent.get('confianca')} "
@@ -454,6 +466,19 @@ def main():
             cache_llm_salvar(cfg.get("caminhoCacheLLM", "cache_llm.json"), cache_llm)
         except Exception as e:
             log(f"erro ao salvar cache llm: {e}")
+
+        try:
+            legal = venue_legal.ciclo_legal(cfg, cache_llm, chamadas, vida)
+            if legal.get("tickets"):
+                for t in legal["tickets"]:
+                    log(f"[VENUE LEGAL] {t['lado']} {t['evento'][:48]} | "
+                        f"preco={t['preco_prob']:.3f} p={t['p_estimada']:.3f} "
+                        f"edge={t['edge']:+.3f} | {t['qtd']} contratos | "
+                        f"risco R$ {t['risco_brl']:.2f}")
+            log(f"venue legal: {legal.get('analisados', 0)} mercados analisados, "
+                f"{len(legal.get('tickets', []))} tickets")
+        except Exception as e:
+            log(f"erro no venue legal: {e}")
 
         vida.heartbeat()
         gerenciador.atualizar_pnl()

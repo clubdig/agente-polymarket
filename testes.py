@@ -90,5 +90,34 @@ class TesteVida(unittest.TestCase):
         self.assertEqual(self.vida.estado["sequencia"], 1)
 
 
+class TesteVenueLegal(unittest.TestCase):
+    def test_referencia_financeira(self):
+        import venues
+        self.assertTrue(venues.tem_referencia_financeira("Will the Fed cut rates in December?"))
+        self.assertTrue(venues.tem_referencia_financeira("US CPI inflation year-end"))
+        self.assertFalse(venues.tem_referencia_financeira("Will the Riemann Hypothesis be resolved?"))
+
+    def test_ticket_respeita_teto_de_6_por_cento(self):
+        banca_brl = 1000.0
+        cambio = 5.0
+        banca_usd = banca_brl / cambio
+        preco = 0.40
+        p = 0.70
+        qtd, risco, _ = kelly.tamanho_posicao(banca_usd, p, preco, 0.25, 0.06, 1)
+        custo_usd = qtd * preco
+        self.assertLessEqual(custo_usd, banca_usd * 0.06 + 1e-9)
+        self.assertLessEqual(custo_usd * cambio, banca_brl * 0.06 + 1e-9)
+
+    def test_sem_edge_nao_ha_ticket(self):
+        import venue_legal
+        cfg = {"edgeMinimo": 0.08, "minShares": 1, "kellyFracao": 0.25,
+               "riscoMaximoOperacao": 0.06, "bancadaLegalBRL": 500.0, "dolarBRL": 5.0,
+               "usarLLM": False, "confiancaMinima": 0.35}
+        cache = {}
+        lex = {"p": 0.50, "confianca": 0.9, "n": 10}
+        resultado = venue_legal.estimar_probabilidade("teste", cfg, cache)
+        self.assertIsNotNone(resultado.get("p"))
+
+
 if __name__ == "__main__":
     unittest.main()

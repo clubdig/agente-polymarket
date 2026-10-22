@@ -30,10 +30,31 @@ def _sinais(cfg):
             "ultimos": linhas[-12:][::-1]}
 
 
+def _tickets(cfg):
+    caminho = cfg.get("caminhoTickets", "docs/tickets.csv")
+    if not os.path.exists(caminho):
+        return []
+    import csv
+    linhas = []
+    with open(caminho, "r", encoding="utf-8-sig", newline="") as f:
+        for r in csv.DictReader(f):
+            linhas.append(r)
+    return linhas[-20:][::-1]
+
+
 def gerar(cfg):
     vida = Vida(cfg)
     e = vida.estado
     s = _sinais(cfg)
+    tickets = _tickets(cfg)
+    linhas_tickets = ""
+    for t in tickets:
+        linhas_tickets += f"""<tr>
+<td>{esc(t.get('ts','')[5:16])}</td><td>{esc(str(t.get('evento'))[:40])}</td>
+<td>{esc(t.get('desfecho',''))}</td><td>{esc(t.get('lado'))}</td>
+<td>{esc(t.get('preco_prob'))}</td><td>{esc(t.get('p_estimada'))}</td>
+<td class="pos">{esc(t.get('edge'))}</td><td>R$ {esc(t.get('risco_brl'))}</td>
+<td>{esc(t.get('ticker',''))}</td></tr>"""
     linhas_sinais = ""
     for x in s["ultimos"]:
         marca = "&#10003;" if x.get("acerto") == 1 else ("&#10007;" if x.get("acerto") == 0 else "&#8226;")
@@ -90,6 +111,11 @@ th{{color:#94a3b8;font-weight:600}}
 <h2 style="font-size:15px;margin-top:24px">Posicoes abertas</h2>
 <table><tr><th>Mercado</th><th>Lado</th><th>Shares</th><th>Entrada</th><th>Atual</th><th>PnL</th><th></th></tr>
 {linhas_pos or '<tr><td colspan="7">nenhuma posicao aberta</td></tr>'}
+</table>
+<h2 style="font-size:15px;margin-top:24px">Tickets - venue legal (Kalshi via XP International)</h2>
+<div class="mono">Contratos binarios de eventos economicos/financeiros. Execucao manual na Clear/XP. Kelly com teto de 6%.</div>
+<table><tr><th>quando</th><th>Evento</th><th>Desfecho</th><th>Lado</th><th>Preco</th><th>p est.</th><th>Edge</th><th>Risco</th><th>Ticker</th></tr>
+{linhas_tickets or '<tr><td colspan="9">nenhum ticket gerado ainda</td></tr>'}
 </table>
 </div></body></html>"""
     caminho = cfg.get("caminhoDashboard", "dashboard.html")

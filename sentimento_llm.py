@@ -23,7 +23,7 @@ def _pedido(prompt, api_key, modelo, timeout=90):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
-def avaliar_llm(pergunta, posts, api_key=None, max_posts=25, modelos=None):
+def avaliar_llm(pergunta, posts, api_key=None, max_posts=25, modelos=None, contexto=""):
     api_key = api_key or os.environ.get("GEMINI_API_KEY")
     if not api_key or not posts:
         return None
@@ -37,7 +37,8 @@ def avaliar_llm(pergunta, posts, api_key=None, max_posts=25, modelos=None):
         "Voce e um analista de mercados de previsao. Abaixo esta a pergunta de um mercado binario "
         "(YES/NO) e noticias/tweets recentes.\n\n"
         f"PERGUNTA: {pergunta}\n\n"
-        "NOTICIAS/TWEETS:\n" + "\n".join(linhas) + "\n\n"
+        + (f"CONTEXTO DE MERCADO (consenso oficial):\n{contexto}\n\n" if contexto else "")
+        + "NOTICIAS/TWEETS:\n" + "\n".join(linhas) + "\n\n"
         "Responda SOMENTE com JSON valido, sem texto extra, neste formato exato:\n"
         '{"p": <probabilidade de YES entre 0 e 1, com 2 casas>, '
         '"forca": "fraca|media|forte", "motivo": "<maximo 25 palavras>"}\n\n'
@@ -63,7 +64,9 @@ def avaliar_llm(pergunta, posts, api_key=None, max_posts=25, modelos=None):
                         "motivo": str(obj.get("motivo", ""))[:200], "n": len(posts[:max_posts]),
                         "modelo": modelo}
             except urllib.error.HTTPError as e:
-                if e.code in (429, 500, 503) and tentativa == 0:
+                if e.code == 429:
+                    return {"erro": "quota", "modelo": modelo}
+                if e.code in (500, 503) and tentativa == 0:
                     time.sleep(5)
                     continue
                 break

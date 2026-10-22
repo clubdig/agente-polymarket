@@ -1,8 +1,8 @@
-name: agente-polymarket
+﻿name: agente-polymarket
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/60 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,3 +35,4 @@ jobs:
           git add -A
           git diff --staged --quiet || git commit -m "ciclo $(date -u +%FT%TZ)"
           git push
+
