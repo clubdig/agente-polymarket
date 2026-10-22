@@ -170,5 +170,87 @@
         }
       ]
     }
+  },
+  "increase|interest|october": {
+    "ts": 1792632022.5072987,
+    "resultado": {
+      "n": 41,
+      "score": 0.037,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.3,
+          "texto": "Vail Resorts claims conflict of interest as activist investor works with Prince, who wants to buy Park City Mountain - Park Record"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Record dry October continues in Seattle - The Seattle Times"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Show HN: Music Mini Games: Tune-a-Fish If it&#x27;s too easy, increase the difficulty setting (top right settings).<p>If you really love it, maybe get the nativ"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas sao irrelevantes para a decisao de taxas de juros do Federal Reserve em outubro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "interest|meeting|october": {
+    "ts": 1792632050.7084346,
+    "resultado": {
+      "n": 39,
+      "score": 0.005,
+      "z": 0.007,
+      "p": 0.5035,
+      "confianca": 0.003,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.3,
+          "texto": "Vail Resorts claims conflict of interest as activist investor works with Prince, who wants to buy Park City Mountain - Park Record"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Record dry October continues in Seattle - The Seattle Times"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Goodell defends Giants' Tisch, 49ers' York attending NFL's fall meeting - ESPN"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
+        }
+      ]
+    }
   }
 }
