@@ -1,17 +1,22 @@
 {
   "balance|power|senate": {
-    "ts": 1792631865.302249,
+    "ts": 1792679037.149244,
     "resultado": {
-      "n": 40,
-      "score": 0.032,
+      "n": 44,
+      "score": 0.039,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
+          "score": 0.9,
+          "texto": "New Balance’s Iconic 990 Sneaker Gets a New Upgrade With the 990v7 — Which Will Be Released Soon - WWD"
+        },
+        {
+          "fonte": "news",
           "score": 0.7,
-          "texto": "Titans Finally Make a Move Up in NFL Power Rankings After Comeback Road Win vs. Colts - Sports Illustrated"
+          "texto": "The Latest: Many states deciding control of the Senate are seeing a big boost in early voting - Yahoo"
         },
         {
           "fonte": "news",
@@ -19,74 +24,61 @@
           "texto": "Electric rates to rise this winter in Pennsylvania as power demand outpaces supply, experts say - CBS News"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Standard Topic – An AI and RSS-powered news and resource platform Hi HN,<p>I&#x27;m John, a knowledge management and AI enablement professional. I crea"
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Trump visits deep-red S.C. as Senate seat is at risk of slipping to Democrats - The Washington Post"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Firmendaten: Parsed balance sheets for every Austrian company Ever since January 2025 the Austrian Ministry of Justice has made the Firmenbuch public ("
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Tell HN: Wise holds my company's $22k for 27 days, then goes silent Wise closed the business accounts of my Delaware LLC and my Polish sole proprietorship. I&#x"
+          "fonte": "news",
+          "score": -0.1,
+          "texto": "Meta falls as investors balance Muse growth with rising AI costs - Reuters"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As notícias fornecidas tratam de tópicos não relacionados à política americana, sem informações sobre o equilíbrio do Congresso em 2026.",
+        "motivo": "As notícias apresentadas são irrelevantes para a composição partidária do Congresso dos EUA em 2026.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
     }
   },
   "ceasefire|continues|through": {
-    "ts": 1792631892.7985961,
+    "ts": 1792679140.837885,
     "resultado": {
-      "n": 38,
-      "score": 0.021,
-      "z": -1.2,
-      "p": 0.2,
-      "confianca": 0.5,
+      "n": 41,
+      "score": -0.093,
+      "z": -0.162,
+      "p": 0.4302,
+      "confianca": 0.081,
       "top": [
         {
           "fonte": "news",
-          "score": 0.8,
-          "texto": "Trump approval hits new low as he continues campaign tour of red states - MS NOW"
+          "score": -0.7,
+          "texto": "Orioles prospect Vance Honeycutt continues hot streak in fall league - Baltimore Sun"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Trump rejects Iran's conditional ceasefire proposal "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Crude Oil Prices Fall As Oil Continues to Flow Through Strait of Hormuz - Barchart.com"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "More than 900 killed in Gaza this year despite ceasefire "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Black bear spotted wandering through Fairfax County neighborhood - FOX 5 DC"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Iran war: Trump says ceasefire 'over' after fresh strikes "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Bear spotted wandering through Centreville, visiting porches - WUSA9"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Netanyahu orders Israeli army to seize 70% of Gaza Strip, violating ceasefire "
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "First Warning Weather: Sunny stretch continues, warming temperatures - KXAN Austin"
         }
-      ],
-      "llm": {
-        "p": 0.2,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Manchetes apontam que Trump declarou o cessar-fogo com o Irã 'acabado' após novos ataques e rejeitou propostas de trégua.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "brazilian|election|presidential": {
