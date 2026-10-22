@@ -127,14 +127,19 @@
     }
   },
   "bolsonaro|brazilian|presidential": {
-    "ts": 1792631941.9090116,
+    "ts": 1792710214.931868,
     "resultado": {
-      "n": 56,
-      "score": 0.039,
-      "z": 0.102,
-      "p": 0.5464,
-      "confianca": 0.051,
+      "n": 57,
+      "score": 0.026,
+      "z": 0.065,
+      "p": 0.5307,
+      "confianca": 0.033,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Supreme Court to Review Federal Ban on Home Distilleries - The Presidential Prayer Team"
+        },
         {
           "fonte": "hn",
           "score": 0.8,
@@ -147,18 +152,13 @@
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation - CNBC"
+          "score": 0.7,
+          "texto": "Spooked by Bolsonaro, Brazil’s left takes to social media and the streets pushing for Lula win - AP News"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Meta is meddling with Brazilian democracy "
         }
       ]
     }
@@ -280,6 +280,43 @@
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
+    }
+  },
+  "benjamin|minister|netanyahu": {
+    "ts": 1792710104.942752,
+    "resultado": {
+      "n": 48,
+      "score": -0.042,
+      "z": -0.109,
+      "p": 0.4508,
+      "confianca": 0.055,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Minister gives Stelco owner 15 days to reverse layoffs before turning to the courts - CBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump endorses Netanyahu ahead of Israeli elections "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "NAZA: Netanyahu orders identification and prosecution of film's interviewees "
+        }
+      ]
     }
   }
 }
