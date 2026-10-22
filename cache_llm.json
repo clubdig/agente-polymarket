@@ -164,18 +164,23 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1792632022.5072987,
+    "ts": 1792695944.766047,
     "resultado": {
-      "n": 41,
-      "score": 0.037,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 42,
+      "score": -0.014,
+      "z": -0.022,
+      "p": 0.4892,
+      "confianca": 0.011,
       "top": [
         {
           "fonte": "news",
-          "score": 1.3,
-          "texto": "Vail Resorts claims conflict of interest as activist investor works with Prince, who wants to buy Park City Mountain - Park Record"
+          "score": -0.7,
+          "texto": "Lancaster County DA to announce findings of 'investigation of public interest' - LancasterOnline"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Ask the Meteorologist: Where will fall foliage peak the rest of October? - WRAL"
         },
         {
           "fonte": "news",
@@ -189,38 +194,30 @@
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes - CNBC"
-        },
-        {
-          "fonte": "news",
           "score": -0.5,
           "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As noticias fornecidas sao irrelevantes para a decisao de taxas de juros do Federal Reserve em outubro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "interest|meeting|october": {
-    "ts": 1792632050.7084346,
+    "ts": 1792695892.6972125,
     "resultado": {
-      "n": 39,
-      "score": 0.005,
-      "z": 0.007,
-      "p": 0.5035,
-      "confianca": 0.003,
+      "n": 38,
+      "score": -0.032,
+      "z": -0.048,
+      "p": 0.477,
+      "confianca": 0.024,
       "top": [
         {
           "fonte": "news",
-          "score": 1.3,
-          "texto": "Vail Resorts claims conflict of interest as activist investor works with Prince, who wants to buy Park City Mountain - Park Record"
+          "score": -0.7,
+          "texto": "Lancaster County DA to announce findings of 'investigation of public interest' - LancasterOnline"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Ask the Meteorologist: Where will fall foliage peak the rest of October? - WRAL"
         },
         {
           "fonte": "news",
@@ -229,18 +226,13 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Goodell defends Giants' Tisch, 49ers' York attending NFL's fall meeting - ESPN"
-        },
-        {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes - CNBC"
-        },
-        {
-          "fonte": "news",
           "score": -0.5,
           "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Biggest pet peeve of FPGA toolchains I’m interested - what’s everyone’s most hated features of AMD&#x2F;Intel FPGA toolchains?<p>I was having a discussion with "
         }
       ]
     }
