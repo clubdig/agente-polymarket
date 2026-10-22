@@ -1,0 +1,11 @@
+{
+  "saldo": 0.95,
+  "pnl_realizado": 0.0,
+  "pnl_aberto": 0.0,
+  "pnl_total": 0.0,
+  "custo_investido": 0,
+  "operacoes": 0,
+  "viva": true,
+  "drawdown": 0.0
+}
+extrato: docs/extrato.csv
