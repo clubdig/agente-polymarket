@@ -1,47 +1,39 @@
 {
   "balance|power|senate": {
-    "ts": 1792679037.149244,
+    "ts": 1792739246.0872643,
     "resultado": {
-      "n": 44,
-      "score": 0.039,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 39,
+      "score": 0.018,
+      "z": 0.028,
+      "p": 0.5136,
+      "confianca": 0.014,
       "top": [
         {
           "fonte": "news",
-          "score": 0.9,
-          "texto": "New Balance’s Iconic 990 Sneaker Gets a New Upgrade With the 990v7 — Which Will Be Released Soon - WWD"
-        },
-        {
-          "fonte": "news",
           "score": 0.7,
-          "texto": "The Latest: Many states deciding control of the Senate are seeing a big boost in early voting - Yahoo"
+          "texto": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat - NBC News"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Electric rates to rise this winter in Pennsylvania as power demand outpaces supply, experts say - CBS News"
+          "score": -0.5,
+          "texto": "Thousands affected by power cuts and flights cancelled as Storm Austen lashes Cornwall, Devon, Jersey and Guernsey - BBC"
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "Trump visits deep-red S.C. as Senate seat is at risk of slipping to Democrats - The Washington Post"
+          "score": 0.5,
+          "texto": "Higher power bills loom this winter — even for households using less - WRAL"
         },
         {
-          "fonte": "news",
-          "score": -0.1,
-          "texto": "Meta falls as investors balance Muse growth with rising AI costs - Reuters"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Firmendaten: Parsed balance sheets for every Austrian company Ever since January 2025 the Austrian Ministry of Justice has made the Firmenbuch public ("
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Tell HN: Wise holds my company's $22k for 27 days, then goes silent Wise closed the business accounts of my Delaware LLC and my Polish sole proprietorship. I&#x"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias apresentadas são irrelevantes para a composição partidária do Congresso dos EUA em 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|through": {
@@ -352,6 +344,43 @@
           "fonte": "news",
           "score": 0.7,
           "texto": "What it takes to win a Ballon d'Or: Trophies, goals and playing the PR game - ESPN India"
+        }
+      ]
+    }
+  },
+  "control|democratic|elections": {
+    "ts": 1792739139.654081,
+    "resultado": {
+      "n": 31,
+      "score": -0.035,
+      "z": -0.059,
+      "p": 0.472,
+      "confianca": 0.03,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Max Verstappen warns 'out of control' bumps at U.S. Grand Prix pose risks for drivers' spines - ESPN"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Can AOC win the Democratic nomination? "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "US Democratic senator probes Ukraine's loss of Starshield service - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Former Hendricks County Animal Control supervisor files lawsuit against shelter - Fox 59"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "New York City Wants to Control Who Can Buy Troubled Housing. Here’s How. - The New York Times"
         }
       ]
     }
