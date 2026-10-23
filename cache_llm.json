@@ -384,5 +384,42 @@
         }
       ]
     }
+  },
+  "military|october|russia": {
+    "ts": 1792778900.161583,
+    "resultado": {
+      "n": 51,
+      "score": 0.012,
+      "z": 0.033,
+      "p": 0.5158,
+      "confianca": 0.016,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Thursday, October 22, 2026: What's driving this tech stock's pullback despite strong AI adoption - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Warhound is genetically engineering dogs for the military "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "The Miniaturization of Military Robots "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Israeli military conducts operation near Iran's border "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Google staff resign in backlash over its AI contracts with military "
+        }
+      ]
+    }
   }
 }
