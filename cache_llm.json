@@ -1,37 +1,37 @@
 {
   "balance|power|senate": {
-    "ts": 1792739246.0872643,
+    "ts": 1792792482.0817463,
     "resultado": {
-      "n": 39,
-      "score": 0.018,
-      "z": 0.028,
-      "p": 0.5136,
-      "confianca": 0.014,
+      "n": 45,
+      "score": 0.042,
+      "z": 0.064,
+      "p": 0.53,
+      "confianca": 0.032,
       "top": [
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Ask HN: Is the downside of investing in AI real? Some global tech leaders believe that investing in AI is an imperative. However, they should bear the following"
+        },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat - NBC News"
+          "texto": "Here’s What Democrats Plan to Do With Their Power if They Win Back Congress - The New York Times"
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Thousands affected by power cuts and flights cancelled as Storm Austen lashes Cornwall, Devon, Jersey and Guernsey - BBC"
+          "score": 0.6,
+          "texto": "Dan Niles: Companies with strong balance sheets, income statements, and cash flows will do well - CNBC"
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Higher power bills loom this winter — even for households using less - WRAL"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Firmendaten: Parsed balance sheets for every Austrian company Ever since January 2025 the Austrian Ministry of Justice has made the Firmenbuch public ("
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Tell HN: Wise holds my company's $22k for 27 days, then goes silent Wise closed the business accounts of my Delaware LLC and my Polish sole proprietorship. I&#x"
+          "score": 0.6,
+          "texto": "Buy NextEra Energy Stock to Tap Into Power Demand, Says Analyst. Plus, Bending Spoons and 3 More. - Barron's"
         }
       ]
     }
@@ -119,19 +119,14 @@
     }
   },
   "bolsonaro|brazilian|presidential": {
-    "ts": 1792710214.931868,
+    "ts": 1792792579.9019454,
     "resultado": {
       "n": 57,
-      "score": 0.026,
-      "z": 0.065,
-      "p": 0.5307,
-      "confianca": 0.033,
+      "score": 0.049,
+      "z": 0.123,
+      "p": 0.555,
+      "confianca": 0.062,
       "top": [
-        {
-          "fonte": "news",
-          "score": -0.8,
-          "texto": "Supreme Court to Review Federal Ban on Home Distilleries - The Presidential Prayer Team"
-        },
         {
           "fonte": "hn",
           "score": 0.8,
@@ -144,13 +139,18 @@
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Spooked by Bolsonaro, Brazil’s left takes to social media and the streets pushing for Lula win - AP News"
+          "score": 0.6,
+          "texto": "As Brazil Prepares for Election Runoff, a Town Offers Clues to Bolsonaro’s Rise - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "As Brazil Prepares for Election Runoff, a Town Offers Clues to Bolsonaro’s Rise - The New York Times"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
         }
       ]
     }
