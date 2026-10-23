@@ -156,28 +156,18 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1792695944.766047,
+    "ts": 1792761124.7675073,
     "resultado": {
-      "n": 42,
-      "score": -0.014,
-      "z": -0.022,
-      "p": 0.4892,
-      "confianca": 0.011,
+      "n": 37,
+      "score": 0.054,
+      "z": 0.083,
+      "p": 0.5383,
+      "confianca": 0.041,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Lancaster County DA to announce findings of 'investigation of public interest' - LancasterOnline"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Ask the Meteorologist: Where will fall foliage peak the rest of October? - WRAL"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Record dry October continues in Seattle - The Seattle Times"
+          "score": 0.8,
+          "texto": "Consumers Energy's rate hike request comes days after $139M increase approved - FOX 2 Detroit"
         },
         {
           "fonte": "hn",
@@ -186,45 +176,55 @@
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
+          "score": 0.6,
+          "texto": "Western Digital (NASDAQ:WDC) surprises with strong Q3 but inventory levels increase - Yahoo Finance"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "SpaceX to attempt Starship catch on next flight, eyes rapid cadence increase "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Barclays cutting 5k jobs as it increases reliance on AI "
         }
       ]
     }
   },
   "interest|meeting|october": {
-    "ts": 1792695892.6972125,
+    "ts": 1792761012.4120789,
     "resultado": {
-      "n": 38,
-      "score": -0.032,
-      "z": -0.048,
-      "p": 0.477,
-      "confianca": 0.024,
+      "n": 32,
+      "score": 0.031,
+      "z": 0.047,
+      "p": 0.5223,
+      "confianca": 0.023,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Lancaster County DA to announce findings of 'investigation of public interest' - LancasterOnline"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Ask the Meteorologist: Where will fall foliage peak the rest of October? - WRAL"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Record dry October continues in Seattle - The Seattle Times"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest, says BofA - Fortune"
+          "score": 1.0,
+          "texto": "Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Yahoo Finance"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Biggest pet peeve of FPGA toolchains I’m interested - what’s everyone’s most hated features of AMD&#x2F;Intel FPGA toolchains?<p>I was having a discussion with "
+          "texto": "Public-Interest Information in an AI-Intermediated Age "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "AI vs. no AI? not much of interest to me "
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"interest\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Interest Rate Changes Affect Income And Estate Tax Planning Strategies - Forbes"
         }
       ]
     }
