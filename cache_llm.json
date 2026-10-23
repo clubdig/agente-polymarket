@@ -318,5 +318,42 @@
         }
       ]
     }
+  },
+  "ballon|kylian|mbapp": {
+    "ts": 1792718719.5219047,
+    "resultado": {
+      "n": 28,
+      "score": 0.154,
+      "z": 0.201,
+      "p": 0.5835,
+      "confianca": 0.1,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Mbappé becomes first two-time Golden Boot winner and Spain wins player awards after World Cup title - WFSB"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Mbappé and Diomande delight, Vinícius Jr. whistled in Real Madrid win - ESPN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Lamine Yamal equals Kylian Mbappe's incredible Champions League record despite Barcelona defeat against PSG - Goal.com"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Champions League reaction: Kylian Mbappé on Real Madrid's win against Leipzig | Video - UEFA.com"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "What it takes to win a Ballon d'Or: Trophies, goals and playing the PR game - ESPN India"
+        }
+      ]
+    }
   }
 }
