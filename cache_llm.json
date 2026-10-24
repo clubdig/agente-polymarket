@@ -349,13 +349,13 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1792739139.654081,
+    "ts": 1792801251.7931015,
     "resultado": {
-      "n": 31,
-      "score": -0.035,
-      "z": -0.059,
-      "p": 0.472,
-      "confianca": 0.03,
+      "n": 37,
+      "score": 0.068,
+      "z": 0.31999999999999984,
+      "p": 0.58,
+      "confianca": 0.5,
       "top": [
         {
           "fonte": "news",
@@ -365,24 +365,32 @@
         {
           "fonte": "hn",
           "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
           "texto": "Can AOC win the Democratic nomination? "
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "US Democratic senator probes Ukraine's loss of Starshield service - Reuters"
+          "score": 0.7,
+          "texto": "A Democratic win in Texas is a long shot – but Ken Paxton’s weakness is obvious | Moira Donegan - The Guardian"
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Former Hendricks County Animal Control supervisor files lawsuit against shelter - Fox 59"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "New York City Wants to Control Who Can Buy Troubled Housing. Here’s How. - The New York Times"
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.58,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Notícias indicam previsões desfavoráveis aos republicanos, planejamento de maioria democrata e disputas acirradas pelo Senado, sinalizando tendência positiva para os democratas.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "military|october|russia": {
