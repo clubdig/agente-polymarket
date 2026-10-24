@@ -127,40 +127,48 @@
     }
   },
   "bolsonaro|brazilian|presidential": {
-    "ts": 1792837652.4424846,
+    "ts": 1792882665.873659,
     "resultado": {
-      "n": 53,
-      "score": 0.042,
-      "z": 0.107,
-      "p": 0.5485,
-      "confianca": 0.054,
+      "n": 55,
+      "score": 0.116,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.5,
       "top": [
         {
-          "fonte": "hn",
-          "score": 0.8,
-          "texto": "Brazilian researcher who helped country's grain boom wins World Food Prize "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.8,
-          "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Lula, Bolsonaro Rally Supporters on Final Day Before Brazil Presidential Runoff - U.S. News & World Report"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "As Brazil Prepares for Election Runoff, a Town Offers Clues to Bolsonaro’s Rise - The New York Times"
+          "score": 1.0,
+          "texto": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff - Miami Herald"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Why social media has become an election issue in Brazil's presidential race "
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "More than one million Lula supporters rally on eve of Brazilian election runoff - The Guardian"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Lula, Bolsonaro Rally Supporters on Final Day Before Brazil Presidential Runoff - U.S. News & World Report"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Bardella wins 99% backing as Le Pen gears up for French presidential race - Euronews.com"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Pesquisa CNT/MDA mostra Flávio Bolsonaro e Lula tecnicamente empatados no segundo turno, indicando disputa indefinida.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "increase|interest|october": {
@@ -505,6 +513,43 @@
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
+    }
+  },
+  "ballon|lamine|yamal": {
+    "ts": 1792882700.8703914,
+    "resultado": {
+      "n": 29,
+      "score": 0.241,
+      "z": 0.289,
+      "p": 0.6122,
+      "confianca": 0.145,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.4,
+          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Who will win the Ballon d'Or? Messi, Yamal, Kane -- or someone else? - ESPN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Lamine Yamal or Harry Kane? Robert Lewandowski reveals who he wants to win the Ballon d’Or - Barca Blaugranes"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Barcelona expect store sales record during El Clasico as Lamine Yamal shirts lead demand - Barca Universal"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
+        }
+      ]
     }
   }
 }
