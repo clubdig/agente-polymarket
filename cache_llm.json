@@ -74,10 +74,10 @@
     }
   },
   "brazilian|election|presidential": {
-    "ts": 1792631913.3294144,
+    "ts": 1792851540.1654274,
     "resultado": {
-      "n": 40,
-      "score": 0.055,
+      "n": 46,
+      "score": 0.035,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
@@ -93,9 +93,9 @@
           "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
         },
         {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation - CNBC"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
         },
         {
           "fonte": "hn",
@@ -112,7 +112,7 @@
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "Notícias tratam da eleição passada de 2022 e temas alheios, sem informações relevantes sobre a eleição presidencial brasileira de 2026.",
+        "motivo": "Notícias fornecidas não trazem dados conclusivos sobre 2026, sendo em grande parte genéricas, desatualizadas ou irrelevantes para definir um vencedor.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
@@ -320,13 +320,13 @@
     }
   },
   "ballon|kylian|mbapp": {
-    "ts": 1792718719.5219047,
+    "ts": 1792851618.5374563,
     "resultado": {
-      "n": 28,
-      "score": 0.154,
-      "z": 0.201,
-      "p": 0.5835,
-      "confianca": 0.1,
+      "n": 29,
+      "score": 0.124,
+      "z": 0.159,
+      "p": 0.5687,
+      "confianca": 0.08,
       "top": [
         {
           "fonte": "news",
@@ -336,22 +336,22 @@
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Mbappé and Diomande delight, Vinícius Jr. whistled in Real Madrid win - ESPN"
+          "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Lamine Yamal equals Kylian Mbappe's incredible Champions League record despite Barcelona defeat against PSG - Goal.com"
+          "texto": "Jordi Alba talks Yamal, Vinicius, Ballon d'Or and score prediction ahead of El Clasico - \"I'm predicting a win\" - Barca Universal"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Champions League reaction: Kylian Mbappé on Real Madrid's win against Leipzig | Video - UEFA.com"
+          "texto": "France Edges Past Brazil 2-1 in Thrilling Friendly at Gillette Stadium; Mbapp f{é} Nears Scoring Record - Ratopati"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "What it takes to win a Ballon d'Or: Trophies, goals and playing the PR game - ESPN India"
+          "texto": "FIFA World Cup 2026: Kylian Mbappé sparks France with two goals in 3-1 win over Senegal - ABC7 New York"
         }
       ]
     }
