@@ -1,17 +1,22 @@
 {
   "balance|power|senate": {
-    "ts": 1792792482.0817463,
+    "ts": 1792864457.2725925,
     "resultado": {
-      "n": 45,
-      "score": 0.042,
-      "z": 0.064,
-      "p": 0.53,
-      "confianca": 0.032,
+      "n": 43,
+      "score": 0.014,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Trump says he ordered the Justice Department’s lawsuit over Alaska’s US Senate race - AP News"
         },
         {
           "fonte": "hn",
@@ -27,13 +32,16 @@
           "fonte": "news",
           "score": 0.6,
           "texto": "Dan Niles: Companies with strong balance sheets, income statements, and cash flows will do well - CNBC"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Buy NextEra Energy Stock to Tap Into Power Demand, Says Analyst. Plus, Bending Spoons and 3 More. - Barron's"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas tratam apenas de temas não correlatos como calçados e finanças corporativas, sem informações sobre o Congresso americano.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ceasefire|continues|through": {
@@ -156,23 +164,18 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1792819813.0119734,
+    "ts": 1792864490.4812777,
     "resultado": {
-      "n": 36,
-      "score": 0.031,
+      "n": 37,
+      "score": -0.019,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
         {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "Show HN: Music Mini Games: Tune-a-Fish If it&#x27;s too easy, increase the difficulty setting (top right settings).<p>If you really love it, maybe get the nativ"
-        },
-        {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Higher interest rates have made family offices pickier about investing in real estate - CNBC"
+          "score": -0.7,
+          "texto": "St. Louis City pauses chief’s pay increase pending state investigation into police board - KMOV"
         },
         {
           "fonte": "hn",
@@ -188,13 +191,18 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Java Champions are using GitHub Copilot for increased productivity "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: TUI to manage firewall and HTTP server, in Rust I have been self-hosting for 10 years, and &quot;family hosting&quot; for 2.<p>The number of attacks my"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As notícias fornecidas não contêm informações sobre o Federal Reserve ou decisões de taxa de juros.",
+        "motivo": "As notícias fornecidas são irrelevantes e não contêm informações sobre decisões de política monetária do Federal Reserve para outubro de 2026.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
