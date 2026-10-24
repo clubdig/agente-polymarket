@@ -156,19 +156,14 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1792761124.7675073,
+    "ts": 1792819813.0119734,
     "resultado": {
-      "n": 37,
-      "score": 0.054,
-      "z": 0.083,
-      "p": 0.5383,
-      "confianca": 0.041,
+      "n": 36,
+      "score": 0.031,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
-        {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "Consumers Energy's rate hike request comes days after $139M increase approved - FOX 2 Detroit"
-        },
         {
           "fonte": "hn",
           "score": 0.6,
@@ -176,8 +171,8 @@
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Western Digital (NASDAQ:WDC) surprises with strong Q3 but inventory levels increase - Yahoo Finance"
+          "score": 0.5,
+          "texto": "Higher interest rates have made family offices pickier about investing in real estate - CNBC"
         },
         {
           "fonte": "hn",
@@ -188,43 +183,56 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Barclays cutting 5k jobs as it increases reliance on AI "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Java Champions are using GitHub Copilot for increased productivity "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas não contêm informações sobre o Federal Reserve ou decisões de taxa de juros.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "interest|meeting|october": {
-    "ts": 1792761012.4120789,
+    "ts": 1792819768.639461,
     "resultado": {
       "n": 32,
-      "score": 0.031,
-      "z": 0.047,
-      "p": 0.5223,
-      "confianca": 0.023,
+      "score": 0.047,
+      "z": 0.07,
+      "p": 0.5326,
+      "confianca": 0.035,
       "top": [
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Yahoo Finance"
+          "texto": "Wall St Week Ahead: Earnings flood, Fed meeting will test rickety AI market rally - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "Higher interest rates have made family offices pickier about investing in real estate - CNBC"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Public-Interest Information in an AI-Intermediated Age "
+          "texto": "\"Interesting hidden file on NVR\" "
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "AI vs. no AI? not much of interest to me "
+          "texto": "Kalshi's ETH perp trades 34 times its open interest a day "
         },
         {
           "fonte": "news",
           "score": 0.0,
           "texto": "\"interest\" - Google News"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "Interest Rate Changes Affect Income And Estate Tax Planning Strategies - Forbes"
         }
       ]
     }
