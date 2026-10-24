@@ -119,13 +119,13 @@
     }
   },
   "bolsonaro|brazilian|presidential": {
-    "ts": 1792792579.9019454,
+    "ts": 1792837652.4424846,
     "resultado": {
-      "n": 57,
-      "score": 0.049,
-      "z": 0.123,
-      "p": 0.555,
-      "confianca": 0.062,
+      "n": 53,
+      "score": 0.042,
+      "z": 0.107,
+      "p": 0.5485,
+      "confianca": 0.054,
       "top": [
         {
           "fonte": "hn",
@@ -143,14 +143,14 @@
           "texto": "As Brazil Prepares for Election Runoff, a Town Offers Clues to Bolsonaro’s Rise - The New York Times"
         },
         {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "As Brazil Prepares for Election Runoff, a Town Offers Clues to Bolsonaro’s Rise - The New York Times"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Why social media has become an election issue in Brazil's presidential race "
+          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
         }
       ]
     }
@@ -402,40 +402,48 @@
     }
   },
   "military|october|russia": {
-    "ts": 1792778900.161583,
+    "ts": 1792837553.6881375,
     "resultado": {
-      "n": 51,
-      "score": 0.012,
-      "z": 0.033,
-      "p": 0.5158,
-      "confianca": 0.016,
+      "n": 50,
+      "score": -0.012,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Thursday, October 22, 2026: What's driving this tech stock's pullback despite strong AI adoption - CNBC"
+          "score": -0.6,
+          "texto": "Hegseth warns prediction market bets warp military judgment, endanger troops - Ars Technica"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Startup raises $200M to create genetically engineered military dogs "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "World Wars I and II Military Aviation Museum Collection "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Startup Pursues Palmer Luckey's Vision of Enhanced Military Dogs "
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Warhound is genetically engineering dogs for the military "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "The Miniaturization of Military Robots "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Israeli military conducts operation near Iran's border "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Google staff resign in backlash over its AI contracts with military "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Notícias tratam de tecnologia militar, satélites e política interna, sendo irrelevantes para prever confronto militar direto entre OTAN e Rússia.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   }
 }
