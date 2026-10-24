@@ -209,19 +209,14 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1792819768.639461,
+    "ts": 1792873381.3735905,
     "resultado": {
-      "n": 32,
-      "score": 0.047,
-      "z": 0.07,
-      "p": 0.5326,
-      "confianca": 0.035,
+      "n": 37,
+      "score": 0.014,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Wall St Week Ahead: Earnings flood, Fed meeting will test rickety AI market rally - Reuters"
-        },
         {
           "fonte": "news",
           "score": 0.5,
@@ -230,19 +225,32 @@
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "\"Interesting hidden file on NVR\" "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Kalshi's ETH perp trades 34 times its open interest a day "
+          "texto": "Show HN: A Platform to Find Essays, personally recommended to you Reading a book is great, when you know it will be good. Reading news is great, when you know i"
         },
         {
           "fonte": "news",
           "score": 0.0,
           "texto": "\"interest\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Heineken ordered to pay €111 million in damages, interest to Greek rival - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "MLBPA head Bruce Meyer reaffirms that players have no interest in salary cap - Sportsnet.ca"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas sao irrelevantes e nao trazem dados preditivos para a reuniao do Fed em outubro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "republicans|senate|texas": {
@@ -449,6 +457,51 @@
         "confianca": 0.25,
         "forca": "fraca",
         "motivo": "Notícias tratam de tecnologia militar, satélites e política interna, sendo irrelevantes para prever confronto militar direto entre OTAN e Rússia.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "aleksandar|election|parliamentary": {
+    "ts": 1792873455.723663,
+    "resultado": {
+      "n": 42,
+      "score": 0.083,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Thousands of Israelis rally against Netanyahu gov’t days before election - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Tens of thousands of Lula supporters rally on eve of Brazilian election runoff - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "El Sisi seeks parliamentary approval to defend Saudi Arabia if asked - The National"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Election 2026: How Democrats could win the House, how Republicans could hold on - NBC News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "A Ripped-Out Poem, or How I Voted in Russia's Parliamentary \"Election\" "
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas nao trazem dados ou projecoes sobre Aleksandar Vucic ou a eleicao parlamentar da Servia em 2026.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
