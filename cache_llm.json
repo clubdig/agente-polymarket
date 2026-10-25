@@ -82,18 +82,18 @@
     }
   },
   "brazilian|election|presidential": {
-    "ts": 1792907399.941998,
+    "ts": 1792951956.253845,
     "resultado": {
-      "n": 44,
-      "score": 0.059,
-      "z": 0.144,
-      "p": 0.5628,
-      "confianca": 0.072,
+      "n": 49,
+      "score": 0.067,
+      "z": 0.162,
+      "p": 0.5698,
+      "confianca": 0.081,
       "top": [
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "More than one million Lula supporters rally on eve of Brazilian election runoff - The Guardian"
+          "texto": "Trump brings Midterm Rally to Michigan ahead of Election Day - WPBN"
         },
         {
           "fonte": "hn",
@@ -106,14 +106,14 @@
           "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Why social media has become an election issue in Brazil's presidential race "
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Bulgarian President Set to Win First Round of Election: Poll - Bloomberg.com"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
         }
       ]
     }
