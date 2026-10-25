@@ -82,14 +82,19 @@
     }
   },
   "brazilian|election|presidential": {
-    "ts": 1792851540.1654274,
+    "ts": 1792907399.941998,
     "resultado": {
-      "n": 46,
-      "score": 0.035,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 44,
+      "score": 0.059,
+      "z": 0.144,
+      "p": 0.5628,
+      "confianca": 0.072,
       "top": [
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "More than one million Lula supporters rally on eve of Brazilian election runoff - The Guardian"
+        },
         {
           "fonte": "hn",
           "score": 0.8,
@@ -109,21 +114,8 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Will major-party U.S. presidential candidate deploy AI clone to talk to voters? "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Meta is meddling with Brazilian democracy "
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "Notícias fornecidas não trazem dados conclusivos sobre 2026, sendo em grande parte genéricas, desatualizadas ou irrelevantes para definir um vencedor.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "bolsonaro|brazilian|presidential": {
@@ -344,14 +336,29 @@
     }
   },
   "ballon|kylian|mbapp": {
-    "ts": 1792851618.5374563,
+    "ts": 1792907488.9593256,
     "resultado": {
-      "n": 29,
-      "score": 0.124,
-      "z": 0.159,
-      "p": 0.5687,
-      "confianca": 0.08,
+      "n": 27,
+      "score": 0.267,
+      "z": 0.293,
+      "p": 0.6133,
+      "confianca": 0.146,
       "top": [
+        {
+          "fonte": "news",
+          "score": 1.4,
+          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": 1.4,
+          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Bayern Munich star Harry Kane wins the Spanish version of the Ballon d’Or - Yahoo Sports"
+        },
         {
           "fonte": "news",
           "score": 0.8,
@@ -361,21 +368,6 @@
           "fonte": "news",
           "score": 0.7,
           "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Jordi Alba talks Yamal, Vinicius, Ballon d'Or and score prediction ahead of El Clasico - \"I'm predicting a win\" - Barca Universal"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "France Edges Past Brazil 2-1 in Thrilling Friendly at Gillette Stadium; Mbapp f{é} Nears Scoring Record - Ratopati"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "FIFA World Cup 2026: Kylian Mbappé sparks France with two goals in 3-1 win over Senegal - ABC7 New York"
         }
       ]
     }
