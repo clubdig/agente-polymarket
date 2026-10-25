@@ -328,40 +328,14 @@
     }
   },
   "ballon|kylian|mbapp": {
-    "ts": 1792907488.9593256,
+    "ts": 1792963907.8038442,
     "resultado": {
-      "n": 27,
-      "score": 0.267,
-      "z": 0.293,
-      "p": 0.6133,
-      "confianca": 0.146,
-      "top": [
-        {
-          "fonte": "news",
-          "score": 1.4,
-          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
-        },
-        {
-          "fonte": "news",
-          "score": 1.4,
-          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
-        },
-        {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "Bayern Munich star Harry Kane wins the Spanish version of the Ballon d’Or - Yahoo Sports"
-        },
-        {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "Mbappé becomes first two-time Golden Boot winner and Spain wins player awards after World Cup title - WFSB"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
-        }
-      ]
+      "n": 0,
+      "score": 0.0,
+      "z": 0.0,
+      "p": null,
+      "confianca": 0.0,
+      "top": []
     }
   },
   "control|democratic|elections": {
