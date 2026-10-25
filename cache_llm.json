@@ -1,13 +1,23 @@
 {
   "balance|power|senate": {
-    "ts": 1792864457.2725925,
+    "ts": 1792925692.1530142,
     "resultado": {
-      "n": 43,
-      "score": 0.014,
+      "n": 44,
+      "score": 0.095,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
+        {
+          "fonte": "news",
+          "score": 1.3,
+          "texto": "Why Democrats Could Find It Hard to Win the Senate Despite Their Strong Polls - The New York Times"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Show HN: AI Senate – AI senators debate live policy and vote on the record "
+        },
         {
           "fonte": "hn",
           "score": 0.7,
@@ -15,32 +25,22 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Trump says he ordered the Justice Department’s lawsuit over Alaska’s US Senate race - AP News"
-        },
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "Ask HN: Is the downside of investing in AI real? Some global tech leaders believe that investing in AI is an imperative. However, they should bear the following"
+          "score": 0.7,
+          "texto": "Scott Colom, a Black Democrat, has a chance to win in Mississippi’s Senate race - The Washington Post"
         },
         {
           "fonte": "news",
           "score": 0.7,
           "texto": "Here’s What Democrats Plan to Do With Their Power if They Win Back Congress - The New York Times"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Dan Niles: Companies with strong balance sheets, income statements, and cash flows will do well - CNBC"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As notícias fornecidas tratam apenas de temas não correlatos como calçados e finanças corporativas, sem informações sobre o Congresso americano.",
+        "motivo": "As notícias fornecidas são irrelevantes para as eleições do Congresso dos EUA em 2026.",
         "n": 25,
-        "modelo": "gemini-3.8-flash"
+        "modelo": "gemini-3.6-flash"
       }
     }
   },
