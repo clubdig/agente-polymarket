@@ -119,48 +119,40 @@
     }
   },
   "bolsonaro|brazilian|presidential": {
-    "ts": 1792882665.873659,
+    "ts": 1792939950.0700397,
     "resultado": {
-      "n": 55,
-      "score": 0.116,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.5,
+      "n": 57,
+      "score": 0.058,
+      "z": 0.142,
+      "p": 0.5622,
+      "confianca": 0.071,
       "top": [
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "Lula, Bolsonaro Rally Supporters on Final Day Before Brazil Presidential Runoff - U.S. News & World Report"
+          "texto": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff - CNBC"
         },
         {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff - Miami Herald"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "More than one million Lula supporters rally on eve of Brazilian election runoff - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Lula, Bolsonaro Rally Supporters on Final Day Before Brazil Presidential Runoff - U.S. News & World Report"
-        },
-        {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.8,
-          "texto": "Bardella wins 99% backing as Le Pen gears up for French presidential race - Euronews.com"
+          "texto": "Brazilian researcher who helped country's grain boom wins World Food Prize "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Brazilian scientist wins $500K for growing food with fewer chemicals "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Bolsonaro to Newsmax: 'Brazil Will Win' in Runoff Election - Yahoo"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Pesquisa CNT/MDA mostra Flávio Bolsonaro e Lula tecnicamente empatados no segundo turno, indicando disputa indefinida.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "increase|interest|october": {
