@@ -201,23 +201,23 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1792873381.3735905,
+    "ts": 1792985832.1193435,
     "resultado": {
-      "n": 37,
-      "score": 0.014,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 39,
+      "score": -0.003,
+      "z": -0.004,
+      "p": 0.4979,
+      "confianca": 0.002,
       "top": [
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Higher interest rates have made family offices pickier about investing in real estate - CNBC"
+          "score": -0.7,
+          "texto": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting - Bloomberg.com"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: A Platform to Find Essays, personally recommended to you Reading a book is great, when you know it will be good. Reading news is great, when you know i"
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Credit card interest rates rise as debt increases - AL.com"
         },
         {
           "fonte": "news",
@@ -227,22 +227,14 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Heineken ordered to pay €111 million in damages, interest to Greek rival - Reuters"
+          "texto": "Interest rates unlikely to reach 4.75% by next summer, say City economists - The Guardian"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "MLBPA head Bruce Meyer reaffirms that players have no interest in salary cap - Sportsnet.ca"
+          "texto": "Person of interest in custody after mosque catches fire in East Baltimore - CBS News"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As noticias fornecidas sao irrelevantes e nao trazem dados preditivos para a reuniao do Fed em outubro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "republicans|senate|texas": {

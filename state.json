@@ -11,10 +11,10 @@
   "pior_sequencia": 0,
   "sequencia": 0,
   "pico": 0.95,
-  "ultimo_heartbeat": "2026-10-25T23:53:07",
+  "ultimo_heartbeat": "2026-10-26T03:37:37",
   "motivo_morte": null,
   "exposicao": 0,
-  "llm_dia": "2026-10-25",
-  "llm_chamadas": 2,
-  "llm_ultimo_429_ts": 1792963930.0755494
+  "llm_dia": "2026-10-26",
+  "llm_chamadas": 0,
+  "llm_ultimo_429_ts": 1792985834.6129558
 }
