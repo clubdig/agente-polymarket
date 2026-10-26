@@ -484,38 +484,38 @@
     }
   },
   "ballon|lamine|yamal": {
-    "ts": 1792882700.8703914,
+    "ts": 1793050030.6455593,
     "resultado": {
-      "n": 29,
-      "score": 0.241,
-      "z": 0.289,
-      "p": 0.6122,
-      "confianca": 0.145,
+      "n": 30,
+      "score": 0.087,
+      "z": 0.109,
+      "p": 0.5491,
+      "confianca": 0.054,
       "top": [
         {
           "fonte": "news",
-          "score": 1.4,
-          "texto": "Ballon d’Or 2026: Can Kylian Mbappe’s Real Madrid and France record win it? - Al Jazeera"
+          "score": 1.6,
+          "texto": "Ballon d'Or 2026 LIVE RESULTS: Yamal WINS Kopa Trophy, Kane 'WINS' award - The Sun"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Lamine Yamal wins Young Talent of the Year for third year in a row - Official FC Barcelona Website"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Who will win the Ballon d'Or? Messi, Yamal, Kane -- or someone else? - ESPN"
+          "texto": "Ballon d'Or 2026: Lamine Yamal and Vicky Lopez win Kopa Trophy as best young players - DAZN"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Lamine Yamal or Harry Kane? Robert Lewandowski reveals who he wants to win the Ballon d’Or - Barca Blaugranes"
+          "score": -0.5,
+          "texto": "Ballon d’Or 2026 live updates: Full list of winners as ceremony starts after delay - The New York Times"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Barcelona expect store sales record during El Clasico as Lamine Yamal shirts lead demand - Barca Universal"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
+          "score": 0.0,
+          "texto": "\"lamine\" - Google News"
         }
       ]
     }
@@ -553,6 +553,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "GPT picks Democrats. Grok picks Republicans "
+        }
+      ]
+    }
+  },
+  "ballon|harry|kane": {
+    "ts": 1793050014.737734,
+    "resultado": {
+      "n": 31,
+      "score": 0.006,
+      "z": 0.01,
+      "p": 0.505,
+      "confianca": 0.005,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Elizabeth Hurley Set the Record Straight on Whether She Took Prince Harry’s Virginity - InStyle"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Ballon d’Or 2026 live updates: Full list of winners as ceremony starts after delay - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"ballon\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Ballon d'Or site names Harry Kane, Lamine Yamal and Kylian Mbappé as winners in blunder - ESPN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Ballon d’Or 2026 ceremony live online: winners, nominees, rankings | Latest updates on Yamal, Mbappé, Kane - Diario AS"
         }
       ]
     }
