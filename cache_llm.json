@@ -156,18 +156,23 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1792864490.4812777,
+    "ts": 1793008279.8952727,
     "resultado": {
-      "n": 37,
-      "score": -0.019,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 43,
+      "score": 0.028,
+      "z": 0.05,
+      "p": 0.524,
+      "confianca": 0.025,
       "top": [
         {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Show HN: Music Mini Games: Tune-a-Fish If it&#x27;s too easy, increase the difficulty setting (top right settings).<p>If you really love it, maybe get the nativ"
+        },
+        {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "St. Louis City pauses chief’s pay increase pending state investigation into police board - KMOV"
+          "score": 0.6,
+          "texto": "Credit card interest rates rise as debt increases - AL.com"
         },
         {
           "fonte": "hn",
@@ -183,21 +188,8 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Java Champions are using GitHub Copilot for increased productivity "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: TUI to manage firewall and HTTP server, in Rust I have been self-hosting for 10 years, and &quot;family hosting&quot; for 2.<p>The number of attacks my"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes e não contêm informações sobre decisões de política monetária do Federal Reserve para outubro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "interest|meeting|october": {
@@ -498,6 +490,43 @@
           "fonte": "news",
           "score": 0.7,
           "texto": "Who should win the Ballon d’Or Feminin? The Athletic asked people in elite football to vote - The New York Times"
+        }
+      ]
+    }
+  },
+  "control|elections|republican": {
+    "ts": 1793008255.917429,
+    "resultado": {
+      "n": 45,
+      "score": 0.012,
+      "z": 0.029,
+      "p": 0.5142,
+      "confianca": 0.015,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Nicki Minaj pledges to support Donald Trump again during Michigan Republican campaign rally - Fox News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Democrats remain clear favourites to gain control of Congress at midterms as Trump’s ratings slide again - The Conversation"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "John Oliver Issues Urgent Warning Ahead of Midterms About the Republican Party’s Nazi Ties - Variety"
+        },
+        {
+          "fonte": "news",
+          "score": -0.56,
+          "texto": "Republicans are spending millions and still may not win districts drawn to favor them - NPR"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
         }
       ]
     }
