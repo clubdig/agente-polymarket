@@ -193,24 +193,14 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1792985832.1193435,
+    "ts": 1793032674.6040494,
     "resultado": {
-      "n": 39,
-      "score": -0.003,
-      "z": -0.004,
-      "p": 0.4979,
-      "confianca": 0.002,
+      "n": 34,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting - Bloomberg.com"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Credit card interest rates rise as debt increases - AL.com"
-        },
         {
           "fonte": "news",
           "score": 0.0,
@@ -219,12 +209,22 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Interest rates unlikely to reach 4.75% by next summer, say City economists - The Guardian"
+          "texto": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers - CNBC"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Person of interest in custody after mosque catches fire in East Baltimore - CBS News"
+          "texto": "Person of interest in custody after mosque fire in Baltimore - WBAL-TV"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Person of interest taken into custody in connection to Baltimore mosque fire - WBFF"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "There Are Three Paths Forward for the AI Boom. Two of Them Lead to Lower Interest Rates - Morningstar"
         }
       ]
     }
@@ -312,14 +312,40 @@
     }
   },
   "ballon|kylian|mbapp": {
-    "ts": 1792963907.8038442,
+    "ts": 1793032705.2591598,
     "resultado": {
-      "n": 0,
-      "score": 0.0,
-      "z": 0.0,
-      "p": null,
-      "confianca": 0.0,
-      "top": []
+      "n": 30,
+      "score": 0.147,
+      "z": 0.179,
+      "p": 0.5761,
+      "confianca": 0.09,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.6,
+          "texto": "Champions League: Yamal beats Mbappé, seals new record 👑 - Yahoo Sports"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Real Madrid locker room believe Kylian Mbappe will win the Ballon d’Or – report - Yahoo Sports"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Ballon d'Or predictions: Will Lamine Yamal, Harry Kane, Kylian Mbappe or Lionel Messi win? - BBC"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "What time is Ballon d'Or ceremony today? Live stream, how to watch - Bergen Record"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "France Edges Past Brazil 2-1 in Thrilling Friendly at Gillette Stadium; Mbapp f{é} Nears Scoring Record - Ratopati"
+        }
+      ]
     }
   },
   "control|democratic|elections": {
