@@ -156,23 +156,28 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1793008279.8952727,
+    "ts": 1793063751.9152267,
     "resultado": {
-      "n": 43,
-      "score": 0.028,
-      "z": 0.05,
-      "p": 0.524,
-      "confianca": 0.025,
+      "n": 37,
+      "score": 0.032,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
           "score": 0.6,
-          "texto": "Show HN: Music Mini Games: Tune-a-Fish If it&#x27;s too easy, increase the difficulty setting (top right settings).<p>If you really love it, maybe get the nativ"
+          "texto": "Anthropic Reveals 14-Fold Increase in Growth as It Prepares for Blockbuster IPO "
         },
         {
           "fonte": "news",
           "score": 0.6,
-          "texto": "Credit card interest rates rise as debt increases - AL.com"
+          "texto": "John Healey to increase minimum wage but slow rise for young people - The Times"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Code as schema: how we generate the Increase API "
         },
         {
           "fonte": "hn",
@@ -183,13 +188,16 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Barclays cutting 5k jobs as it increases reliance on AI "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Java Champions are using GitHub Copilot for increased productivity "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são completamente irrelevantes para a decisão de taxas de juros do Federal Reserve em outubro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   },
   "interest|meeting|october": {
@@ -275,23 +283,18 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1792710104.942752,
+    "ts": 1793063726.8024337,
     "resultado": {
-      "n": 48,
-      "score": -0.042,
-      "z": -0.109,
-      "p": 0.4508,
-      "confianca": 0.055,
+      "n": 47,
+      "score": -0.015,
+      "z": -0.039,
+      "p": 0.4812,
+      "confianca": 0.02,
       "top": [
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Minister gives Stelco owner 15 days to reverse layoffs before turning to the courts - CBC"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "How would a Netanyahu election loss change Israel's policies toward the Palestinians? - Reuters"
+          "texto": "Trump allies fall in two elections as Netanyahu faces next test - Axios"
         },
         {
           "fonte": "hn",
@@ -299,14 +302,19 @@
           "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Trump endorses Netanyahu ahead of Israeli elections "
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Netanyahu facing strong opposition to leadership - Fox News"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "NAZA: Netanyahu orders identification and prosecution of film's interviewees "
+          "texto": "Israeli central bank rejects Netanyahu's plan to use crypto to evade sanctions "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Netanyahu orders closure of West Bank "
         }
       ]
     }
