@@ -675,5 +675,79 @@
         }
       ]
     }
+  },
+  "eizenkot|israel|minister": {
+    "ts": 1793144057.6894917,
+    "resultado": {
+      "n": 43,
+      "score": 0.037,
+      "z": 0.093,
+      "p": 0.5426,
+      "confianca": 0.047,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "VV Israeli polls close for prime minister election after record turnout - CNN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israelis vote in record numbers in first national election since the Oct. 7 Hamas massacre - Fox News"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Landline switchover could cut people off in emergency, minister warned - BBC"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"eizenkot\" - Google News"
+        }
+      ]
+    }
+  },
+  "series|tampa|world": {
+    "ts": 1793144101.3983128,
+    "resultado": {
+      "n": 46,
+      "score": 0.035,
+      "z": 0.059,
+      "p": 0.5278,
+      "confianca": 0.029,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Neil Young sues Trump committee for $10M for playing 'Rockin' in the Free World' at rally - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Track all the layoffs happening around the world "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "With historic romp, unrelenting Crew just 1 win from 1st World Series title - MLB.com"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Ask HN: How do you handle time-series metrics at scale without a large bill? I want to build my own first party analytics for fun and profit and I&#x27;m trying"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Running the Factorio PC Exe on an Xbox Series S "
+        }
+      ]
+    }
   }
 }
