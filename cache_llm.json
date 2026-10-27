@@ -156,13 +156,13 @@
     }
   },
   "increase|interest|october": {
-    "ts": 1793063751.9152267,
+    "ts": 1793109859.9774544,
     "resultado": {
-      "n": 37,
-      "score": 0.032,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 42,
+      "score": 0.029,
+      "z": 0.051,
+      "p": 0.5241,
+      "confianca": 0.025,
       "top": [
         {
           "fonte": "hn",
@@ -172,7 +172,7 @@
         {
           "fonte": "news",
           "score": 0.6,
-          "texto": "John Healey to increase minimum wage but slow rise for young people - The Times"
+          "texto": "Minimum wage set to rise but 18-20 year-olds will not get bigger increases - BBC"
         },
         {
           "fonte": "hn",
@@ -189,15 +189,7 @@
           "score": 0.0,
           "texto": "Barclays cutting 5k jobs as it increases reliance on AI "
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são completamente irrelevantes para a decisão de taxas de juros do Federal Reserve em outubro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.5-flash"
-      }
+      ]
     }
   },
   "interest|meeting|october": {
@@ -283,19 +275,14 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793063726.8024337,
+    "ts": 1793109843.4117653,
     "resultado": {
-      "n": 47,
-      "score": -0.015,
-      "z": -0.039,
-      "p": 0.4812,
-      "confianca": 0.02,
+      "n": 41,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Trump allies fall in two elections as Netanyahu faces next test - Axios"
-        },
         {
           "fonte": "hn",
           "score": -0.6,
@@ -304,7 +291,7 @@
         {
           "fonte": "news",
           "score": 0.6,
-          "texto": "Netanyahu facing strong opposition to leadership - Fox News"
+          "texto": "Israel Election Live Updates: Early Turnout Appears Strong as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
         },
         {
           "fonte": "hn",
@@ -315,6 +302,11 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Netanyahu orders closure of West Bank "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump endorses Netanyahu ahead of Israeli elections "
         }
       ]
     }
