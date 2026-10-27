@@ -201,9 +201,9 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1793032674.6040494,
+    "ts": 1793085969.1577332,
     "resultado": {
-      "n": 34,
+      "n": 35,
       "score": 0.0,
       "z": 0.0,
       "p": 0.5,
@@ -222,17 +222,17 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Person of interest in custody after mosque fire in Baltimore - WBAL-TV"
+          "texto": "Federal Reserve to announce its latest interest rate move this week. Here's what economists expect. - CBS News"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Person of interest taken into custody in connection to Baltimore mosque fire - WBFF"
+          "texto": "Peyton Manning reportedly has no interest in Colts' vacant GM position - Yahoo Sports"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "There Are Three Paths Forward for the AI Boom. Two of Them Lead to Lower Interest Rates - Morningstar"
+          "texto": "‘There’s nothing interesting about me – and no interest in me’: how Larry David’s new biography nearly didn’t happen - The Guardian"
         }
       ]
     }
@@ -600,6 +600,51 @@
           "texto": "Ballon d’Or 2026 ceremony live online: winners, nominees, rankings | Latest updates on Yamal, Mbappé, Kane - Diario AS"
         }
       ]
+    }
+  },
+  "december|declares|emergency": {
+    "ts": 1793086084.1554072,
+    "resultado": {
+      "n": 40,
+      "score": -0.077,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "United 737 Declares Double Emergency After Landing Gear Fails, Has Just 10 Minutes Of Fuel Left - Simple Flying"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "PHP warns it plans to release 2 emergency patches imminently "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "PHP warns admins of two critical flaws, emergency patches coming tomorrow "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "JMA Cancels Emergency Warning After Predicting M9.9; Rules Out Cyberattack "
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Closures, delays anticipated on I-95 through December as cleanup project begins Monday - WTNH.com"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes e não contêm informações sobre a França declarar estado de emergência.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   }
 }
