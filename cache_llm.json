@@ -193,23 +193,28 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1793085969.1577332,
+    "ts": 1793130906.0321984,
     "resultado": {
-      "n": 35,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "n": 36,
+      "score": -0.019,
+      "z": -0.033,
+      "p": 0.4842,
+      "confianca": 0.016,
       "top": [
         {
-          "fonte": "news",
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Pinterest Is Silencing Creators Complaining of 90%+ Traffic Drops "
+        },
+        {
+          "fonte": "hn",
           "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "texto": "UK homes to get low-/no-interest loans to fund solar panels and heat pumps "
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers - CNBC"
+          "texto": "\"interest\" - Google News"
         },
         {
           "fonte": "news",
@@ -219,12 +224,7 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Peyton Manning reportedly has no interest in Colts' vacant GM position - Yahoo Sports"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "‘There’s nothing interesting about me – and no interest in me’: how Larry David’s new biography nearly didn’t happen - The Guardian"
+          "texto": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers - CNBC"
         }
       ]
     }
@@ -637,6 +637,43 @@
         "n": 25,
         "modelo": "gemini-3.5-flash"
       }
+    }
+  },
+  "election|israeli|legislative": {
+    "ts": 1793130849.0366051,
+    "resultado": {
+      "n": 43,
+      "score": 0.033,
+      "z": 0.08,
+      "p": 0.5371,
+      "confianca": 0.04,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "175 Democrats demand Trump admin stop Ilhan Omar investigation, warn it could hurt her re-election bid - Fox News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel election latest: Record Israeli election turnout as Netanyahu fights to remain in power - CNN"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "EFF's State Legislative Agenda to End ALPR Mass Surveillance "
+        }
+      ]
     }
   }
 }
