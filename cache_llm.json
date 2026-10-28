@@ -275,13 +275,13 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793161555.2552123,
+    "ts": 1793210383.5925457,
     "resultado": {
-      "n": 44,
-      "score": -0.007,
-      "z": -0.017,
-      "p": 0.4914,
-      "confianca": 0.009,
+      "n": 45,
+      "score": 0.009,
+      "z": 0.021,
+      "p": 0.5105,
+      "confianca": 0.011,
       "top": [
         {
           "fonte": "news",
@@ -289,19 +289,19 @@
           "texto": "Israel's voter turnout soars as Netanyahu faces a tight election - NPR"
         },
         {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Israel election results: Benjamin Netanyahu bloc wins 53 seats, opposition holds 48 - The Jerusalem Post"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted - The Guardian"
+        },
+        {
           "fonte": "hn",
           "score": -0.6,
           "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "Landline switchover could cut people off in emergency, minister warned - BBC"
-        },
-        {
-          "fonte": "news",
-          "score": -0.1,
-          "texto": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority - The Jerusalem Post"
         },
         {
           "fonte": "hn",
@@ -685,38 +685,38 @@
     }
   },
   "eizenkot|israel|minister": {
-    "ts": 1793144057.6894917,
+    "ts": 1793210483.575367,
     "resultado": {
-      "n": 43,
-      "score": 0.037,
-      "z": 0.093,
-      "p": 0.5426,
-      "confianca": 0.047,
+      "n": 41,
+      "score": -0.033,
+      "z": -0.088,
+      "p": 0.4597,
+      "confianca": 0.044,
       "top": [
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "VV Israeli polls close for prime minister election after record turnout - CNN"
+          "score": -0.7,
+          "texto": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Israelis vote in record numbers in first national election since the Oct. 7 Hamas massacre - Fox News"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "Landline switchover could cut people off in emergency, minister warned - BBC"
+          "score": -0.64,
+          "texto": "How Israel decides on a government when no one wins the election - Axios"
         },
         {
           "fonte": "news",
           "score": 0.0,
           "texto": "\"eizenkot\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Gadi Eisenkot (Eizenkot) | Party, Son, Israel, Politics, Biography, & Two-State Solution - Britannica"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Who is Gadi Eizenkot, the man challenging Netanyahu? - Egypt Independent"
         }
       ]
     }
