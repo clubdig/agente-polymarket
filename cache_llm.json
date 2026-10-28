@@ -349,48 +349,40 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1792801251.7931015,
+    "ts": 1793226720.5231702,
     "resultado": {
-      "n": 37,
-      "score": 0.068,
-      "z": 0.31999999999999984,
-      "p": 0.58,
-      "confianca": 0.5,
+      "n": 28,
+      "score": 0.05,
+      "z": 0.116,
+      "p": 0.5518,
+      "confianca": 0.058,
       "top": [
         {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Max Verstappen warns 'out of control' bumps at U.S. Grand Prix pose risks for drivers' spines - ESPN"
-        },
-        {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.7,
-          "texto": "Can AOC win the Democratic nomination? "
+          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "A Democratic win in Texas is a long shot – but Ken Paxton’s weakness is obvious | Moira Donegan - The Guardian"
+          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
         },
         {
           "fonte": "hn",
-          "score": 0.7,
-          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+          "score": 0.0,
+          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
         }
-      ],
-      "llm": {
-        "p": 0.58,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Notícias indicam previsões desfavoráveis aos republicanos, planejamento de maioria democrata e disputas acirradas pelo Senado, sinalizando tendência positiva para os democratas.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "military|october|russia": {
@@ -521,38 +513,38 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793008255.917429,
+    "ts": 1793226619.6286802,
     "resultado": {
-      "n": 45,
-      "score": 0.012,
-      "z": 0.029,
-      "p": 0.5142,
-      "confianca": 0.015,
+      "n": 35,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
         {
           "fonte": "news",
-          "score": 1.0,
-          "texto": "Nicki Minaj pledges to support Donald Trump again during Michigan Republican campaign rally - Fox News"
-        },
-        {
-          "fonte": "news",
           "score": 0.7,
-          "texto": "Democrats remain clear favourites to gain control of Congress at midterms as Trump’s ratings slide again - The Conversation"
+          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "John Oliver Issues Urgent Warning Ahead of Midterms About the Republican Party’s Nazi Ties - Variety"
-        },
-        {
-          "fonte": "news",
-          "score": -0.56,
-          "texto": "Republicans are spending millions and still may not win districts drawn to favor them - NPR"
+          "score": -0.7,
+          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "GPT picks Democrats. Grok picks Republicans "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk pours $366M into midterm Republican campaigns "
         }
       ]
     }
