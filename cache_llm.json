@@ -275,14 +275,19 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793109843.4117653,
+    "ts": 1793161555.2552123,
     "resultado": {
-      "n": 41,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "n": 44,
+      "score": -0.007,
+      "z": -0.017,
+      "p": 0.4914,
+      "confianca": 0.009,
       "top": [
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Israel's voter turnout soars as Netanyahu faces a tight election - NPR"
+        },
         {
           "fonte": "hn",
           "score": -0.6,
@@ -290,23 +295,18 @@
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Israel Election Live Updates: Early Turnout Appears Strong as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
+          "score": -0.5,
+          "texto": "Landline switchover could cut people off in emergency, minister warned - BBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.1,
+          "texto": "Israel election exit polls: Benjamin Netanyahu, Gadi Eisenkot both fail to win majority - The Jerusalem Post"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Israeli central bank rejects Netanyahu's plan to use crypto to evade sanctions "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Netanyahu orders closure of West Bank "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Trump endorses Netanyahu ahead of Israeli elections "
+          "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
         }
       ]
     }
