@@ -193,23 +193,28 @@
     }
   },
   "interest|meeting|october": {
-    "ts": 1793130906.0321984,
+    "ts": 1793185409.8307498,
     "resultado": {
-      "n": 36,
-      "score": -0.019,
-      "z": -0.033,
-      "p": 0.4842,
-      "confianca": 0.016,
+      "n": 40,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "Pinterest Is Silencing Creators Complaining of 90%+ Traffic Drops "
-        },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "UK homes to get low-/no-interest loans to fund solar panels and heat pumps "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "\"War Is Interested in You\" by Gideon Rachman review: Are we on the brink of WW3? "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Minebender – Minesweeper in Bend2 with proven no-guess assist I wanted to learn how to read and write laws in Bend and decided proving a minesweeper ga"
         },
         {
           "fonte": "news",
@@ -219,12 +224,7 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Federal Reserve to announce its latest interest rate move this week. Here's what economists expect. - CBS News"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers - CNBC"
+          "texto": "Fed set to hold interest rates steady in last decision before midterms - The Guardian"
         }
       ]
     }
@@ -640,40 +640,48 @@
     }
   },
   "election|israeli|legislative": {
-    "ts": 1793130849.0366051,
+    "ts": 1793185431.3921475,
     "resultado": {
-      "n": 43,
-      "score": 0.033,
-      "z": 0.08,
-      "p": 0.5371,
-      "confianca": 0.04,
+      "n": 44,
+      "score": -0.016,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
-        },
-        {
-          "fonte": "news",
           "score": -0.7,
-          "texto": "175 Democrats demand Trump admin stop Ilhan Omar investigation, warn it could hurt her re-election bid - Fox News"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel Election Live Updates: Record Voter Turnout as Netanyahu Faces Challenge Led by Eisenkot - The New York Times"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel election latest: Record Israeli election turnout as Netanyahu fights to remain in power - CNN"
+          "texto": "Israel election: More than half of votes counted as Netanyahu and Eisenkot both set to fall short of majority - BBC"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "EFF's State Legislative Agenda to End ALPR Mass Surveillance "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "$22,000 per Hour: Assistants Use a Legislative Loophole to Outearn Surgeons "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "White House Univeils AI Legislative Plan for Skeptical Congress – Financial Post "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump Unveils National AI Legislative Framework "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes para a eleição de Israel em 2026 e não mencionam o partido Likud.",
+        "n": 25,
+        "modelo": "gemini-3.6-flash"
+      }
     }
   },
   "eizenkot|israel|minister": {
