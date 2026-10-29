@@ -275,13 +275,13 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793210383.5925457,
+    "ts": 1793266254.785271,
     "resultado": {
-      "n": 45,
-      "score": 0.009,
-      "z": 0.021,
-      "p": 0.5105,
-      "confianca": 0.011,
+      "n": 47,
+      "score": -0.072,
+      "z": -0.164,
+      "p": 0.4296,
+      "confianca": 0.082,
       "top": [
         {
           "fonte": "news",
@@ -290,23 +290,23 @@
         },
         {
           "fonte": "news",
-          "score": 0.8,
-          "texto": "Israel election results: Benjamin Netanyahu bloc wins 53 seats, opposition holds 48 - The Jerusalem Post"
+          "score": -0.8,
+          "texto": "Netanyahu claims stolen election amid failure to secure victory - Politico"
+        },
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Netanyahu claims stolen election amid failure to secure victory - Politico"
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted - The Guardian"
+          "texto": "Hong Kong's housing minister resigns after fire investigation finds inadequate oversight - WRAL"
         },
         {
-          "fonte": "hn",
-          "score": -0.6,
-          "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Hong Kong's housing minister resigns after fire investigation finds inadequate oversight - The Washington Post"
         }
       ]
     }
@@ -746,6 +746,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Running the Factorio PC Exe on an Xbox Series S "
+        }
+      ]
+    }
+  },
+  "december|interest|meeting": {
+    "ts": 1793266357.2693233,
+    "resultado": {
+      "n": 34,
+      "score": 0.024,
+      "z": 0.035,
+      "p": 0.5169,
+      "confianca": 0.018,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.5,
+          "texto": "Lloyds Beats Estimates on Rise in Fees and Interest Income - Bloomberg"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "US Short-End Yields Fall After Warsh Signals Fewer Fed Meetings - Bloomberg"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Potential conversation partners in Bluesky using agentic search What if instead of talking to AI, we could find human counterparts currently sharing th"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"interest\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation - The New York Times"
         }
       ]
     }
