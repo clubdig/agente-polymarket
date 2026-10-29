@@ -349,38 +349,38 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793226720.5231702,
+    "ts": 1793292137.9808958,
     "resultado": {
-      "n": 28,
-      "score": 0.05,
-      "z": 0.116,
-      "p": 0.5518,
-      "confianca": 0.058,
+      "n": 34,
+      "score": -0.026,
+      "z": -0.059,
+      "p": 0.472,
+      "confianca": 0.03,
       "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash - BBC"
+        },
         {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
         },
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.7,
-          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
+          "texto": "Can AOC win the Democratic nomination? "
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
+          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "GOP Senator Roger Marshall Warns of Democratic Tax Plans: ‘They’re Always Going to Raise Taxes and Spend More Money’ - Yahoo"
         }
       ]
     }
@@ -513,38 +513,38 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793226619.6286802,
+    "ts": 1793292349.865009,
     "resultado": {
-      "n": 35,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "n": 40,
+      "score": -0.098,
+      "z": -0.226,
+      "p": 0.408,
+      "confianca": 0.113,
       "top": [
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Four investigations Democrats could launch if they win control of Congress - BBC"
+          "score": -1.0,
+          "texto": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash - BBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "New Mexico megachurch endorses Republican candidates, testing federal ban - The Guardian"
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
+          "texto": "Republican lawsuit threatens to halt Texas election results over hacking fears - Chron"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GPT picks Democrats. Grok picks Republicans "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elon Musk pours $366M into midterm Republican campaigns "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
         }
       ]
     }
