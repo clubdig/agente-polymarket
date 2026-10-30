@@ -45,38 +45,38 @@
     }
   },
   "ceasefire|continues|through": {
-    "ts": 1792679140.837885,
+    "ts": 1793324344.660735,
     "resultado": {
-      "n": 41,
-      "score": -0.093,
-      "z": -0.162,
-      "p": 0.4302,
-      "confianca": 0.081,
+      "n": 40,
+      "score": -0.04,
+      "z": -0.075,
+      "p": 0.4649,
+      "confianca": 0.038,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Orioles prospect Vance Honeycutt continues hot streak in fall league - Baltimore Sun"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Crude Oil Prices Fall As Oil Continues to Flow Through Strait of Hormuz - Barchart.com"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Black bear spotted wandering through Fairfax County neighborhood - FOX 5 DC"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Bear spotted wandering through Centreville, visiting porches - WUSA9"
+          "score": -1.0,
+          "texto": "Spain begins mourning period as search continues for train crash victims - The Guardian"
         },
         {
           "fonte": "news",
           "score": -0.6,
-          "texto": "First Warning Weather: Sunny stretch continues, warming temperatures - KXAN Austin"
+          "texto": "Weak quarter for Intel sends shivers through cooling chip stocks - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump rejects Iran's conditional ceasefire proposal "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "More than 900 killed in Gaza this year despite ceasefire "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Iran war: Trump says ceasefire 'over' after fresh strikes "
         }
       ]
     }
@@ -785,6 +785,51 @@
           "texto": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation - The New York Times"
         }
       ]
+    }
+  },
+  "election|presidential|vance": {
+    "ts": 1793324424.6080134,
+    "resultado": {
+      "n": 33,
+      "score": 0.055,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Lula wins election after final votes tallied "
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Brazil election: Lula wins runoff vote but Bolsonaro rejects results - as it happened - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’ - Al Jazeera"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: U.S. Elections, Campaign Finance and Legislation on a Miller-Column UI ChamberZero has been a long-running personal project. This launch includes a com"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas não mencionam JD Vance nem trazem informações sobre sua candidatura à eleição presidencial de 2028.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   }
 }
