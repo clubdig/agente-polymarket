@@ -349,19 +349,14 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793292137.9808958,
+    "ts": 1793347921.076844,
     "resultado": {
       "n": 34,
-      "score": -0.026,
-      "z": -0.059,
-      "p": 0.472,
-      "confianca": 0.03,
+      "score": 0.021,
+      "z": 0.04,
+      "p": 0.5193,
+      "confianca": 0.02,
       "top": [
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash - BBC"
-        },
         {
           "fonte": "hn",
           "score": 0.7,
@@ -375,12 +370,17 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
+          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "GOP Senator Roger Marshall Warns of Democratic Tax Plans: ‘They’re Always Going to Raise Taxes and Spend More Money’ - Yahoo"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
         }
       ]
     }
@@ -513,19 +513,14 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793292349.865009,
+    "ts": 1793347896.0267248,
     "resultado": {
-      "n": 40,
-      "score": -0.098,
-      "z": -0.226,
-      "p": 0.408,
-      "confianca": 0.113,
+      "n": 43,
+      "score": -0.035,
+      "z": -0.085,
+      "p": 0.4609,
+      "confianca": 0.042,
       "top": [
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash - BBC"
-        },
         {
           "fonte": "news",
           "score": -0.8,
@@ -534,17 +529,22 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Republican lawsuit threatens to halt Texas election results over hacking fears - Chron"
+          "texto": "Republicans Ramp Up Investigation Into Democratic Plan to Pack Alaska’s Ballot - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "If Republicans win the midterms, Elon Musk’s money may be why - CNN"
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
+          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Midterm Elections Live Updates: Calls for Investigation Ratchet Up Tension in Alaska Senate Race - The New York Times"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
         }
       ]
     }
