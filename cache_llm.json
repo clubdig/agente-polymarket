@@ -349,38 +349,38 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793347921.076844,
+    "ts": 1793392257.6758285,
     "resultado": {
-      "n": 34,
-      "score": 0.021,
-      "z": 0.04,
-      "p": 0.5193,
-      "confianca": 0.02,
+      "n": 36,
+      "score": 0.019,
+      "z": 0.039,
+      "p": 0.5186,
+      "confianca": 0.019,
       "top": [
+        {
+          "fonte": "news",
+          "score": -1.3,
+          "texto": "Former Idaho official warns federal water rights lawsuit threatens state control - KTVB"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "2026 elections live updates as Trump heads to Florida for rally - CBS News"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says - The New York Times"
+        },
         {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.7,
-          "texto": "Can AOC win the Democratic nomination? "
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
         }
       ]
     }
@@ -513,38 +513,38 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793347896.0267248,
+    "ts": 1793392159.3342357,
     "resultado": {
-      "n": 43,
-      "score": -0.035,
-      "z": -0.085,
-      "p": 0.4609,
-      "confianca": 0.042,
+      "n": 38,
+      "score": -0.018,
+      "z": -0.029,
+      "p": 0.4861,
+      "confianca": 0.014,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "New Mexico megachurch endorses Republican candidates, testing federal ban - The Guardian"
+          "score": -1.3,
+          "texto": "Former Idaho official warns federal water rights lawsuit threatens state control - KTVB"
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Republicans Ramp Up Investigation Into Democratic Plan to Pack Alaska’s Ballot - The New York Times"
+          "score": 1.0,
+          "texto": "2026 elections live updates as Trump heads to Florida for rally - CBS News"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "If Republicans win the midterms, Elon Musk’s money may be why - CNN"
+          "score": 1.0,
+          "texto": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push - NBC News"
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters"
+          "score": -1.0,
+          "texto": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says - The New York Times"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GPT picks Democrats. Grok picks Republicans "
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Health inspectors put Springfield restaurant on risk control plan - Springfield News-Leader"
         }
       ]
     }
