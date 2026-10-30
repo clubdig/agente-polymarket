@@ -45,23 +45,28 @@
     }
   },
   "ceasefire|continues|through": {
-    "ts": 1793324344.660735,
+    "ts": 1793374871.1384397,
     "resultado": {
-      "n": 40,
-      "score": -0.04,
-      "z": -0.075,
-      "p": 0.4649,
-      "confianca": 0.038,
+      "n": 43,
+      "score": 0.009,
+      "z": 0.018,
+      "p": 0.5087,
+      "confianca": 0.009,
       "top": [
         {
           "fonte": "news",
-          "score": -1.0,
-          "texto": "Spain begins mourning period as search continues for train crash victims - The Guardian"
+          "score": -0.7,
+          "texto": "Trump’s Effort to Assert Control Over Elections Continues, Despite Court Loss - The New York Times"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Weak quarter for Intel sends shivers through cooling chip stocks - Reuters"
+          "score": 0.6,
+          "texto": "US CDC says measles cases rise to 4,588 as outbreak continues - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.5,
+          "texto": "Show HN: Sparse kernel delivering 36% higher training throughput I developed a custom GPU kernel in Triton to accelerate training with a sparse feed-forward net"
         },
         {
           "fonte": "hn",
@@ -72,11 +77,6 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "More than 900 killed in Gaza this year despite ceasefire "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Iran war: Trump says ceasefire 'over' after fresh strikes "
         }
       ]
     }
@@ -275,18 +275,18 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793309812.9767745,
+    "ts": 1793374755.1348615,
     "resultado": {
-      "n": 47,
-      "score": -0.07,
-      "z": -0.164,
-      "p": 0.4296,
-      "confianca": 0.082,
+      "n": 44,
+      "score": -0.073,
+      "z": -0.177,
+      "p": 0.4247,
+      "confianca": 0.089,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "Netanyahu claims stolen election amid failure to secure victory - Politico"
+          "score": -1.0,
+          "texto": "French minister warns of 'very high' violence risk at Halloween protests - Le Monde.fr"
         },
         {
           "fonte": "news",
@@ -294,19 +294,19 @@
           "texto": "Netanyahu claims stolen election amid failure to secure victory - Politico"
         },
         {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "How Netanyahu Used Fear, Again, to Win Votes in the Israel Elections - The New York Times"
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Costa Rica drops bid to join Pacific trade pact, sacks trade minister - Reuters"
+          "score": -0.4,
+          "texto": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties - Reuters"
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Hong Kong's housing minister resigns after fire investigation finds inadequate oversight - KSL News"
+          "score": -0.4,
+          "texto": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties - Reuters"
         }
       ]
     }
