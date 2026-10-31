@@ -862,24 +862,14 @@
     }
   },
   "alaska|michigan|republicans": {
-    "ts": 1793429072.176172,
+    "ts": 1793485122.8932126,
     "resultado": {
-      "n": 51,
-      "score": -0.037,
-      "z": -0.091,
-      "p": 0.4583,
-      "confianca": 0.045,
+      "n": 46,
+      "score": -0.026,
+      "z": -0.066,
+      "p": 0.4691,
+      "confianca": 0.033,
       "top": [
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "BCBS Michigan posts $246M loss in 2025 "
-        },
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "Michigan Insurance Giant Blames \"AI\" for Layoffs–But Evidence Points Overseas "
-        },
         {
           "fonte": "hn",
           "score": 0.7,
@@ -887,13 +877,23 @@
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Trump administration accelerates criminal probe into Alaska Senate race - Reuters"
+          "score": -0.7,
+          "texto": "DOJ issues subpoenas in Alaska Senate race as governor launches separate investigation - NBC News"
         },
         {
           "fonte": "news",
           "score": -0.6,
           "texto": "Justice Department seeks to isolate Alaska ballots as criminal probe underway over Senate candidate - AP News"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says - Fox News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
         }
       ]
     }
@@ -931,6 +931,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Why social media has become an election issue in Brazil's presidential race "
+        }
+      ]
+    }
+  },
+  "democrats|michigan|senate": {
+    "ts": 1793485017.6168122,
+    "resultado": {
+      "n": 43,
+      "score": 0.093,
+      "z": 0.19,
+      "p": 0.5798,
+      "confianca": 0.095,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
+        },
+        {
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Senate candidates rally for support on Halloween in Derry - New Hampshire Union Leader"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, reports say – live - The Guardian"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Democrats' Secret Effort to Stack Alaska's Ballot "
         }
       ]
     }
