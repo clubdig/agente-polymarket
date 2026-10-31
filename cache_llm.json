@@ -1,44 +1,44 @@
 {
   "balance|power|senate": {
-    "ts": 1793309898.8816237,
+    "ts": 1793406603.3297217,
     "resultado": {
-      "n": 48,
-      "score": -0.035,
+      "n": 44,
+      "score": -0.018,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
-          "score": -1.0,
-          "texto": "Man charged after Upstate crash leaves hundreds without power, police say - WYFF"
+          "score": -0.7,
+          "texto": "Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says - CNBC"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Balance on offense plays big role for Dak Prescott, Cowboys in 38-21 win over Eagles - Dallas Cowboys | Official Site of the Dallas Cowboys"
+          "score": -0.7,
+          "texto": "Top Alaska prosecutor on Senate race investigation - CNN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Strong winds knock out power for thousands from Anchorage to Mat-Su - Anchorage Daily News"
         },
         {
           "fonte": "hn",
-          "score": 0.7,
-          "texto": "Show HN: AI Senate – AI senators debate live policy and vote on the record "
+          "score": 0.0,
+          "texto": "Remember When Scientists Invented a Robot Tail to Improve Human Balance? "
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Rep. Nancy Mace warns tight Senate race could hurt SC GOP down-ballot - WCIV"
-        },
-        {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "DOJ issues new wave of subpoenas in criminal probe of Alaska Senate race, sources say - ABC News - Breaking News, Latest News and Videos"
+          "score": 0.0,
+          "texto": "\"balance\" - Google News"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As notícias fornecidas são totalmente irrelevantes para o equilíbrio de poder no Congresso dos Estados Unidos em 2026.",
+        "motivo": "As notícias fornecidas são irrelevantes para a eleição do Congresso dos EUA em 2026, tratando de criptomoedas, calçados e temas diversos.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
@@ -830,6 +830,43 @@
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
+    }
+  },
+  "kansas|michigan|republicans": {
+    "ts": 1793406646.6815305,
+    "resultado": {
+      "n": 51,
+      "score": 0.014,
+      "z": 0.032,
+      "p": 0.5154,
+      "confianca": 0.016,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Five reasons Colorado can beat Kansas State in Week 9 - Buffaloes Wire"
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Renck: If CU’s Deion Sanders cannot beat Kansas State, what’s the point? - The Denver Post"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Lawmaker Who Wants Data Center Pause Wins Kansas Democratic Primary "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Kansas town drops charges against teacher arrested for clapping "
+        }
+      ]
     }
   }
 }
