@@ -341,38 +341,38 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793392257.6758285,
+    "ts": 1793470653.0426126,
     "resultado": {
-      "n": 36,
-      "score": 0.019,
-      "z": 0.039,
-      "p": 0.5186,
-      "confianca": 0.019,
+      "n": 37,
+      "score": 0.1,
+      "z": 0.224,
+      "p": 0.5914,
+      "confianca": 0.112,
       "top": [
         {
           "fonte": "news",
-          "score": -1.3,
-          "texto": "Former Idaho official warns federal water rights lawsuit threatens state control - KTVB"
+          "score": 1.0,
+          "texto": "Monroe County Democratic Committee holds rally in final stretch before Election Day - 13WHAM-TV"
         },
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "2026 elections live updates as Trump heads to Florida for rally - CBS News"
+          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
         },
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push - NBC News"
-        },
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says - The New York Times"
+          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
         },
         {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech "
         }
       ]
     }
@@ -825,23 +825,23 @@
     }
   },
   "kansas|michigan|republicans": {
-    "ts": 1793406646.6815305,
+    "ts": 1793470769.4018555,
     "resultado": {
-      "n": 51,
-      "score": 0.014,
-      "z": 0.032,
-      "p": 0.5154,
-      "confianca": 0.016,
+      "n": 52,
+      "score": 0.002,
+      "z": 0.004,
+      "p": 0.5021,
+      "confianca": 0.002,
       "top": [
         {
           "fonte": "news",
-          "score": 0.9,
-          "texto": "Five reasons Colorado can beat Kansas State in Week 9 - Buffaloes Wire"
+          "score": 1.0,
+          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 0.9,
-          "texto": "Renck: If CU’s Deion Sanders cannot beat Kansas State, what’s the point? - The Denver Post"
+          "score": 1.0,
+          "texto": "After canceling rally, Trump reschedules Kansas visit amid close Senate race - Kansas City Star"
         },
         {
           "fonte": "hn",
@@ -849,14 +849,14 @@
           "texto": "Lawmaker Who Wants Data Center Pause Wins Kansas Democratic Primary "
         },
         {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "BCBS Michigan posts $246M loss in 2025 "
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "‘The dumbest thing Kansas has ever done’: Kansas gov. and GOP leader feud over failure to expand Medicaid - Yahoo"
         },
         {
           "fonte": "hn",
           "score": -0.7,
-          "texto": "Kansas town drops charges against teacher arrested for clapping "
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
         }
       ]
     }
