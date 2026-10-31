@@ -868,5 +868,79 @@
         }
       ]
     }
+  },
+  "alaska|michigan|republicans": {
+    "ts": 1793429072.176172,
+    "resultado": {
+      "n": 51,
+      "score": -0.037,
+      "z": -0.091,
+      "p": 0.4583,
+      "confianca": 0.045,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Michigan Insurance Giant Blames \"AI\" for Layoffs–But Evidence Points Overseas "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Trump administration accelerates criminal probe into Alaska Senate race - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Justice Department seeks to isolate Alaska ballots as criminal probe underway over Senate candidate - AP News"
+        }
+      ]
+    }
+  },
+  "christine|election|presidential": {
+    "ts": 1793429190.3373861,
+    "resultado": {
+      "n": 32,
+      "score": 0.103,
+      "z": 0.217,
+      "p": 0.5891,
+      "confianca": 0.108,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.7,
+          "texto": "Midterm Elections Live Updates: After Rally in Florida, Trump Looks to Boost GOP Turnout in Kansas and Iowa - WSJ"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Lula wins election after final votes tallied "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: U.S. Elections, Campaign Finance and Legislation on a Miller-Column UI ChamberZero has been a long-running personal project. This launch includes a com"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Why social media has become an election issue in Brazil's presidential race "
+        }
+      ]
+    }
   }
 }
