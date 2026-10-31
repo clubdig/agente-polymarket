@@ -1,27 +1,27 @@
 {
   "balance|power|senate": {
-    "ts": 1793406603.3297217,
+    "ts": 1793453068.3694184,
     "resultado": {
-      "n": 44,
-      "score": -0.018,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 45,
+      "score": 0.053,
+      "z": 0.093,
+      "p": 0.5426,
+      "confianca": 0.047,
       "top": [
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Criminal investigation of Alaska Senate race is 'ongoing,' U.S. Attorney says - CNBC"
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Top Alaska prosecutor on Senate race investigation - CNN"
+          "score": 0.7,
+          "texto": "4 ways the polls could be wrong — or right — about who will win the Senate - The Washington Post"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Strong winds knock out power for thousands from Anchorage to Mat-Su - Anchorage Daily News"
+          "score": 0.7,
+          "texto": "NBA Cup Power Rankings: Which Team Has the Best Chance to Win In-Season Tournament? - Sports Illustrated"
         },
         {
           "fonte": "hn",
@@ -33,15 +33,7 @@
           "score": 0.0,
           "texto": "\"balance\" - Google News"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes para a eleição do Congresso dos EUA em 2026, tratando de criptomoedas, calçados e temas diversos.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|through": {
@@ -513,29 +505,14 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793392159.3342357,
+    "ts": 1793453033.8933215,
     "resultado": {
-      "n": 38,
-      "score": -0.018,
-      "z": -0.029,
-      "p": 0.4861,
-      "confianca": 0.014,
+      "n": 39,
+      "score": -0.008,
+      "z": -0.019,
+      "p": 0.4905,
+      "confianca": 0.01,
       "top": [
-        {
-          "fonte": "news",
-          "score": -1.3,
-          "texto": "Former Idaho official warns federal water rights lawsuit threatens state control - KTVB"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "2026 elections live updates as Trump heads to Florida for rally - CBS News"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Elections 2026 live updates: Trump to rally for GOP in Florida ahead of weekend rallies in final midterm push - NBC News"
-        },
         {
           "fonte": "news",
           "score": -1.0,
@@ -543,8 +520,23 @@
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "Health inspectors put Springfield restaurant on risk control plan - Springfield News-Leader"
+          "score": 0.7,
+          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch. - Yahoo"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk pours $366M into midterm Republican campaigns "
         }
       ]
     }
