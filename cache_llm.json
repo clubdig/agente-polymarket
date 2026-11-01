@@ -1,12 +1,12 @@
 {
   "balance|power|senate": {
-    "ts": 1793498223.226056,
+    "ts": 1793564325.6346285,
     "resultado": {
-      "n": 43,
-      "score": 0.007,
-      "z": 0.018,
-      "p": 0.5087,
-      "confianca": 0.009,
+      "n": 47,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
         {
           "fonte": "hn",
@@ -14,9 +14,14 @@
           "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
         },
         {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "UK Green party drops longstanding opposition to nuclear power "
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Russian strikes cut power to thousands in Ukraine, despite Trump’s energy ceasefire push - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end within hours - BBC"
         },
         {
           "fonte": "hn",
@@ -24,14 +29,9 @@
           "texto": "Remember When Scientists Invented a Robot Tail to Improve Human Balance? "
         },
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.0,
-          "texto": "\"balance\" - Google News"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "New Balance Is Dropping a New Trail Sneaker Next Week, and It’s Perfect for the Approach Shoe Trend - WWD"
+          "texto": "Show HN: Dinemic – self-hosted ingress across multiple providers (DNS, LB, TLS) Hey HN,\nI recently published a project for running self hosted, highly available"
         }
       ]
     }
@@ -222,45 +222,45 @@
     }
   },
   "republicans|senate|texas": {
-    "ts": 1792632320.6336656,
+    "ts": 1793564352.1554828,
     "resultado": {
-      "n": 41,
-      "score": 0.066,
+      "n": 52,
+      "score": 0.056,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
-          "score": 0.7,
-          "texto": "Trump offers $5k to every American if Republicans win midterm elections "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.7,
-          "texto": "Trump promises $5k dividend in convention speech, but only if Republicans win "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.7,
-          "texto": "Trump promises $5k payout to U.S. adults if Republicans win election "
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Texas shed thousands of jobs in September, lowering 2026 growth forecast - Dallas News"
+          "score": 1.0,
+          "texto": "Election 2026 live updates: Haley Stevens endorses Mike Rogers in Michigan Senate race; Trump to rally in Kansas and Iowa - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Ken Paxton appears to cancel final rally of his “Come and Take It” tour at the Alamo - The Texas Tribune"
+        },
+        {
+          "fonte": "news",
+          "score": -0.1,
+          "texto": "AP top 25 college football poll: Texas rises, SMU drops out in final week before CFP rankings - Dallas News"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
+          "texto": "GPT picks Democrats. Grok picks Republicans "
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As noticias fornecidas nao mencionam a eleicao para o Senado no Texas em 2026, sendo consideradas irrelevantes para a pergunta.",
+        "motivo": "Notícias não trazem dados específicos sobre a corrida ao Senado do Texas em 2026, sendo majoritariamente irrelevantes para o desfecho.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
