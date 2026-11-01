@@ -1,12 +1,12 @@
 {
   "balance|power|senate": {
-    "ts": 1793453068.3694184,
+    "ts": 1793498223.226056,
     "resultado": {
-      "n": 45,
-      "score": 0.053,
-      "z": 0.093,
-      "p": 0.5426,
-      "confianca": 0.047,
+      "n": 43,
+      "score": 0.007,
+      "z": 0.018,
+      "p": 0.5087,
+      "confianca": 0.009,
       "top": [
         {
           "fonte": "hn",
@@ -14,14 +14,9 @@
           "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
         },
         {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "4 ways the polls could be wrong — or right — about who will win the Senate - The Washington Post"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "NBA Cup Power Rankings: Which Team Has the Best Chance to Win In-Season Tournament? - Sports Illustrated"
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "UK Green party drops longstanding opposition to nuclear power "
         },
         {
           "fonte": "hn",
@@ -32,6 +27,11 @@
           "fonte": "news",
           "score": 0.0,
           "texto": "\"balance\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "New Balance Is Dropping a New Trail Sneaker Next Week, and It’s Perfect for the Approach Shoe Trend - WWD"
         }
       ]
     }
@@ -968,6 +968,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Democrats' Secret Effort to Stack Alaska's Ballot "
+        }
+      ]
+    }
+  },
+  "michigan|republicans|senate": {
+    "ts": 1793498209.725274,
+    "resultado": {
+      "n": 42,
+      "score": 0.007,
+      "z": 0.018,
+      "p": 0.5089,
+      "confianca": 0.009,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
         }
       ]
     }
