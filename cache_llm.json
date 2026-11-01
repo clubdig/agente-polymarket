@@ -341,28 +341,23 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793470653.0426126,
+    "ts": 1793523055.4077501,
     "resultado": {
-      "n": 37,
-      "score": 0.1,
-      "z": 0.224,
-      "p": 0.5914,
-      "confianca": 0.112,
+      "n": 36,
+      "score": 0.019,
+      "z": 0.045,
+      "p": 0.5215,
+      "confianca": 0.022,
       "top": [
         {
           "fonte": "news",
           "score": 1.0,
-          "texto": "Monroe County Democratic Committee holds rally in final stretch before Election Day - 13WHAM-TV"
+          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, reports say – as it happened - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 1.0,
-          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
+          "score": -1.0,
+          "texto": "Control center inaction cited in Spain train crash - NHKニュース"
         },
         {
           "fonte": "hn",
@@ -373,6 +368,11 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
         }
       ]
     }
@@ -825,38 +825,38 @@
     }
   },
   "kansas|michigan|republicans": {
-    "ts": 1793470769.4018555,
+    "ts": 1793523155.690497,
     "resultado": {
-      "n": 52,
-      "score": 0.002,
-      "z": 0.004,
-      "p": 0.5021,
-      "confianca": 0.002,
+      "n": 53,
+      "score": -0.047,
+      "z": -0.114,
+      "p": 0.4489,
+      "confianca": 0.057,
       "top": [
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, report says – live - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "After canceling rally, Trump reschedules Kansas visit amid close Senate race - Kansas City Star"
-        },
         {
           "fonte": "hn",
           "score": 0.8,
           "texto": "Lawmaker Who Wants Data Center Pause Wins Kansas Democratic Primary "
         },
         {
-          "fonte": "news",
-          "score": -0.8,
-          "texto": "‘The dumbest thing Kansas has ever done’: Kansas gov. and GOP leader feud over failure to expand Medicaid - Yahoo"
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
         },
         {
           "fonte": "hn",
           "score": -0.7,
-          "texto": "BCBS Michigan posts $246M loss in 2025 "
+          "texto": "Michigan Insurance Giant Blames \"AI\" for Layoffs–But Evidence Points Overseas "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Kansas town drops charges against teacher arrested for clapping "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Savor Kansas City's fall weather with these relaxing getaways and fun staycation ideas - KCUR"
         }
       ]
     }
