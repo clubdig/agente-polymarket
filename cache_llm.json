@@ -267,23 +267,28 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793374755.1348615,
+    "ts": 1793548384.2456532,
     "resultado": {
-      "n": 44,
-      "score": -0.073,
-      "z": -0.177,
-      "p": 0.4247,
-      "confianca": 0.089,
+      "n": 48,
+      "score": -0.058,
+      "z": -0.32000000000000006,
+      "p": 0.42,
+      "confianca": 0.5,
       "top": [
         {
           "fonte": "news",
-          "score": -1.0,
-          "texto": "French minister warns of 'very high' violence risk at Halloween protests - Le Monde.fr"
+          "score": -2.2,
+          "texto": "Benjamin Cowen Warns Silver’s 60% Crash May Be A ‘Warning Sign’ For BTC — And The Bottom May Not Be In Yet - TradingView"
         },
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "Netanyahu claims stolen election amid failure to secure victory - Politico"
+          "score": 1.0,
+          "texto": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu - Al Jazeera"
+        },
+        {
+          "fonte": "hn",
+          "score": -1.0,
+          "texto": "Spanish minister refuses to resign over second major train crash on his watch "
         },
         {
           "fonte": "hn",
@@ -291,16 +296,19 @@
           "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
         },
         {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties - Reuters"
-        },
-        {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Netanyahu, at risk of losing power, steps up attacks on Israel's Arab parties - Reuters"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Netanyahu's party claims election 'stolen' by 'foreign entities' "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.42,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Pesquisas de boca de urna indicam falta de maioria e rivais buscam mandato, embora a disputa política continue indefinida.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ballon|kylian|mbapp": {
@@ -862,14 +870,24 @@
     }
   },
   "alaska|michigan|republicans": {
-    "ts": 1793485122.8932126,
+    "ts": 1793548299.3376172,
     "resultado": {
-      "n": 46,
-      "score": -0.026,
-      "z": -0.066,
-      "p": 0.4691,
-      "confianca": 0.033,
+      "n": 53,
+      "score": -0.008,
+      "z": -0.018,
+      "p": 0.491,
+      "confianca": 0.009,
       "top": [
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Michigan Insurance Giant Blames \"AI\" for Layoffs–But Evidence Points Overseas "
+        },
         {
           "fonte": "hn",
           "score": 0.7,
@@ -877,23 +895,13 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "DOJ issues subpoenas in Alaska Senate race as governor launches separate investigation - NBC News"
+          "score": 0.7,
+          "texto": "Sen. Dan Sullivan says he will accept Alaska’s election results even if he doesn’t win - The Washington Post"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Justice Department seeks to isolate Alaska ballots as criminal probe underway over Senate candidate - AP News"
-        },
-        {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Trump prosecutions under Biden set precedent for DOJ’s Alaska ‘Decoy Dan’ probe, ex-FEC chair says - Fox News"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GPT picks Democrats. Grok picks Republicans "
+          "score": -0.4,
+          "texto": "Republicans Risk Losing South Asian Voters Over Anti-Indian Rhetoric - Bloomberg.com"
         }
       ]
     }
