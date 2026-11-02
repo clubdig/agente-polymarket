@@ -267,23 +267,18 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793548384.2456532,
+    "ts": 1793604152.8967404,
     "resultado": {
-      "n": 48,
-      "score": -0.058,
-      "z": -0.32000000000000006,
-      "p": 0.42,
-      "confianca": 0.5,
+      "n": 47,
+      "score": -0.081,
+      "z": -0.169,
+      "p": 0.4278,
+      "confianca": 0.084,
       "top": [
         {
           "fonte": "news",
           "score": -2.2,
-          "texto": "Benjamin Cowen Warns Silver’s 60% Crash May Be A ‘Warning Sign’ For BTC — And The Bottom May Not Be In Yet - TradingView"
-        },
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu - Al Jazeera"
+          "texto": "Benjamin Cowen Warns Silver’s 60% Crash May Be A ‘Warning Sign’ For BTC — And The Bottom May Not Be In Yet - Yahoo Finance"
         },
         {
           "fonte": "hn",
@@ -299,16 +294,13 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Netanyahu's party claims election 'stolen' by 'foreign entities' "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
         }
-      ],
-      "llm": {
-        "p": 0.42,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Pesquisas de boca de urna indicam falta de maioria e rivais buscam mandato, embora a disputa política continue indefinida.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ballon|kylian|mbapp": {
@@ -886,24 +878,14 @@
     }
   },
   "alaska|michigan|republicans": {
-    "ts": 1793548299.3376172,
+    "ts": 1793604252.1268573,
     "resultado": {
-      "n": 53,
-      "score": -0.008,
-      "z": -0.018,
-      "p": 0.491,
-      "confianca": 0.009,
+      "n": 44,
+      "score": 0.029,
+      "z": 0.078,
+      "p": 0.5362,
+      "confianca": 0.039,
       "top": [
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "BCBS Michigan posts $246M loss in 2025 "
-        },
-        {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "Michigan Insurance Giant Blames \"AI\" for Layoffs–But Evidence Points Overseas "
-        },
         {
           "fonte": "hn",
           "score": 0.7,
@@ -911,13 +893,23 @@
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Sen. Dan Sullivan says he will accept Alaska’s election results even if he doesn’t win - The Washington Post"
+          "score": 0.56,
+          "texto": "Top Alaska prosecutor said he has not discussed the investigation into state’s Senate race - CNN"
         },
         {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Republicans Risk Losing South Asian Voters Over Anti-Indian Rhetoric - Bloomberg.com"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
         }
       ]
     }
