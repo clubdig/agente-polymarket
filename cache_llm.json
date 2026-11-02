@@ -349,23 +349,18 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793523055.4077501,
+    "ts": 1793578885.3214335,
     "resultado": {
-      "n": 36,
-      "score": 0.019,
-      "z": 0.045,
-      "p": 0.5215,
-      "confianca": 0.022,
+      "n": 28,
+      "score": -0.004,
+      "z": 0.3999999999999999,
+      "p": 0.6,
+      "confianca": 0.5,
       "top": [
         {
           "fonte": "news",
-          "score": 1.0,
-          "texto": "Abdul El-Sayed disinvites former Democratic rival Haley Stevens from Michigan Senate rally, reports say – as it happened - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Control center inaction cited in Spain train crash - NHKニュース"
+          "score": -0.8,
+          "texto": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban - WBFF"
         },
         {
           "fonte": "hn",
@@ -381,8 +376,21 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.6,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Notícias indicam expectativas de onda democrata e preparativos de Trump para governar sem o Congresso, apesar de tensões partidárias pontuais.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "military|october|russia": {
@@ -513,23 +521,23 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793453033.8933215,
+    "ts": 1793578896.0194464,
     "resultado": {
-      "n": 39,
-      "score": -0.008,
-      "z": -0.019,
-      "p": 0.4905,
-      "confianca": 0.01,
+      "n": 38,
+      "score": -0.003,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
-          "score": -1.0,
-          "texto": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says - The New York Times"
+          "score": -0.8,
+          "texto": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban - WBFF"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch. - Yahoo"
+          "texto": "Republicans get boost from Michigan Democrat's endorsement, face legal setback in Alaska - New Hampshire Union Leader"
         },
         {
           "fonte": "hn",
@@ -546,7 +554,15 @@
           "score": 0.0,
           "texto": "Elon Musk pours $366M into midterm Republican campaigns "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias apresentadas são em grande parte irrelevantes ou inconclusivas sobre o controle da Câmara nas eleições de meio de mandato de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ballon|harry|kane": {
