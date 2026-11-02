@@ -341,23 +341,28 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793578885.3214335,
+    "ts": 1793642074.5872853,
     "resultado": {
-      "n": 28,
-      "score": -0.004,
-      "z": 0.3999999999999999,
-      "p": 0.6,
-      "confianca": 0.5,
+      "n": 22,
+      "score": 0.109,
+      "z": 0.246,
+      "p": 0.5988,
+      "confianca": 0.123,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban - WBFF"
+          "score": 1.0,
+          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.7,
-          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch tomorrow. - Yahoo"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "What is likely to happen if Democrats win back control of Congress - CNN"
         },
         {
           "fonte": "hn",
@@ -368,21 +373,8 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elon Musk Just Threatened the Coming Democratic Majority "
         }
-      ],
-      "llm": {
-        "p": 0.6,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Notícias indicam expectativas de onda democrata e preparativos de Trump para governar sem o Congresso, apesar de tensões partidárias pontuais.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "military|october|russia": {
@@ -513,48 +505,40 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793578896.0194464,
+    "ts": 1793642180.2849271,
     "resultado": {
-      "n": 38,
-      "score": -0.003,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 33,
+      "score": 0.124,
+      "z": 0.275,
+      "p": 0.6078,
+      "confianca": 0.137,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "SUN: Kalshi, Polymarket users trade $1.1M on Maryland elections, despite betting ban - WBFF"
+          "score": 1.0,
+          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Republicans get boost from Michigan Democrat's endorsement, face legal setback in Alaska - New Hampshire Union Leader"
+          "texto": "A MAGA whisperer on why Republicans can still win - Vox"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GPT picks Democrats. Grok picks Republicans "
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch tomorrow. - Yahoo"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elon Musk pours $366M into midterm Republican campaigns "
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "What is likely to happen if Democrats win back control of Congress - CNN"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias apresentadas são em grande parte irrelevantes ou inconclusivas sobre o controle da Câmara nas eleições de meio de mandato de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ballon|harry|kane": {
