@@ -1,13 +1,18 @@
 {
   "balance|power|senate": {
-    "ts": 1793666417.0593157,
+    "ts": 1793721363.6780393,
     "resultado": {
-      "n": 45,
-      "score": 0.082,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 46,
+      "score": 0.098,
+      "z": 0.154,
+      "p": 0.5666,
+      "confianca": 0.077,
       "top": [
+        {
+          "fonte": "news",
+          "score": 1.7,
+          "texto": "Online Betting Odds Of Democratic Senate Win Surge On Election Day - Forbes"
+        },
         {
           "fonte": "hn",
           "score": 1.0,
@@ -20,28 +25,15 @@
         },
         {
           "fonte": "news",
-          "score": 0.8,
-          "texto": "Vance gave up this Ohio Senate seat. It could decide who wins the chamber - USA Today"
-        },
-        {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "Week 9 College football Power Rankings: How big wins, upsets changed top 25 - ESPN"
-        },
-        {
-          "fonte": "news",
           "score": 0.7,
-          "texto": "Democrats now favored to win Senate as candidates, Trump make final pitches - The Washington Post"
+          "texto": "Stevens explains Michigan Senate endorsement, Dems say El-Sayed will win - USA Today"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "K2 Space CEO Sets Out Expansive Growth Plan as High-Power Demand Increases "
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes para a composição partidária do Congresso dos EUA em 2026, tratando majoritariamente de tecnologia, Binance e calçados.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|through": {
@@ -870,23 +862,23 @@
     }
   },
   "alaska|michigan|republicans": {
-    "ts": 1793666520.405749,
+    "ts": 1793721426.4669118,
     "resultado": {
-      "n": 45,
-      "score": -0.011,
-      "z": -0.026,
-      "p": 0.4874,
-      "confianca": 0.013,
+      "n": 49,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
       "top": [
         {
-          "fonte": "news",
-          "score": -1.2,
-          "texto": "Latest on Alaska Senate race after judge tosses Trump lawsuit seeking to delay certification - Yahoo"
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "BCBS Michigan posts $246M loss in 2025 "
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Cook says El-Sayed is favored to win in Michigan despite Stevens’s defection - The Washington Post"
+          "texto": "Stevens explains Michigan Senate endorsement, Dems say El-Sayed will win - USA Today"
         },
         {
           "fonte": "hn",
@@ -896,7 +888,7 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Alaska gov speaks on latest in voter manipulation investigation - Fox Business"
+          "texto": "FBI visits Dan J. Sullivan donors as part of federal investigation into voter fraud - Alaska Public Media"
         },
         {
           "fonte": "hn",
