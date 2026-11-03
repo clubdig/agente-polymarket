@@ -341,13 +341,13 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793691532.4043498,
+    "ts": 1793741636.357494,
     "resultado": {
-      "n": 36,
-      "score": 0.039,
-      "z": 0.09,
-      "p": 0.5414,
-      "confianca": 0.045,
+      "n": 32,
+      "score": 0.044,
+      "z": 0.105,
+      "p": 0.5477,
+      "confianca": 0.053,
       "top": [
         {
           "fonte": "hn",
@@ -357,22 +357,22 @@
         {
           "fonte": "hn",
           "score": 0.7,
-          "texto": "Can AOC win the Democratic nomination? "
+          "texto": "Show HN: Record Demo Video on Mac with auto zoom, full controll Built Mac Screen Recorder with auto zoom, animations,remove background from camera, canvas backg"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Justice Department sends criminal target letters in Alaska probe to people aligned with Democratic party - CNN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Dumonts Buy Adelson’s Stake In Mavs, Assume Majority Control - Hoops Rumors"
         },
         {
           "fonte": "hn",
-          "score": -0.7,
-          "texto": "Evaluating DeepSeek v4.1 Flash-1017 for loss of control and harmful manipulation "
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Tensions rise as midterm campaign ends with control of Congress at stake - Reuters"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Control of Britain’s 39m smart meters passes to non-profit startup - The Guardian"
+          "score": 0.0,
+          "texto": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech "
         }
       ]
     }
@@ -505,38 +505,38 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793691548.896569,
+    "ts": 1793741694.8343081,
     "resultado": {
-      "n": 38,
-      "score": -0.018,
-      "z": -0.034,
-      "p": 0.4838,
-      "confianca": 0.017,
+      "n": 34,
+      "score": 0.038,
+      "z": 0.082,
+      "p": 0.5378,
+      "confianca": 0.041,
       "top": [
         {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Show HN: Record Demo Video on Mac with auto zoom, full controll Built Mac Screen Recorder with auto zoom, animations,remove background from camera, canvas backg"
+        },
+        {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Republicans hope to stave off predictions of midterm losses amid high costs and the Iran war - CNN"
+          "score": 0.6,
+          "texto": "Dumonts Buy Adelson’s Stake In Mavs, Assume Majority Control - Hoops Rumors"
         },
         {
           "fonte": "hn",
-          "score": -0.7,
-          "texto": "Evaluating DeepSeek v4.1 Flash-1017 for loss of control and harmful manipulation "
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
         },
         {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Tensions rise as midterm campaign ends with control of Congress at stake - Reuters"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
         },
         {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Control of Britain’s 39m smart meters passes to non-profit startup - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "Tennessee Supreme Court paves way to cut Metro Council, give state control of airport authority - Tennessee Lookout"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk pours $366M into midterm Republican campaigns "
         }
       ]
     }
