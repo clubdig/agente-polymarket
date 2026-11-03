@@ -349,38 +349,38 @@
     }
   },
   "control|democratic|elections": {
-    "ts": 1793642074.5872853,
+    "ts": 1793691532.4043498,
     "resultado": {
-      "n": 22,
-      "score": 0.109,
-      "z": 0.246,
-      "p": 0.5988,
-      "confianca": 0.123,
+      "n": 36,
+      "score": 0.039,
+      "z": 0.09,
+      "p": 0.5414,
+      "confianca": 0.045,
       "top": [
         {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
-        },
-        {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.7,
-          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch tomorrow. - Yahoo"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "What is likely to happen if Democrats win back control of Congress - CNN"
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech "
+          "score": 0.7,
+          "texto": "Can AOC win the Democratic nomination? "
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Tech Giants Ramp Up Resistance to ICE in Bid to Avoid Democratic Scrutiny "
+          "score": -0.7,
+          "texto": "Evaluating DeepSeek v4.1 Flash-1017 for loss of control and harmful manipulation "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Tensions rise as midterm campaign ends with control of Congress at stake - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Control of Britain’s 39m smart meters passes to non-profit startup - The Guardian"
         }
       ]
     }
@@ -513,38 +513,38 @@
     }
   },
   "control|elections|republican": {
-    "ts": 1793642180.2849271,
+    "ts": 1793691548.896569,
     "resultado": {
-      "n": 33,
-      "score": 0.124,
-      "z": 0.275,
-      "p": 0.6078,
-      "confianca": 0.137,
+      "n": 38,
+      "score": -0.018,
+      "z": -0.034,
+      "p": 0.4838,
+      "confianca": 0.017,
       "top": [
         {
           "fonte": "news",
-          "score": 1.0,
-          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
+          "score": -0.7,
+          "texto": "Republicans hope to stave off predictions of midterm losses amid high costs and the Iran war - CNN"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Evaluating DeepSeek v4.1 Flash-1017 for loss of control and harmful manipulation "
         },
         {
           "fonte": "news",
-          "score": 1.0,
-          "texto": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve - The New York Times"
+          "score": 0.6,
+          "texto": "Tensions rise as midterm campaign ends with control of Congress at stake - Reuters"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "A MAGA whisperer on why Republicans can still win - Vox"
+          "score": 0.6,
+          "texto": "Control of Britain’s 39m smart meters passes to non-profit startup - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch tomorrow. - Yahoo"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "What is likely to happen if Democrats win back control of Congress - CNN"
+          "score": -0.5,
+          "texto": "Tennessee Supreme Court paves way to cut Metro Council, give state control of airport authority - Tennessee Lookout"
         }
       ]
     }
