@@ -862,23 +862,28 @@
     }
   },
   "alaska|michigan|republicans": {
-    "ts": 1793721426.4669118,
+    "ts": 1793782320.3237169,
     "resultado": {
-      "n": 49,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "n": 44,
+      "score": 0.052,
+      "z": 0.125,
+      "p": 0.5557,
+      "confianca": 0.063,
       "top": [
         {
-          "fonte": "hn",
-          "score": -0.7,
-          "texto": "BCBS Michigan posts $246M loss in 2025 "
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator - The Guardian"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Stevens explains Michigan Senate endorsement, Dems say El-Sayed will win - USA Today"
+          "texto": "Midterms 2026 election results and live updates: Democrats win Senate and House, taking control of Congress from Republicans - Yahoo"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "El-Sayed defeats Rogers to win Senate seat in Michigan - Al Jazeera"
         },
         {
           "fonte": "hn",
@@ -887,13 +892,8 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "FBI visits Dan J. Sullivan donors as part of federal investigation into voter fraud - Alaska Public Media"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GPT picks Democrats. Grok picks Republicans "
+          "score": -0.6,
+          "texto": "Justice Department sends criminal target letters in Alaska probe to people aligned with Democratic party - CNN"
         }
       ]
     }
@@ -1042,6 +1042,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
+        }
+      ]
+    }
+  },
+  "mississippi|republicans|senate": {
+    "ts": 1793782342.1116762,
+    "resultado": {
+      "n": 48,
+      "score": 0.129,
+      "z": 0.289,
+      "p": 0.612,
+      "confianca": 0.144,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Why Did Meta Suspend a US Senate Candidate's Instagram in the Middle of a Rally? "
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Election 2026 live updates: Democrat Abdul El-Sayed wins Michigan Senate race - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Adam Hamilton wins Kansas Senate race, becoming first Democrat elected to seat in nearly a century - The Washington Post"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "James Talarico wins Texas Senate race in historic victory for Democrats | US midterm elections 2026 - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Midterms 2026 election results and live updates: Democrats win Senate and House, taking control of Congress from Republicans - Yahoo"
         }
       ]
     }
