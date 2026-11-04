@@ -1008,5 +1008,42 @@
         }
       ]
     }
+  },
+  "governor|republicans|texas": {
+    "ts": 1793757530.2764447,
+    "resultado": {
+      "n": 45,
+      "score": -0.002,
+      "z": -0.006,
+      "p": 0.4971,
+      "confianca": 0.003,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Democrats hold firm in Georgia as Republicans fail to flip prized Senate seat - Fox News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Republicans fight to hold on to the Senate as Democrats seek gains in traditionally red states - NBC News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GPT picks Democrats. Grok picks Republicans "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Elon Musk emerges as the top booster for Republicans with $276M donations "
+        }
+      ]
+    }
   }
 }
