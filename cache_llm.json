@@ -1082,5 +1082,79 @@
         }
       ]
     }
+  },
+  "alaska|peltola|senate": {
+    "ts": 1793811304.280084,
+    "resultado": {
+      "n": 54,
+      "score": 0.081,
+      "z": 0.196,
+      "p": 0.5818,
+      "confianca": 0.098,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Texas U.S. Senate Election 2026 Live Results: James Talarico Wins - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Democrat Annie Andrews wins election to U.S. Senate from South Carolina - WYFF"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "US midterm elections 2026 live updates: Democrats win Senate control and edge "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "2026 Election Live Updates: Democrats Win Control of House and Senate as Voters Rebuke Trump in Midterms - The New York Times"
+        }
+      ]
+    }
+  },
+  "democrats|mississippi|senate": {
+    "ts": 1793811335.2460797,
+    "resultado": {
+      "n": 49,
+      "score": 0.204,
+      "z": 0.441,
+      "p": 0.6529,
+      "confianca": 0.22,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Texas U.S. Senate Election 2026 Live Results: James Talarico Wins - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Democrat Annie Andrews wins election to U.S. Senate from South Carolina - WYFF"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "US midterm election live: Democrats win Congress, Colom narrowly ahead in Mississippi Senate race - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Democrats win control of Congress; experts say little will change for Europe "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "US midterm elections 2026 live updates: Democrats win Senate control and edge "
+        }
+      ]
+    }
   }
 }
