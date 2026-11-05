@@ -267,23 +267,28 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793604152.8967404,
+    "ts": 1793907794.3115904,
     "resultado": {
-      "n": 47,
-      "score": -0.081,
-      "z": -0.169,
-      "p": 0.4278,
-      "confianca": 0.084,
+      "n": 42,
+      "score": -0.005,
+      "z": -0.011,
+      "p": 0.4944,
+      "confianca": 0.006,
       "top": [
-        {
-          "fonte": "news",
-          "score": -2.2,
-          "texto": "Benjamin Cowen Warns Silver’s 60% Crash May Be A ‘Warning Sign’ For BTC — And The Bottom May Not Be In Yet - Yahoo Finance"
-        },
         {
           "fonte": "hn",
           "score": -1.0,
           "texto": "Spanish minister refuses to resign over second major train crash on his watch "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress - Al Jazeera"
         },
         {
           "fonte": "hn",
@@ -293,12 +298,7 @@
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Netanyahu's party claims election 'stolen' by 'foreign entities' "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
+          "texto": "US ending $4 billion in annual aid to Israel after Trump talks with Netanyahu "
         }
       ]
     }
@@ -1227,6 +1227,43 @@
           "fonte": "news",
           "score": 0.7,
           "texto": "James Talarico becomes first Democrat to win Texas Senate seat since 1988 - BBC"
+        }
+      ]
+    }
+  },
+  "december|increase|interest": {
+    "ts": 1793907603.0030942,
+    "resultado": {
+      "n": 41,
+      "score": 0.024,
+      "z": 0.039,
+      "p": 0.5186,
+      "confianca": 0.019,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 1.0,
+          "texto": "Apple faces unprecedented memory cost increases as RAM prices continue to surge "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "K2 Space CEO Sets Out Expansive Growth Plan as High-Power Demand Increases "
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5% - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Valve making changes to deal with a 'significant increase' in Steam submission "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Global Semiconductor Sales Increase 24.1% (to $517.7B) from Q2 2026 to Q3 2026 "
         }
       ]
     }
