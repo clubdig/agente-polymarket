@@ -1156,5 +1156,79 @@
         }
       ]
     }
+  },
+  "aliens|confirm|exist": {
+    "ts": 1793848618.6286833,
+    "resultado": {
+      "n": 36,
+      "score": -0.042,
+      "z": -0.059,
+      "p": 0.4723,
+      "confianca": 0.029,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "United Empire fails to co-exist, match confirmed for Wrestle Kingdom 21 - POST Wrestling"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Final results for 4th Hampden race confirm incumbent win - MassLive"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "LIV Golf: Bryson DeChambeau hopeful league 'can exist forever' and says his Masters loss to Rory McIlroy helped him grow - Sky Sports"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Confirmation and Outrage, Both for Clicks "
+        }
+      ]
+    }
+  },
+  "alaska|senate|sullivan": {
+    "ts": 1793848728.8914983,
+    "resultado": {
+      "n": 51,
+      "score": 0.082,
+      "z": 0.186,
+      "p": 0.5785,
+      "confianca": 0.093,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.2,
+          "texto": "Despite ‘bloodbath’ election night for Republicans, Sen. Sullivan confident he’ll win Senate race - Alaska's News Source"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.9,
+          "texto": "Dan Sullivan Endorses Dan Sullivan to Beat Dan Sullivan in Alaska Senate Race "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Trump administration sues to block possible Democratic win in Alaska Senate race "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "US midterm elections 2026 live updates: Democrats win Senate control and edge "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "James Talarico becomes first Democrat to win Texas Senate seat since 1988 - BBC"
+        }
+      ]
+    }
   }
 }
