@@ -743,38 +743,38 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1793266357.2693233,
+    "ts": 1793951181.0946612,
     "resultado": {
       "n": 34,
-      "score": 0.024,
-      "z": 0.035,
-      "p": 0.5169,
-      "confianca": 0.018,
+      "score": -0.082,
+      "z": -0.117,
+      "p": 0.4475,
+      "confianca": 0.059,
       "top": [
         {
           "fonte": "news",
-          "score": 1.5,
-          "texto": "Lloyds Beats Estimates on Rise in Fees and Interest Income - Bloomberg"
+          "score": -0.7,
+          "texto": "Meghan Markle’s Half-Brother Named ‘Person of Interest’ in Child Sex Abuse Investigation Involving Their Father - People.com"
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "US Short-End Yields Fall After Warsh Signals Fewer Fed Meetings - Bloomberg"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Potential conversation partners in Bluesky using agentic search What if instead of talking to AI, we could find human counterparts currently sharing th"
+          "texto": "Thomas Markle investigation: What we know as Meghan’s half-brother becomes a ‘person of interest’ - Yahoo"
         },
         {
           "fonte": "news",
-          "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "score": -0.7,
+          "texto": "New Jersey mayor who charged at resident during council meeting concedes election loss - Fox News"
         },
         {
           "fonte": "news",
-          "score": 0.0,
-          "texto": "Fed Meeting Live Updates: Interest Rates Hold Steady Despite 'Elevated' Inflation - The New York Times"
+          "score": -0.7,
+          "texto": "Sharks hold players-only meeting after Kings loss - NHL.com"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5% - CNBC"
         }
       ]
     }
@@ -1232,13 +1232,13 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1793907603.0030942,
+    "ts": 1793951084.587664,
     "resultado": {
-      "n": 41,
-      "score": 0.024,
-      "z": 0.039,
-      "p": 0.5186,
-      "confianca": 0.019,
+      "n": 39,
+      "score": 0.028,
+      "z": 0.04,
+      "p": 0.5192,
+      "confianca": 0.02,
       "top": [
         {
           "fonte": "hn",
@@ -1246,24 +1246,24 @@
           "texto": "Apple faces unprecedented memory cost increases as RAM prices continue to surge "
         },
         {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "K2 Space CEO Sets Out Expansive Growth Plan as High-Power Demand Increases "
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Fastly Q3 Earnings Beat Estimates, Revenues Increase Y/Y - Yahoo Finance"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5% - CNBC"
+          "score": -0.7,
+          "texto": "Meghan Markle’s Half-Brother Named ‘Person of Interest’ in Child Sex Abuse Investigation Involving Their Father - People.com"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Thomas Markle investigation: What we know as Meghan’s half-brother becomes a ‘person of interest’ - Yahoo"
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Valve making changes to deal with a 'significant increase' in Steam submission "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Global Semiconductor Sales Increase 24.1% (to $517.7B) from Q2 2026 to Q3 2026 "
+          "score": 0.6,
+          "texto": "K2 Space CEO Sets Out Expansive Growth Plan as High-Power Demand Increases "
         }
       ]
     }
