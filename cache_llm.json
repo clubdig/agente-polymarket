@@ -267,13 +267,13 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793907794.3115904,
+    "ts": 1793979952.771936,
     "resultado": {
-      "n": 42,
-      "score": -0.005,
-      "z": -0.011,
-      "p": 0.4944,
-      "confianca": 0.006,
+      "n": 45,
+      "score": -0.051,
+      "z": -0.118,
+      "p": 0.4471,
+      "confianca": 0.059,
       "top": [
         {
           "fonte": "hn",
@@ -282,13 +282,13 @@
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress - Al Jazeera"
+          "score": -0.9,
+          "texto": "Turkey: Ex-minister Fatma Betul Sayan Kaya arrested in major fund manipulation scandal - DW.com"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress - Al Jazeera"
+          "score": 0.8,
+          "texto": "A man named Chris will be New Zealand's next prime minister, whichever party wins the election - AP News"
         },
         {
           "fonte": "hn",
@@ -296,9 +296,9 @@
           "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "US ending $4 billion in annual aid to Israel after Trump talks with Netanyahu "
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Israeli watchdog seeks probe into Netanyahu's reported $4b. waiver of US aid - The Jerusalem Post"
         }
       ]
     }
@@ -1084,13 +1084,13 @@
     }
   },
   "alaska|peltola|senate": {
-    "ts": 1793926324.575641,
+    "ts": 1793979901.812494,
     "resultado": {
       "n": 46,
-      "score": 0.035,
-      "z": 0.087,
-      "p": 0.5402,
-      "confianca": 0.044,
+      "score": 0.03,
+      "z": 0.075,
+      "p": 0.5349,
+      "confianca": 0.038,
       "top": [
         {
           "fonte": "hn",
@@ -1109,8 +1109,8 @@
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Senate conservatives push to delay leadership election - Politico"
+          "score": -0.7,
+          "texto": "Susan Collins' loss means New England will have no Senate Republicans - WBUR"
         },
         {
           "fonte": "hn",
