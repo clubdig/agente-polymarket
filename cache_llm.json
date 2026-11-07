@@ -1431,5 +1431,42 @@
         }
       ]
     }
+  },
+  "gen.g|worlds": {
+    "ts": 1794081499.8522005,
+    "resultado": {
+      "n": 13,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Faker bangs head into wall in frustration following loss to Gen.G "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Gen.G vs Invictus Gaming odds & picks - Lol Worlds 2026 - WIN.GG"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"worlds\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"gen.g\" - Google News"
+        }
+      ]
+    }
   }
 }
