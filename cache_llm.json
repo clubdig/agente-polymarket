@@ -1394,5 +1394,42 @@
         "modelo": "gemini-3.8-flash"
       }
     }
+  },
+  "ceasefire|continues|december": {
+    "ts": 1794065419.524346,
+    "resultado": {
+      "n": 43,
+      "score": -0.027,
+      "z": -0.05,
+      "p": 0.4761,
+      "confianca": 0.025,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Dan Campbell: Jack Campbell continues to improve, we owe it to him to prepare to win Sunday - NBC Sports"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Investigation into fatal Rogers Park fire continues as community mourns the family of four - Chicago Tribune"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "‘Ceasefire First’: Poland Warns Against US-Russia Deal on Europe’s Security - Kyiv Post"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Track live river levels: Flood warning continues for St. Johns River - WKMG"
+        },
+        {
+          "fonte": "news",
+          "score": 0.56,
+          "texto": "Des Moines post office shooting suspect held without bond as investigation continues - WHO13.com"
+        }
+      ]
+    }
   }
 }
