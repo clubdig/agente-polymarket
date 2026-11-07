@@ -1304,5 +1304,50 @@
         }
       ]
     }
+  },
+  "ceasefire|continues|effective": {
+    "ts": 1794015710.9845724,
+    "resultado": {
+      "n": 46,
+      "score": 0.022,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Can Democrats effectively abolish Electoral College after midterm wins? "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Dan Campbell: Jack Campbell continues to improve, we owe it to him to prepare to win Sunday - NBC Sports"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Trump's week in review: Vows to use veto power, cut $4B aid to Israel and Melania brokers ceasefire - Christian Post"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Test and verification technique effectiveness with GPT-6 Astra "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips "
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas sao irrelevantes para o tema do cessar-fogo entre Estados Unidos e Ira.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
   }
 }
