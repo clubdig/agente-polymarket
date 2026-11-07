@@ -267,13 +267,13 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1793979952.771936,
+    "ts": 1794094285.1698575,
     "resultado": {
-      "n": 45,
-      "score": -0.051,
-      "z": -0.118,
-      "p": 0.4471,
-      "confianca": 0.059,
+      "n": 48,
+      "score": -0.033,
+      "z": -1.0,
+      "p": 0.25,
+      "confianca": 0.5,
       "top": [
         {
           "fonte": "hn",
@@ -281,26 +281,34 @@
           "texto": "Spanish minister refuses to resign over second major train crash on his watch "
         },
         {
-          "fonte": "news",
-          "score": -0.9,
-          "texto": "Turkey: Ex-minister Fatma Betul Sayan Kaya arrested in major fund manipulation scandal - DW.com"
-        },
-        {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "A man named Chris will be New Zealand's next prime minister, whichever party wins the election - AP News"
-        },
-        {
           "fonte": "hn",
           "score": -0.6,
           "texto": "Netanyahu Received an Explicit Warning Days Before Oct. 7 "
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Israeli watchdog seeks probe into Netanyahu's reported $4b. waiver of US aid - The Jerusalem Post"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "US ending $4 billion in annual aid to Israel after Trump talks with Netanyahu "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Netanyahu's party claims election 'stolen' by 'foreign entities' "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.25,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Presidente de Israel encarregou o rival Gadi Eisenkot de formar governo após pesquisas indicarem que Netanyahu não obteve maioria parlamentar.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ballon|kylian|mbapp": {
