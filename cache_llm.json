@@ -1349,5 +1349,50 @@
         "modelo": "gemini-3.8-flash"
       }
     }
+  },
+  "invade|iran|u.s.": {
+    "ts": 1794040083.9900167,
+    "resultado": {
+      "n": 42,
+      "score": -0.033,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -1.0,
+          "texto": "Wreckfall: Space Invaders but they crash to earth "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.4,
+          "texto": "U.S. Strikes Iran's Qeshm Island as Trump Talks Down War Risks "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "A Scenario Where China Invades Taiwan "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "We've Seen This Before Right Before Russia Invaded Ukraine [video] "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Combining Space Invaders and Classic Literature and ASCII What do you get when you combine Space Invaders, classic literature, and ascii? Txt Invaders!"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Nenhuma das noticias fornecidas aborda uma invasao dos EUA ao Ira, tratando-se apenas de ocorrencias genericas da palavra 'invade'.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
   }
 }
