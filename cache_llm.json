@@ -267,13 +267,13 @@
     }
   },
   "benjamin|minister|netanyahu": {
-    "ts": 1794094285.1698575,
+    "ts": 1794138386.8838115,
     "resultado": {
-      "n": 48,
-      "score": -0.033,
-      "z": -1.0,
-      "p": 0.25,
-      "confianca": 0.5,
+      "n": 44,
+      "score": -0.036,
+      "z": -0.094,
+      "p": 0.4571,
+      "confianca": 0.047,
       "top": [
         {
           "fonte": "hn",
@@ -300,15 +300,7 @@
           "score": 0.0,
           "texto": "Summary of Tonight's Exit Polls – Netanyahu doesn't have a majority "
         }
-      ],
-      "llm": {
-        "p": 0.25,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Presidente de Israel encarregou o rival Gadi Eisenkot de formar governo após pesquisas indicarem que Netanyahu não obteve maioria parlamentar.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ballon|kylian|mbapp": {
@@ -1449,13 +1441,13 @@
     }
   },
   "gen.g|worlds": {
-    "ts": 1794081499.8522005,
+    "ts": 1794138483.653077,
     "resultado": {
       "n": 13,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "score": -0.054,
+      "z": -0.125,
+      "p": 0.4445,
+      "confianca": 0.041,
       "top": [
         {
           "fonte": "hn",
@@ -1463,9 +1455,9 @@
           "texto": "Faker bangs head into wall in frustration following loss to Gen.G "
         },
         {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Gen.G vs Invictus Gaming odds & picks - Lol Worlds 2026 - WIN.GG"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Commodore PET – The Worlds First Personal Computer "
         },
         {
           "fonte": "news",
@@ -1475,12 +1467,12 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute - The Guardian"
+          "texto": "\"gen.g\" - Google News"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "\"gen.g\" - Google News"
+          "texto": "Worlds 2026: Gen.G vs Invictus Gaming - Finally the good occasion? - Sheep Esports"
         }
       ]
     }
