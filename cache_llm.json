@@ -1166,40 +1166,48 @@
     }
   },
   "aliens|confirm|exist": {
-    "ts": 1793848618.6286833,
+    "ts": 1794113619.6025712,
     "resultado": {
-      "n": 36,
-      "score": -0.042,
-      "z": -0.059,
-      "p": 0.4723,
-      "confianca": 0.029,
+      "n": 45,
+      "score": 0.004,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
+          "score": 1.0,
+          "texto": "HCSO deputy arrested for DWI during Galveston Lone Star Rally, authorities confirm - ABC13 Houston"
+        },
+        {
+          "fonte": "news",
           "score": -0.8,
-          "texto": "United Empire fails to co-exist, match confirmed for Wrestle Kingdom 21 - POST Wrestling"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Final results for 4th Hampden race confirm incumbent win - MassLive"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "LIV Golf: Bryson DeChambeau hopeful league 'can exist forever' and says his Masters loss to Rory McIlroy helped him grow - Sky Sports"
+          "texto": "Khanna to introduce AI safety bill with ban on 'recursive' technology until safeguards exist - CNBC"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Confirmation and Outrage, Both for Clicks "
+          "texto": "Show HN: Jacq, a DSL that compiles model and kernel descriptions to CUDA I was working (with agents) on testing out various attention algorithm ideas I had, and"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "X-ray measurements confirm altermagnetism, a third form of magnetism "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Novartis confirms 9 reported cases of tumors in patients treated with Zolgensma "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes para a questão sobre a confirmação da existência de alienígenas pelos EUA.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   },
   "alaska|senate|sullivan": {
@@ -1473,6 +1481,33 @@
           "fonte": "news",
           "score": 0.0,
           "texto": "\"gen.g\" - Google News"
+        }
+      ]
+    }
+  },
+  "worlds": {
+    "ts": 1794113520.5074375,
+    "resultado": {
+      "n": 3,
+      "score": 0.0,
+      "z": 0.0,
+      "p": null,
+      "confianca": 0.0,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Commodore PET – The Worlds First Personal Computer "
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"worlds\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Team Liquid Alienware bows out of the Swiss Stage at Worlds 2026. - Alienware Arena"
         }
       ]
     }
