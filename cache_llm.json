@@ -1359,13 +1359,13 @@
     }
   },
   "invade|iran|u.s.": {
-    "ts": 1794187810.8292096,
+    "ts": 1794256158.5011501,
     "resultado": {
-      "n": 45,
-      "score": -0.067,
-      "z": -0.148,
-      "p": 0.4355,
-      "confianca": 0.074,
+      "n": 50,
+      "score": -0.034,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
@@ -1378,21 +1378,29 @@
           "texto": "Wreckfall: Space Invaders but they crash to earth "
         },
         {
-          "fonte": "news",
-          "score": -0.72,
-          "texto": "Rubio Sees No Iran Breakthrough as Trump Downplays New Strikes - Bloomberg.com"
-        },
-        {
           "fonte": "hn",
           "score": 0.7,
           "texto": "Starter homes cost $1M in a record 242 U.S. cities–proof of unaffordability "
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Nvidia's importance to U.S. national security and AI trade highlighted in CEO affair and spy probe - CNBC"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "A Scenario Where China Invades Taiwan "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "We've Seen This Before Right Before Russia Invaded Ukraine [video] "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas sao irrelevantes e resultam apenas de buscas pela palavra 'invade', sem dados sobre os EUA e o Ira.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ceasefire|continues|december": {
@@ -1574,6 +1582,43 @@
           "fonte": "hn",
           "score": 0.6,
           "texto": "Silver Lake, PIF have held recent talks to buy gaming software provider Unity "
+        }
+      ]
+    }
+  },
+  "december|returns|traffic": {
+    "ts": 1794256264.46623,
+    "resultado": {
+      "n": 52,
+      "score": -0.065,
+      "z": -0.154,
+      "p": 0.4334,
+      "confianca": 0.077,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.9,
+          "texto": "Dianna Russini returns to sports media after Vrabel photo scandal with NFL betting show - The Guardian"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "When PGD fails, is your model safe? I tested it vs. Marabou SMT on traffic signs "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "PlayStation Plus confirms two AAA free games early ahead of November and December drops - GAMINGbible"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Investigation underway into death of local man who collapsed during traffic stop - WPXI"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "WATCH LIVE: Senate returns to Capitol Hill days after Democrats win back control - PBS"
         }
       ]
     }
