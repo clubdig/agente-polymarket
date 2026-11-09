@@ -1277,19 +1277,14 @@
     }
   },
   "ceasefire|continues|november": {
-    "ts": 1794159861.2461412,
+    "ts": 1794215850.4007678,
     "resultado": {
-      "n": 46,
-      "score": -0.052,
-      "z": -0.095,
-      "p": 0.4565,
-      "confianca": 0.048,
+      "n": 47,
+      "score": 0.028,
+      "z": 0.075,
+      "p": 0.5351,
+      "confianca": 0.038,
       "top": [
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Community continues search for Katy woman who vanished after Louisiana crash in September - KHOU"
-        },
         {
           "fonte": "news",
           "score": 0.7,
@@ -1297,18 +1292,23 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Chicago Blackhawks hold players-only meeting as tailspin continues with another blowout loss - TSN"
+          "score": 0.6,
+          "texto": "Your Love Horoscope Is Here For Monday, November 9: The New Moon Rises In Scorpio - YourTango"
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Boston College continues conference fade, falls to Florida State at home - The Boston Globe"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Oleshky Ceasefire Shows That Russia Can, but Won't End Civilian Suffering in Ukr "
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Blog: Nice Fall weather continues - WAVY.com"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump rejects Iran's conditional ceasefire proposal "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "More than 900 killed in Gaza this year despite ceasefire "
         }
       ]
     }
@@ -1497,13 +1497,13 @@
     }
   },
   "announces|blockade|november": {
-    "ts": 1794159799.3687363,
+    "ts": 1794215872.8412452,
     "resultado": {
-      "n": 44,
-      "score": 0.0,
+      "n": 45,
+      "score": -0.002,
       "z": 0.0,
       "p": 0.5,
-      "confianca": 0.0,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
@@ -1516,21 +1516,29 @@
           "texto": "Canva Announces Layoffs in Restructure Affecting 1,271 Workers "
         },
         {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Nvidia announces investigation of CEO amid foreign intelligence target allegations - ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Your Love Horoscope Is Here For Monday, November 9: The New Moon Rises In Scorpio - YourTango"
+        },
+        {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Itch.io founder announces the 'return of Flash games' thanks to open source "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Nordic Semiconductor Announces Sub-GHz MCU "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Noticias fornecidas sao irrelevantes sobre o tema; nao ha informacoes sobre geopolitica dos EUA ou bloqueio iraniano.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   },
   "bilibili|gaming|worlds": {
