@@ -1359,48 +1359,40 @@
     }
   },
   "invade|iran|u.s.": {
-    "ts": 1794040083.9900167,
+    "ts": 1794187810.8292096,
     "resultado": {
-      "n": 42,
-      "score": -0.033,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 45,
+      "score": -0.067,
+      "z": -0.148,
+      "p": 0.4355,
+      "confianca": 0.074,
       "top": [
+        {
+          "fonte": "hn",
+          "score": -1.4,
+          "texto": "U.S. Obesity Rate Drops as Use of GLP-1 Weight Loss Drugs Surges "
+        },
         {
           "fonte": "hn",
           "score": -1.0,
           "texto": "Wreckfall: Space Invaders but they crash to earth "
         },
         {
-          "fonte": "hn",
-          "score": -0.4,
-          "texto": "U.S. Strikes Iran's Qeshm Island as Trump Talks Down War Risks "
+          "fonte": "news",
+          "score": -0.72,
+          "texto": "Rubio Sees No Iran Breakthrough as Trump Downplays New Strikes - Bloomberg.com"
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "A Scenario Where China Invades Taiwan "
+          "score": 0.7,
+          "texto": "Starter homes cost $1M in a record 242 U.S. cities–proof of unaffordability "
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "We've Seen This Before Right Before Russia Invaded Ukraine [video] "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Combining Space Invaders and Classic Literature and ASCII What do you get when you combine Space Invaders, classic literature, and ascii? Txt Invaders!"
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Nvidia's importance to U.S. national security and AI trade highlighted in CEO affair and spy probe - CNBC"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "Nenhuma das noticias fornecidas aborda uma invasao dos EUA ao Ira, tratando-se apenas de ocorrencias genericas da palavra 'invade'.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|december": {
@@ -1537,6 +1529,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Nordic Semiconductor Announces Sub-GHz MCU "
+        }
+      ]
+    }
+  },
+  "bilibili|gaming|worlds": {
+    "ts": 1794187839.1470685,
+    "resultado": {
+      "n": 28,
+      "score": 0.075,
+      "z": 0.105,
+      "p": 0.5476,
+      "confianca": 0.053,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "T1 beat Karmine Corp 3-1 to reach sixth straight Worlds semi-final against Bilibili Gaming - Esports Insider"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Bilibili Gaming sweeps Dplus KIA in LoL Worlds quarterfinals - WIN.GG"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Gaming community mourns loss of Richmond business owner, influencer - The 812"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Silver Lake, PIF have held recent talks to buy gaming software provider Unity "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Silver Lake, PIF have held recent talks to buy gaming software provider Unity "
         }
       ]
     }
