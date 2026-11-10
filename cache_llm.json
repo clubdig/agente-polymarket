@@ -1513,23 +1513,18 @@
     }
   },
   "announces|blockade|november": {
-    "ts": 1794280564.677956,
+    "ts": 1794342002.2476275,
     "resultado": {
-      "n": 48,
-      "score": 0.025,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 47,
+      "score": -0.089,
+      "z": -0.214,
+      "p": 0.4119,
+      "confianca": 0.107,
       "top": [
         {
-          "fonte": "hn",
-          "score": 0.7,
-          "texto": "Apple Announces a New Mac Sales Record "
-        },
-        {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "WATCH: Hegseth announces he will hold news conference on impeachment threat to defend his record - PBS"
+          "score": -0.7,
+          "texto": "Bucks County DA announces investigation into transport nonprofit after fatal bus incidents - 6abc Philadelphia"
         },
         {
           "fonte": "hn",
@@ -1538,23 +1533,20 @@
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "IRS announces higher standard deductions for 2027 - FOX 5 Atlanta"
+          "score": -0.7,
+          "texto": "Pixel 10 with Gemini Intelligence, custom widgets and more in our November Pixel Drop - blog.google"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Takaichi administration announces emergency cyberdefense package "
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "November Pixel Watch Drop: Create My Widget, Phone-to-Watch Unlock, and Wear OS 7.1 - 9to5Google"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "November Pixel Feature Drop Arrives for Pixel Phones! - Droid Life"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes para a pergunta sobre o fim do bloqueio iraniano pelos EUA.",
-        "n": 25,
-        "modelo": "gemini-3.5-flash"
-      }
+      ]
     }
   },
   "bilibili|gaming|worlds": {
@@ -1664,6 +1656,43 @@
           "fonte": "news",
           "score": -0.7,
           "texto": "27 runners fall ill, hospitalized, after running in Santa Barbara Half-Marathon - Santa Barbara News-Press"
+        }
+      ]
+    }
+  },
+  "announced|december|resignation": {
+    "ts": 1794341901.4655643,
+    "resultado": {
+      "n": 35,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "WordPress Board Resignations "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "What David Sachs Got Right About the Anthropic Resignation "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "An AI-Safety Resignation, Read from the Security Chair "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "One resignation turned the embers of AI fear into a wildfire "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Jacob Coxon resignation appears to be a PR stunt for AI regulation "
         }
       ]
     }
