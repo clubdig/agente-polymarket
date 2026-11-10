@@ -1505,10 +1505,10 @@
     }
   },
   "announces|blockade|november": {
-    "ts": 1794215872.8412452,
+    "ts": 1794280564.677956,
     "resultado": {
-      "n": 45,
-      "score": -0.002,
+      "n": 48,
+      "score": 0.025,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
@@ -1519,31 +1519,31 @@
           "texto": "Apple Announces a New Mac Sales Record "
         },
         {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "WATCH: Hegseth announces he will hold news conference on impeachment threat to defend his record - PBS"
+        },
+        {
           "fonte": "hn",
           "score": -0.7,
-          "texto": "Canva Announces Layoffs in Restructure Affecting 1,271 Workers "
+          "texto": "Acquired EGFR resistance in NSCLC 2026: MET bypass drops 4x with dual blockade "
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Nvidia announces investigation of CEO amid foreign intelligence target allegations - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Your Love Horoscope Is Here For Monday, November 9: The New Moon Rises In Scorpio - YourTango"
+          "score": 0.5,
+          "texto": "IRS announces higher standard deductions for 2027 - FOX 5 Atlanta"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Itch.io founder announces the 'return of Flash games' thanks to open source "
+          "texto": "Takaichi administration announces emergency cyberdefense package "
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "Noticias fornecidas sao irrelevantes sobre o tema; nao ha informacoes sobre geopolitica dos EUA ou bloqueio iraniano.",
+        "motivo": "As notícias fornecidas são irrelevantes para a pergunta sobre o fim do bloqueio iraniano pelos EUA.",
         "n": 25,
         "modelo": "gemini-3.5-flash"
       }
@@ -1619,6 +1619,43 @@
           "fonte": "news",
           "score": 0.7,
           "texto": "WATCH LIVE: Senate returns to Capitol Hill days after Democrats win back control - PBS"
+        }
+      ]
+    }
+  },
+  "finish|marathon|november": {
+    "ts": 1794280663.4513667,
+    "resultado": {
+      "n": 54,
+      "score": -0.009,
+      "z": -0.021,
+      "p": 0.4899,
+      "confianca": 0.01,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 1.3,
+          "texto": "Keelon Russell recounts tent visit, strong finish to road win over LSU - On3"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Record Field of Qualifiers Accepted to Boston Marathon "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Record Field of Qualifiers Accepted to Boston Marathon "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Police investigate as nearly 30 Santa Barbara half-marathon runners fall ill with ‘unusual symptoms’ - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "27 runners fall ill, hospitalized, after running in Santa Barbara Half-Marathon - Santa Barbara News-Press"
         }
       ]
     }
