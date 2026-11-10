@@ -743,40 +743,48 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1793951181.0946612,
+    "ts": 1794312881.2640026,
     "resultado": {
-      "n": 34,
-      "score": -0.082,
-      "z": -0.117,
-      "p": 0.4475,
-      "confianca": 0.059,
+      "n": 46,
+      "score": -0.011,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Meghan Markle’s Half-Brother Named ‘Person of Interest’ in Child Sex Abuse Investigation Involving Their Father - People.com"
+          "score": -0.5,
+          "texto": "Boeing to cut about 5% of commercial airplane workforce; notices start in December - KOMO"
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Thomas Markle investigation: What we know as Meghan’s half-brother becomes a ‘person of interest’ - Yahoo"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Desires: privacy-first (kinky) interest matching app for adults No accounts, no tracking. You keep one link, send the other one to your (potential) par"
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "New Jersey mayor who charged at resident during council meeting concedes election loss - Fox News"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: Are companies making money by using AI? AI news is focused on the same companies improving their models. But I am really interested in getting opinions "
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Sharks hold players-only meeting after Kings loss - NHL.com"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Vork – headless 3D and VFX engine for agents I made an agent-native 3d&#x2F;vfx engine.<p>Agents are good at making interesting scenes in Blender&#x2F;"
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5% - CNBC"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: My first project, an AI-powered financial news analyzer I&#x27;m 17, and I started NotBot a few months ago to see whether I could turn an idea into a w"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes sobre a decisão de taxa de juros do Fed na reunião de dezembro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.6-flash"
+      }
     }
   },
   "election|presidential|vance": {
@@ -1240,38 +1248,38 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794000003.869687,
+    "ts": 1794313066.9520411,
     "resultado": {
-      "n": 43,
-      "score": 0.035,
-      "z": 0.057,
-      "p": 0.5272,
-      "confianca": 0.029,
+      "n": 47,
+      "score": -0.015,
+      "z": -0.027,
+      "p": 0.4869,
+      "confianca": 0.013,
       "top": [
         {
-          "fonte": "hn",
-          "score": 1.0,
-          "texto": "Apple faces unprecedented memory cost increases as RAM prices continue to surge "
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "'Crumbs': French PM's 1.6% minimum wage increase fails to placate unions - France 24"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.6,
-          "texto": "K2 Space CEO Sets Out Expansive Growth Plan as High-Power Demand Increases "
+          "texto": "Flu-related deaths rise, respiratory illnesses increase in North Carolina: What's making everyone sick? - ABC11 News"
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "As Hormone Use Increases, Some Doctors Warn Slight Cancer Risk Is Being Overlooked - The New York Times"
-        },
-        {
-          "fonte": "news",
-          "score": 0.3,
-          "texto": "Gold falls as U.S. payrolls surge by 165,000, strengthening December Fed hike case - Kitco AM Report - Kitco"
+          "score": -0.5,
+          "texto": "Boeing to cut about 5% of commercial airplane workforce; notices start in December - KOMO"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Executive (C-Level) Decision Making Under Uncertainty with Large Language Models Since reasoning in-context learning improved a lot as show by \nrecently works ["
+          "texto": "GitHub: Increase in timeouts for some unauthenticated users "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Vasomechanic treatment associated with increased efflux of human brain proteins "
         }
       ]
     }
