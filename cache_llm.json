@@ -1359,13 +1359,13 @@
     }
   },
   "invade|iran|u.s.": {
-    "ts": 1794256158.5011501,
+    "ts": 1794387550.8988504,
     "resultado": {
-      "n": 50,
-      "score": -0.034,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 42,
+      "score": -0.026,
+      "z": -0.058,
+      "p": 0.4726,
+      "confianca": 0.029,
       "top": [
         {
           "fonte": "hn",
@@ -1380,27 +1380,19 @@
         {
           "fonte": "hn",
           "score": 0.7,
-          "texto": "Starter homes cost $1M in a record 242 U.S. cities–proof of unaffordability "
+          "texto": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000 "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "European Gas Prices Rise as Uncertainty Swirls Over Iran War - Bloomberg.com"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "A Scenario Where China Invades Taiwan "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "We've Seen This Before Right Before Russia Invaded Ukraine [video] "
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As noticias fornecidas sao irrelevantes e resultam apenas de buscas pela palavra 'invade', sem dados sobre os EUA e o Ira.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|december": {
@@ -1685,6 +1677,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Jacob Coxon resignation appears to be a PR stunt for AI regulation "
+        }
+      ]
+    }
+  },
+  "december|hegseth|secretary": {
+    "ts": 1794387651.9968755,
+    "resultado": {
+      "n": 54,
+      "score": -0.035,
+      "z": -0.093,
+      "p": 0.4575,
+      "confianca": 0.046,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "Hegseth warns prediction market bets warp military judgment, endanger troops "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.5,
+          "texto": "Hegseth announces a new drone command and cuts to 20% of generals "
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Your Own AI Secretary, on WhatsApp "
         }
       ]
     }
