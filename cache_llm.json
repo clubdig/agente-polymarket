@@ -743,48 +743,40 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794312881.2640026,
+    "ts": 1794359133.1866207,
     "resultado": {
-      "n": 46,
-      "score": -0.011,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 41,
+      "score": 0.017,
+      "z": 0.029,
+      "p": 0.5141,
+      "confianca": 0.014,
       "top": [
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Boeing to cut about 5% of commercial airplane workforce; notices start in December - KOMO"
+          "score": 0.9,
+          "texto": "Honolulu Council Sued Over Secret Zippy’s Meeting - Honolulu Civil Beat"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Desires: privacy-first (kinky) interest matching app for adults No accounts, no tracking. You keep one link, send the other one to your (potential) par"
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "International Student Interest in U.S. Surges After Midterms - Inside Higher Ed"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: Are companies making money by using AI? AI news is focused on the same companies improving their models. But I am really interested in getting opinions "
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Vork – headless 3D and VFX engine for agents I made an agent-native 3d&#x2F;vfx engine.<p>Agents are good at making interesting scenes in Blender&#x2F;"
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: My first project, an AI-powered financial news analyzer I&#x27;m 17, and I started NotBot a few months ago to see whether I could turn an idea into a w"
+          "fonte": "news",
+          "score": 0.1,
+          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes sobre a decisão de taxa de juros do Fed na reunião de dezembro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.6-flash"
-      }
+      ]
     }
   },
   "election|presidential|vance": {
@@ -1248,38 +1240,38 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794313066.9520411,
+    "ts": 1794359243.3115275,
     "resultado": {
-      "n": 47,
-      "score": -0.015,
-      "z": -0.027,
-      "p": 0.4869,
-      "confianca": 0.013,
+      "n": 45,
+      "score": -0.053,
+      "z": -0.081,
+      "p": 0.4624,
+      "confianca": 0.041,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "'Crumbs': French PM's 1.6% minimum wage increase fails to placate unions - France 24"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Flu-related deaths rise, respiratory illnesses increase in North Carolina: What's making everyone sick? - ABC11 News"
+          "score": -1.7,
+          "texto": "FDA warns GLP-1s could increase risk of vision loss : Here & Now Anytime - NPR"
         },
         {
           "fonte": "news",
           "score": -0.5,
-          "texto": "Boeing to cut about 5% of commercial airplane workforce; notices start in December - KOMO"
+          "texto": "Northside ISD faces budget cuts, salary questions after voters reject tax increase - KSAT"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GitHub: Increase in timeouts for some unauthenticated users "
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "International Student Interest in U.S. Surges After Midterms - Inside Higher Ed"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Vasomechanic treatment associated with increased efflux of human brain proteins "
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
         }
       ]
     }
