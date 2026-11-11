@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794359133.1866207,
+    "ts": 1794416462.8080075,
     "resultado": {
-      "n": 41,
-      "score": 0.017,
-      "z": 0.029,
-      "p": 0.5141,
-      "confianca": 0.014,
+      "n": 40,
+      "score": 0.015,
+      "z": 0.027,
+      "p": 0.5131,
+      "confianca": 0.013,
       "top": [
         {
           "fonte": "news",
@@ -758,23 +758,23 @@
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "International Student Interest in U.S. Surges After Midterms - Inside Higher Ed"
-        },
-        {
-          "fonte": "news",
           "score": -0.4,
           "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+          "score": 0.1,
+          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Rowbly – A Software Factory Manager Hey everyone,<p>I&#x27;ve been very interested in software factories lately but every time I&#x27;ve read about the"
         },
         {
           "fonte": "news",
-          "score": 0.1,
-          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
+          "score": 0.0,
+          "texto": "\"interest\" - Google News"
         }
       ]
     }
@@ -1240,28 +1240,18 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794359243.3115275,
+    "ts": 1794416364.3008943,
     "resultado": {
-      "n": 45,
-      "score": -0.053,
-      "z": -0.081,
-      "p": 0.4624,
-      "confianca": 0.041,
+      "n": 42,
+      "score": -0.017,
+      "z": -0.033,
+      "p": 0.4841,
+      "confianca": 0.016,
       "top": [
         {
           "fonte": "news",
-          "score": -1.7,
-          "texto": "FDA warns GLP-1s could increase risk of vision loss : Here & Now Anytime - NPR"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "Northside ISD faces budget cuts, salary questions after voters reject tax increase - KSAT"
-        },
-        {
-          "fonte": "news",
-          "score": 0.5,
-          "texto": "International Student Interest in U.S. Surges After Midterms - Inside Higher Ed"
+          "score": -0.4,
+          "texto": "Severe drought and warming increase the extinction risk of cacti - Nature"
         },
         {
           "fonte": "news",
@@ -1270,8 +1260,18 @@
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+          "score": 0.1,
+          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GitHub: Increase in timeouts for some unauthenticated users "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Vasomechanic treatment associated with increased efflux of human brain proteins "
         }
       ]
     }
