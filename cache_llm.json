@@ -1645,14 +1645,29 @@
     }
   },
   "announced|december|resignation": {
-    "ts": 1794341901.4655643,
+    "ts": 1794439542.839035,
     "resultado": {
-      "n": 35,
-      "score": 0.0,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.0,
+      "n": 37,
+      "score": -0.035,
+      "z": -0.089,
+      "p": 0.459,
+      "confianca": 0.045,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Phoenix Stage 2 drought plan: Surcharges, voluntary cuts announced - FOX 10 Phoenix"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
+        },
         {
           "fonte": "hn",
           "score": 0.0,
@@ -1662,21 +1677,6 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "What David Sachs Got Right About the Anthropic Resignation "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "An AI-Safety Resignation, Read from the Security Chair "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "One resignation turned the embers of AI fear into a wildfire "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Jacob Coxon resignation appears to be a PR stunt for AI regulation "
         }
       ]
     }
@@ -1714,6 +1714,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Your Own AI Secretary, on WhatsApp "
+        }
+      ]
+    }
+  },
+  "announced|removal|resignation": {
+    "ts": 1794439651.636604,
+    "resultado": {
+      "n": 31,
+      "score": -0.042,
+      "z": -0.096,
+      "p": 0.4563,
+      "confianca": 0.048,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "The carbon at risk measure for managing carbon removal risk and guiding portfolio construction - Nature"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Phoenix Stage 2 drought plan: Surcharges, voluntary cuts announced - FOX 10 Phoenix"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "WordPress Board Resignations "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "What David Sachs Got Right About the Anthropic Resignation "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "An AI-Safety Resignation, Read from the Security Chair "
         }
       ]
     }
