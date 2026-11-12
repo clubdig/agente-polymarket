@@ -743,38 +743,38 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794416462.8080075,
+    "ts": 1794498587.4040785,
     "resultado": {
-      "n": 40,
-      "score": 0.015,
-      "z": 0.027,
-      "p": 0.5131,
-      "confianca": 0.013,
+      "n": 43,
+      "score": -0.009,
+      "z": -0.019,
+      "p": 0.4907,
+      "confianca": 0.01,
       "top": [
         {
           "fonte": "news",
-          "score": 0.9,
-          "texto": "Honolulu Council Sued Over Secret Zippy’s Meeting - Honolulu Civil Beat"
-        },
-        {
-          "fonte": "news",
           "score": -0.4,
-          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
-        },
-        {
-          "fonte": "news",
-          "score": 0.1,
-          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
+          "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Rowbly – A Software Factory Manager Hey everyone,<p>I&#x27;ve been very interested in software factories lately but every time I&#x27;ve read about the"
+          "texto": "A lawyer used AI to write a report, but billed full time. What should I do? This is not a request for legal advice, and therefore the country matters little her"
         },
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "texto": "I gave an AI a week to make something interesting or I switch it off "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: Researchers / PhDs interested in quantitative AutoResearch? I&#x27;m looking for researchers and PhD students in statistics, learning theory, RL, open-e"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "An experiment shows how AIs invest in real time. interesting "
         }
       ]
     }
@@ -1788,6 +1788,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Jacob Coxon resignation appears to be a PR stunt for AI regulation "
+        }
+      ]
+    }
+  },
+  "ceasefire|december|ukraine": {
+    "ts": 1794498691.4125066,
+    "resultado": {
+      "n": 50,
+      "score": -0.006,
+      "z": -0.016,
+      "p": 0.4921,
+      "confianca": 0.008,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Russia Exploits Five-Day Ceasefire to Reverse Months of Ukrainian Gains in Kherson - UNITED24 Media"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Oleshky Ceasefire Shows That Russia Can, but Won't End Civilian Suffering in Ukr "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump rejects Iran's conditional ceasefire proposal "
         }
       ]
     }
