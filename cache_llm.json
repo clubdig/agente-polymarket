@@ -1240,14 +1240,19 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794416364.3008943,
+    "ts": 1794463635.7814612,
     "resultado": {
-      "n": 42,
-      "score": -0.017,
-      "z": -0.033,
-      "p": 0.4841,
-      "confianca": 0.016,
+      "n": 36,
+      "score": -0.053,
+      "z": -0.094,
+      "p": 0.4571,
+      "confianca": 0.047,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "MPD released video, photo of person of interest in murder investigation - DC News Now"
+        },
         {
           "fonte": "news",
           "score": -0.4,
@@ -1256,22 +1261,17 @@
         {
           "fonte": "news",
           "score": -0.4,
-          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
+          "texto": "Elizabeth Warren May Team Up With Trump On A 10% Credit Card Interest Cap—Putting Your Credit And Rewards At Risk - View from the Wing"
         },
         {
           "fonte": "news",
-          "score": 0.1,
-          "texto": "Bank of England’s inflation response ‘risks higher interest rates for longer’ - The Guardian"
+          "score": -0.4,
+          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "GitHub: Increase in timeouts for some unauthenticated users "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Vasomechanic treatment associated with increased efflux of human brain proteins "
         }
       ]
     }
@@ -1751,6 +1751,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "An AI-Safety Resignation, Read from the Security Chair "
+        }
+      ]
+    }
+  },
+  "announced|november|resignation": {
+    "ts": 1794463536.0891876,
+    "resultado": {
+      "n": 43,
+      "score": 0.0,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.0,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "WordPress Board Resignations "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "What David Sachs Got Right About the Anthropic Resignation "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "An AI-Safety Resignation, Read from the Security Chair "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "One resignation turned the embers of AI fear into a wildfire "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Jacob Coxon resignation appears to be a PR stunt for AI regulation "
         }
       ]
     }
