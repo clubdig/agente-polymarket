@@ -1240,60 +1240,65 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794463635.7814612,
+    "ts": 1794521273.5074878,
     "resultado": {
-      "n": 36,
-      "score": -0.053,
-      "z": -0.094,
-      "p": 0.4571,
-      "confianca": 0.047,
+      "n": 41,
+      "score": 0.002,
+      "z": 0.005,
+      "p": 0.5023,
+      "confianca": 0.002,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "MPD released video, photo of person of interest in murder investigation - DC News Now"
+          "score": 0.5,
+          "texto": "Mortgage rates fell this week, but hot inflation data means they’re likely headed higher: Mortgage and refinance interest rates today, Thursday, November 12, 20"
         },
         {
           "fonte": "news",
           "score": -0.4,
-          "texto": "Severe drought and warming increase the extinction risk of cacti - Nature"
-        },
-        {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Elizabeth Warren May Team Up With Trump On A 10% Credit Card Interest Cap—Putting Your Credit And Rewards At Risk - View from the Wing"
-        },
-        {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+          "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "GitHub: Increase in timeouts for some unauthenticated users "
+          "texto": "Show HN: Pond Snap – Like Flappy Bird, but for people who want to relax I built this game; it&#x27;s called pond snap the aim of the game is to catch as many fl"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"increase\" - Google News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "Health insurance premiums increase as Affordable Care Act open enrollment underway in Wisconsin - WPR"
         }
       ]
     }
   },
   "ceasefire|continues|november": {
-    "ts": 1794215850.4007678,
+    "ts": 1794521482.6659894,
     "resultado": {
-      "n": 47,
-      "score": 0.028,
-      "z": 0.075,
-      "p": 0.5351,
-      "confianca": 0.038,
+      "n": 45,
+      "score": -0.004,
+      "z": -0.012,
+      "p": 0.4942,
+      "confianca": 0.006,
       "top": [
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "With counting still underway, Trump continues to claim GOP win in Alaska - The Washington Post"
+          "score": -0.8,
+          "texto": "Carrick pays the price as Manchester United's cycle of failure continues - Reuters"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Your Love Horoscope Is Here For Monday, November 9: The New Moon Rises In Scorpio - YourTango"
+          "score": 0.7,
+          "texto": "Russia Exploits Five-Day Ceasefire to Reverse Months of Ukrainian Gains in Kherson - UNITED24 Media"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.1,
+          "texto": "OpenAI Continues to Suffer Heavy Losses as Revenue Rises to $10B "
         },
         {
           "fonte": "hn",
@@ -1304,11 +1309,6 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Trump rejects Iran's conditional ceasefire proposal "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "More than 900 killed in Gaza this year despite ceasefire "
         }
       ]
     }
