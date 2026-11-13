@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794498587.4040785,
+    "ts": 1794571083.0874155,
     "resultado": {
-      "n": 43,
+      "n": 44,
       "score": -0.009,
-      "z": -0.019,
-      "p": 0.4907,
-      "confianca": 0.01,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
@@ -759,24 +759,32 @@
         {
           "fonte": "hn",
           "score": 0.0,
+          "texto": "Are we interpreting the model of interest? "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: MarkovChat, chat with people who share your intellectual interests "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: GraphsWithStraightLines.com I got curious about what we can and can&#x27;t learn about the future by plotting straight lines on graphs so I made a litt"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
           "texto": "A lawyer used AI to write a report, but billed full time. What should I do? This is not a request for legal advice, and therefore the country matters little her"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "I gave an AI a week to make something interesting or I switch it off "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: Researchers / PhDs interested in quantitative AutoResearch? I&#x27;m looking for researchers and PhD students in statistics, learning theory, RL, open-e"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "An experiment shows how AIs invest in real time. interesting "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes para a decisão sobre as taxas de juros do Fed na reunião de dezembro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.6-flash"
+      }
     }
   },
   "election|presidential|vance": {
@@ -1240,23 +1248,23 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794521273.5074878,
+    "ts": 1794570945.7256029,
     "resultado": {
-      "n": 41,
-      "score": 0.002,
-      "z": 0.005,
-      "p": 0.5023,
-      "confianca": 0.002,
+      "n": 42,
+      "score": -0.01,
+      "z": -0.019,
+      "p": 0.4906,
+      "confianca": 0.01,
       "top": [
-        {
-          "fonte": "news",
-          "score": 0.5,
-          "texto": "Mortgage rates fell this week, but hot inflation data means they’re likely headed higher: Mortgage and refinance interest rates today, Thursday, November 12, 20"
-        },
         {
           "fonte": "news",
           "score": -0.4,
           "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: Have you noticed an increase of rejections when sending to Yahoo email? I&#x27;m representing a small business with a large number of customers using @y"
         },
         {
           "fonte": "hn",
@@ -1271,7 +1279,7 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Health insurance premiums increase as Affordable Care Act open enrollment underway in Wisconsin - WPR"
+          "texto": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more - Financial Times"
         }
       ]
     }
