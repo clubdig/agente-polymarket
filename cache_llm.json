@@ -1865,5 +1865,79 @@
         }
       ]
     }
+  },
+  "bitcoin|december": {
+    "ts": 1794699769.9974024,
+    "resultado": {
+      "n": 39,
+      "score": -0.074,
+      "z": -0.098,
+      "p": 0.4554,
+      "confianca": 0.049,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -2.7,
+          "texto": "‘Don't Wait’—Bitcoin Suddenly In Free Fall As Price ‘Collapse’ Fears Trigger Surprise $2 Trillion Crypto Crash - Forbes"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "Ask HN: What use are the non-major cryptocurrencies? I am curious - what use are the cryptocurrencies&#x2F;tokens that are not one of the major ones (like USDT,"
+        },
+        {
+          "fonte": "news",
+          "score": -0.1,
+          "texto": "Bitcoin is now below $68,000 and could fall even further if investors cash out to buy into the Anthropic IPO - MarketWatch"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
+        }
+      ]
+    }
+  },
+  "nomination|presidential|republican": {
+    "ts": 1794699869.8731422,
+    "resultado": {
+      "n": 38,
+      "score": 0.039,
+      "z": 0.088,
+      "p": 0.5403,
+      "confianca": 0.044,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterm "
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican - NPR"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "US Democrats Win Enough Seats Nationwide to End Presidential Electoral College "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Brooks and Marcus on how Republicans are responding to midterm losses - PBS"
+        }
+      ]
+    }
   }
 }
