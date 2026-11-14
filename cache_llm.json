@@ -1433,23 +1433,18 @@
     }
   },
   "gen.g|worlds": {
-    "ts": 1794138483.653077,
+    "ts": 1794685731.5946035,
     "resultado": {
       "n": 13,
       "score": -0.054,
-      "z": -0.125,
-      "p": 0.4445,
-      "confianca": 0.041,
+      "z": -0.08,
+      "p": 0.4629,
+      "confianca": 0.026,
       "top": [
         {
           "fonte": "hn",
           "score": -0.7,
           "texto": "Faker bangs head into wall in frustration following loss to Gen.G "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Commodore PET – The Worlds First Personal Computer "
         },
         {
           "fonte": "news",
@@ -1459,12 +1454,17 @@
         {
           "fonte": "news",
           "score": 0.0,
+          "texto": "Five Best Books on Vanished Worlds - WSJ"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
           "texto": "\"gen.g\" - Google News"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Worlds 2026: Gen.G vs Invictus Gaming - Finally the good occasion? - Sheep Esports"
+          "texto": "Sources: Ray set to join Gen.G for 2027 VCT season - Sheep Esports"
         }
       ]
     }
@@ -1825,6 +1825,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Trump rejects Iran's conditional ceasefire proposal "
+        }
+      ]
+    }
+  },
+  "december|jensen|rejoin": {
+    "ts": 1794685844.2790377,
+    "resultado": {
+      "n": 57,
+      "score": -0.037,
+      "z": -0.063,
+      "p": 0.4704,
+      "confianca": 0.031,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "Behind Jensen Huang's spy scandal, a shadow war for Trump's ear on China "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "How the Jensen Huang scandal created a headache for business-friendly Singapore "
+        },
+        {
+          "fonte": "news",
+          "score": -0.9,
+          "texto": "The Jensen Huang scandal reaches Donald Trump’s cabinet - The Economist"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "The Rise and Reckoning of Jensen Huang – The Circuit with Emily Chang [video] "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "The visionary wife who helped engineer Jensen Huang’s rise - The Times"
         }
       ]
     }
