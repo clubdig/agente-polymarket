@@ -743,48 +743,40 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794571083.0874155,
+    "ts": 1794617209.9853592,
     "resultado": {
-      "n": 44,
-      "score": -0.009,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 37,
+      "score": -0.059,
+      "z": -0.112,
+      "p": 0.4495,
+      "confianca": 0.056,
       "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "WATCH: Brooklyn community leaders, residents hold meeting on building collapse - PBS"
+        },
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Ybor City dispensary uses DoorDash to clear hemp inventory before December federal ban - FOX 13 Tampa Bay"
+        },
         {
           "fonte": "news",
           "score": -0.4,
           "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.0,
-          "texto": "Are we interpreting the model of interest? "
+          "texto": "\"interest\" - Google News"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.0,
-          "texto": "Show HN: MarkovChat, chat with people who share your intellectual interests "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: GraphsWithStraightLines.com I got curious about what we can and can&#x27;t learn about the future by plotting straight lines on graphs so I made a litt"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "A lawyer used AI to write a report, but billed full time. What should I do? This is not a request for legal advice, and therefore the country matters little her"
+          "texto": "Capping Credit Card Interest: An Idea So Bad that Both Democrats and Republicans Support It - Reason Magazine"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes para a decisão sobre as taxas de juros do Fed na reunião de dezembro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.6-flash"
-      }
+      ]
     }
   },
   "election|presidential|vance": {
@@ -1248,38 +1240,38 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794570945.7256029,
+    "ts": 1794617108.7961855,
     "resultado": {
-      "n": 42,
-      "score": -0.01,
-      "z": -0.019,
-      "p": 0.4906,
-      "confianca": 0.01,
+      "n": 39,
+      "score": -0.038,
+      "z": -0.093,
+      "p": 0.4573,
+      "confianca": 0.047,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Ybor City dispensary uses DoorDash to clear hemp inventory before December federal ban - FOX 13 Tampa Bay"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Social Security benefit cuts: What Sanders’ $2,400 increase could mean for you - Delawareonline.com"
+        },
+        {
+          "fonte": "news",
+          "score": -0.4,
+          "texto": "El Niño will increase risk of death in childbirth for millions, say midwives - The Guardian"
+        },
         {
           "fonte": "news",
           "score": -0.4,
           "texto": "ECB set for last rate hike in December but inflation risks keep door open for one more: Reuters poll - Reuters"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: Have you noticed an increase of rejections when sending to Yahoo email? I&#x27;m representing a small business with a large number of customers using @y"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Pond Snap – Like Flappy Bird, but for people who want to relax I built this game; it&#x27;s called pond snap the aim of the game is to catch as many fl"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "\"increase\" - Google News"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more - Financial Times"
         }
       ]
     }
