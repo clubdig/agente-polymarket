@@ -1240,14 +1240,19 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794719724.1973937,
+    "ts": 1794771446.155798,
     "resultado": {
-      "n": 39,
-      "score": 0.031,
-      "z": 0.075,
-      "p": 0.5349,
-      "confianca": 0.038,
+      "n": 43,
+      "score": 0.012,
+      "z": 0.027,
+      "p": 0.5132,
+      "confianca": 0.014,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Allumbaugh Street rebuild to start in December; detours expected through fall 2027 - KBOI"
+        },
         {
           "fonte": "hn",
           "score": 0.6,
@@ -1261,17 +1266,12 @@
         {
           "fonte": "news",
           "score": 0.6,
-          "texto": "Interest rate rises likely in coming months, Bank of England’s chief economist says - The Guardian"
+          "texto": "Is Interactive Brokers (IBKR) Stock a Buy After a 71% Dividend Increase? - Yahoo Finance"
         },
         {
           "fonte": "news",
           "score": 0.6,
-          "texto": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab - The Guardian"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: Have you noticed an increase of rejections when sending to Yahoo email? I&#x27;m representing a small business with a large number of customers using @y"
+          "texto": "Interest rate rises likely in coming months, Bank of England’s chief economist says - The Guardian"
         }
       ]
     }
