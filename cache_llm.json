@@ -1830,13 +1830,13 @@
     }
   },
   "december|jensen|rejoin": {
-    "ts": 1794685844.2790377,
+    "ts": 1794749720.2935772,
     "resultado": {
-      "n": 57,
-      "score": -0.037,
-      "z": -0.063,
-      "p": 0.4704,
-      "confianca": 0.031,
+      "n": 52,
+      "score": -0.06,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
@@ -1846,45 +1846,43 @@
         {
           "fonte": "hn",
           "score": -0.9,
-          "texto": "How the Jensen Huang scandal created a headache for business-friendly Singapore "
-        },
-        {
-          "fonte": "news",
-          "score": -0.9,
-          "texto": "The Jensen Huang scandal reaches Donald Trump’s cabinet - The Economist"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "The Rise and Reckoning of Jensen Huang – The Circuit with Emily Chang [video] "
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "The visionary wife who helped engineer Jensen Huang’s rise - The Times"
-        }
-      ]
-    }
-  },
-  "bitcoin|december": {
-    "ts": 1794699769.9974024,
-    "resultado": {
-      "n": 39,
-      "score": -0.074,
-      "z": -0.098,
-      "p": 0.4554,
-      "confianca": 0.049,
-      "top": [
-        {
-          "fonte": "news",
-          "score": -2.7,
-          "texto": "‘Don't Wait’—Bitcoin Suddenly In Free Fall As Price ‘Collapse’ Fears Trigger Surprise $2 Trillion Crypto Crash - Forbes"
+          "texto": "Behind Jensen Huang's spy scandal, a shadow war for Trump's ear on China "
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com"
+          "texto": "Nvidia CEO Jensen Huang admits affair, board to launch investigation - Axios"
         },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas sao irrelevantes e nao mencionam Jensen Huang ou a NVIDIA.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "bitcoin|december": {
+    "ts": 1794749683.9163954,
+    "resultado": {
+      "n": 35,
+      "score": 0.014,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
         {
           "fonte": "hn",
           "score": 0.6,
@@ -1892,15 +1890,33 @@
         },
         {
           "fonte": "news",
-          "score": -0.1,
-          "texto": "Bitcoin is now below $68,000 and could fall even further if investors cash out to buy into the Anthropic IPO - MarketWatch"
+          "score": -0.4,
+          "texto": "Bitcoin Faces Final Capitulation Risk: Could $40,000 Be Next? - Benzinga"
+        },
+        {
+          "fonte": "news",
+          "score": 0.3,
+          "texto": "Key facts: Bitcoin ETFs lose $2.35B; BTCUSD drops, shorts surge - TradingView"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As noticias fornecidas nao mencionam Bitcoin ou o mercado de criptomoedas, sendo irrelevantes para prever o preco do ativo.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "nomination|presidential|republican": {
