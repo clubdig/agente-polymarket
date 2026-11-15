@@ -1955,5 +1955,87 @@
         }
       ]
     }
+  },
+  "december|nvidia": {
+    "ts": 1794786526.3057868,
+    "resultado": {
+      "n": 37,
+      "score": -0.151,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "The Nvidia Scandal Goes Deeper Than You Think [video] "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "Was Nvidia's Stock Falling Before the CEO Scandal? "
+        },
+        {
+          "fonte": "news",
+          "score": -0.9,
+          "texto": "Trump prepares for China trip amid Nvidia scandal - CNN"
+        },
+        {
+          "fonte": "news",
+          "score": -0.9,
+          "texto": "Nvidia scandal looms large over upcoming Trump-Xi meeting - NPR"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Nenhuma das noticias apresentadas contem informacoes sobre a NVIDIA ou mudancas em seu cargo de CEO.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
+    }
+  },
+  "jensen|november|rejoin": {
+    "ts": 1794786571.0641558,
+    "resultado": {
+      "n": 57,
+      "score": -0.03,
+      "z": -0.072,
+      "p": 0.4665,
+      "confianca": 0.036,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Teen seriously injured in Jensen Beach e-bike crash, airlifted to hospital - WPEC"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "Behind Jensen Huang's spy scandal, a shadow war for Trump's ear on China "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "3 Beaten-Down Stocks Under $10 to Buy in November - Yahoo Finance"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
+        }
+      ]
+    }
   }
 }
