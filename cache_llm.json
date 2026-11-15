@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794667928.974916,
+    "ts": 1794719617.7950387,
     "resultado": {
-      "n": 40,
-      "score": 0.015,
-      "z": 0.037,
-      "p": 0.5177,
-      "confianca": 0.018,
+      "n": 38,
+      "score": 0.032,
+      "z": 0.057,
+      "p": 0.527,
+      "confianca": 0.029,
       "top": [
         {
           "fonte": "news",
@@ -757,14 +757,14 @@
           "texto": "Interest rate rises likely in coming months, Bank of England’s chief economist says - The Guardian"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Are we interpreting the model of interest? "
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab - The Guardian"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: MarkovChat, chat with people who share your intellectual interests "
+          "texto": "Public Interest Capacity: The Case of Direct File [pdf] "
         },
         {
           "fonte": "news",
@@ -1240,23 +1240,23 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794667906.6434822,
+    "ts": 1794719724.1973937,
     "resultado": {
-      "n": 42,
-      "score": 0.021,
-      "z": 0.051,
-      "p": 0.5241,
-      "confianca": 0.025,
+      "n": 39,
+      "score": 0.031,
+      "z": 0.075,
+      "p": 0.5349,
+      "confianca": 0.038,
       "top": [
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Jefferson County voters approve tax increase to boost education spending, but recount looms - Colorado Public Radio"
-        },
         {
           "fonte": "hn",
           "score": 0.6,
           "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+        },
+        {
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Local police department issues warning about increase in car thefts - WHIO TV"
         },
         {
           "fonte": "news",
@@ -1265,13 +1265,13 @@
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Social Security benefit cuts: What Sanders’ $2,400 increase could mean for you - Delawareonline.com"
+          "score": 0.6,
+          "texto": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab - The Guardian"
         },
         {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "After fierce backlash, Northampton County executive cuts proposed 43% tax increase by about half - The Morning Call"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: Have you noticed an increase of rejections when sending to Yahoo email? I&#x27;m representing a small business with a large number of customers using @y"
         }
       ]
     }
