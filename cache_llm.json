@@ -1830,38 +1830,38 @@
     }
   },
   "december|jensen|rejoin": {
-    "ts": 1794805817.4642665,
+    "ts": 1794872798.3269615,
     "resultado": {
-      "n": 55,
-      "score": -0.078,
-      "z": -0.187,
-      "p": 0.4211,
-      "confianca": 0.094,
+      "n": 42,
+      "score": -0.021,
+      "z": -0.058,
+      "p": 0.4726,
+      "confianca": 0.029,
       "top": [
-        {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Teen seriously injured in Jensen Beach e-bike crash, airlifted to hospital - WPEC"
-        },
         {
           "fonte": "hn",
           "score": -0.9,
-          "texto": "Behind Jensen Huang's spy scandal, a shadow war for Trump's ear on China "
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Gold falls below $3,900 as December Fed hike bets build, Warsh in focus - Investing.com"
+          "texto": "Jensen Huang Is Out. The Scandal Is Just Beginning "
         },
         {
           "fonte": "hn",
-          "score": -0.7,
-          "texto": "Global Chip Supply After Jensen Huang's Fall "
+          "score": 0.0,
+          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "SpaceX and Tesla could announce merger deal as soon as December "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "NASA accepting astronaut applications until December 3 "
         }
       ]
     }
@@ -2050,6 +2050,43 @@
           "fonte": "news",
           "score": 0.6,
           "texto": "Chiang Rai hosts ‘Unlocking New Growth’ forum - Thai PBS World"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: What are you reading? (November 2026) I miss the serendipity of finding interesting new books when there used to be more bookstores with bigger selectio"
+        }
+      ]
+    }
+  },
+  "election|mayor|taipei": {
+    "ts": 1794872974.4388533,
+    "resultado": {
+      "n": 16,
+      "score": 0.05,
+      "z": 0.067,
+      "p": 0.5316,
+      "confianca": 0.027,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "AI bubble will likely burst and cause a recession by 2028 election "
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Japan beat Chinese Taipei, claim WBSC U-23 Baseball World Cup bronze medal - World Baseball Softball Confederation (WBSC)"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Man charged over arson, missile threats if DPP's Shen wins Taipei - Focus Taiwan"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Spain's government to raise minimum wage 5.3% as election looms "
         },
         {
           "fonte": "hn",
