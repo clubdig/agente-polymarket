@@ -1830,18 +1830,18 @@
     }
   },
   "december|jensen|rejoin": {
-    "ts": 1794749720.2935772,
+    "ts": 1794805817.4642665,
     "resultado": {
-      "n": 52,
-      "score": -0.06,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 55,
+      "score": -0.078,
+      "z": -0.187,
+      "p": 0.4211,
+      "confianca": 0.094,
       "top": [
         {
-          "fonte": "hn",
-          "score": -0.9,
-          "texto": "Behind Jensen Huang's spy scandal, a shadow war for Trump's ear on China "
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Teen seriously injured in Jensen Beach e-bike crash, airlifted to hospital - WPEC"
         },
         {
           "fonte": "hn",
@@ -1851,27 +1851,19 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Nvidia CEO Jensen Huang admits affair, board to launch investigation - Axios"
+          "texto": "Gold falls below $3,900 as December Fed hike bets build, Warsh in focus - Investing.com"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Global Chip Supply After Jensen Huang's Fall "
         },
         {
           "fonte": "news",
           "score": -0.6,
-          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
+          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As noticias fornecidas sao irrelevantes e nao mencionam Jensen Huang ou a NVIDIA.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "bitcoin|december": {
@@ -2034,6 +2026,43 @@
           "fonte": "news",
           "score": -0.6,
           "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
+        }
+      ]
+    }
+  },
+  "chiang|election|taipei": {
+    "ts": 1794805939.826471,
+    "resultado": {
+      "n": 27,
+      "score": 0.107,
+      "z": 0.151,
+      "p": 0.5656,
+      "confianca": 0.075,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Japan beat Chinese Taipei, claim WBSC U-23 Baseball World Cup bronze medal - World Baseball Softball Confederation (WBSC)"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "U.S. House Elections 2026 Live Results: Democrats Win Control - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Taiwan’s Lin, Tian win World Para Table Tennis gold - Taipei Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Chiang Rai hosts ‘Unlocking New Growth’ forum - Thai PBS World"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: What are you reading? (November 2026) I miss the serendipity of finding interesting new books when there used to be more bookstores with bigger selectio"
         }
       ]
     }
