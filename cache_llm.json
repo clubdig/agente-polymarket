@@ -1949,75 +1949,75 @@
     }
   },
   "december|nvidia": {
-    "ts": 1794841338.782756,
+    "ts": 1794898645.4568877,
     "resultado": {
-      "n": 38,
-      "score": -0.042,
-      "z": -0.074,
-      "p": 0.4657,
-      "confianca": 0.037,
+      "n": 35,
+      "score": -0.071,
+      "z": -0.111,
+      "p": 0.4499,
+      "confianca": 0.056,
       "top": [
         {
           "fonte": "news",
+          "score": -1.0,
+          "texto": "Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon - Bloomberg.com"
+        },
+        {
+          "fonte": "hn",
           "score": -0.9,
-          "texto": "Trump’s stake in Nvidia grew to as much as $62 million before scandal broke out - The Washington Post"
+          "texto": "Trump's stake in Nvidia grew to as much as $62M before scandal broke out "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Nvidia Board Warned of 'Irreplaceable' Talent Loss in Employee Letter "
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Stock Market Today: Dow, S&P 500 and Nasdaq open lower as tech drops ahead of Nvidia results, Anthropic IPO this week — live updates - MarketWatch"
+          "score": 0.6,
+          "texto": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments in Q4 Amid Strong Demand, Showcasing AI Factory Reference Architecture at SC26 - Yahoo Finance"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "SpaceX and Tesla could announce merger deal as soon as December "
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters - Variety"
         }
       ]
     }
   },
   "jensen|november|rejoin": {
-    "ts": 1794841448.3449538,
+    "ts": 1794898753.1231475,
     "resultado": {
-      "n": 56,
-      "score": -0.037,
-      "z": -0.094,
-      "p": 0.4569,
-      "confianca": 0.047,
+      "n": 57,
+      "score": -0.026,
+      "z": -0.071,
+      "p": 0.4669,
+      "confianca": 0.035,
       "top": [
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "November Pixel Drop status: Here's where the rollout stands right now - Android Authority"
-        },
-        {
           "fonte": "hn",
-          "score": -0.7,
-          "texto": "Global Chip Supply After Jensen Huang's Fall "
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "Nvidia stock falls nearly 4% as investors price in fallout from Jensen Huang's resignation - CNBC"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+          "score": -0.9,
+          "texto": "Jensen Huang Is Out. The Scandal Is Just Beginning "
         },
         {
           "fonte": "news",
           "score": -0.6,
           "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "GitHub Copilot models deprecated on November 16, 2026 "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "New privacy rules for Google's Gemini Apps (updated November 16, 2026) "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Spamhaus new email sender requirements in November "
         }
       ]
     }
