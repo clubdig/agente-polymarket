@@ -743,28 +743,28 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794719617.7950387,
+    "ts": 1794934253.9220188,
     "resultado": {
-      "n": 38,
-      "score": 0.032,
-      "z": 0.057,
-      "p": 0.527,
-      "confianca": 0.029,
+      "n": 36,
+      "score": 0.033,
+      "z": 0.053,
+      "p": 0.5253,
+      "confianca": 0.027,
       "top": [
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Interest rate rises likely in coming months, Bank of England’s chief economist says - The Guardian"
+          "score": 0.7,
+          "texto": "H-E-B says south Denton location will open in December, just before the holidays - Denton Record-Chronicle"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab - The Guardian"
+          "score": 0.5,
+          "texto": "Canadian home sales edge higher as BoC raises interest rates - Reuters"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Public Interest Capacity: The Case of Direct File [pdf] "
+          "texto": "Interesting way to format JSON files "
         },
         {
           "fonte": "news",
@@ -774,7 +774,7 @@
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "Inflation isn't going away. Here's what that means for interest rates. - CBS News"
+          "texto": "Vinícius Júnior: 'Overwhelmed' by Arsenal transfer interest - ESPN"
         }
       ]
     }
@@ -1830,18 +1830,28 @@
     }
   },
   "december|jensen|rejoin": {
-    "ts": 1794872798.3269615,
+    "ts": 1794933972.3999348,
     "resultado": {
-      "n": 42,
-      "score": -0.021,
-      "z": -0.058,
-      "p": 0.4726,
-      "confianca": 0.029,
+      "n": 52,
+      "score": -0.015,
+      "z": -0.029,
+      "p": 0.4858,
+      "confianca": 0.015,
       "top": [
         {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Zelda Officially Drops 3 New Releases Coming December 4 - Comic Book Resources"
+        },
+        {
           "fonte": "hn",
-          "score": -0.9,
-          "texto": "Jensen Huang Is Out. The Scandal Is Just Beginning "
+          "score": -0.7,
+          "texto": "A Week with Jensen Huang Just Before His Fall as Nvidia CEO "
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "5 Ultra-High-Yield Dividend Stocks Retirees Should Buy Before December - 24/7 Wall St."
         },
         {
           "fonte": "hn",
@@ -1852,16 +1862,6 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "SpaceX and Tesla could announce merger deal as soon as December "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "NASA accepting astronaut applications until December 3 "
         }
       ]
     }
