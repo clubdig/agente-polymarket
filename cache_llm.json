@@ -1949,75 +1949,75 @@
     }
   },
   "december|nvidia": {
-    "ts": 1794898645.4568877,
+    "ts": 1794959339.0433927,
     "resultado": {
-      "n": 35,
-      "score": -0.071,
-      "z": -0.111,
-      "p": 0.4499,
-      "confianca": 0.056,
+      "n": 25,
+      "score": 0.072,
+      "z": 0.15,
+      "p": 0.5652,
+      "confianca": 0.075,
       "top": [
         {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon - Bloomberg.com"
+          "fonte": "hn",
+          "score": 0.9,
+          "texto": "Nvidia Beats Estimates, Raises Guidance After Huang's Ouster "
         },
         {
           "fonte": "hn",
           "score": -0.9,
-          "texto": "Trump's stake in Nvidia grew to as much as $62M before scandal broke out "
+          "texto": "Which Jensen Huang Nvidia Scandal Did You See? "
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO - Yahoo Finance"
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Nvidia Earnings Live Updates: First Report Since Jensen Huang’s Resignation Beats Expectations - The New York Times"
         },
         {
           "fonte": "hn",
-          "score": -0.7,
-          "texto": "Nvidia Board Warned of 'Irreplaceable' Talent Loss in Employee Letter "
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "ASUS Ramps Up NVIDIA Vera Rubin NVL72 Shipments in Q4 Amid Strong Demand, Showcasing AI Factory Reference Architecture at SC26 - Yahoo Finance"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters - Variety"
+          "score": 0.0,
+          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
         }
       ]
     }
   },
   "jensen|november|rejoin": {
-    "ts": 1794898753.1231475,
+    "ts": 1794959552.4168882,
     "resultado": {
-      "n": 57,
-      "score": -0.026,
-      "z": -0.071,
-      "p": 0.4669,
-      "confianca": 0.035,
+      "n": 53,
+      "score": -0.017,
+      "z": -0.047,
+      "p": 0.4776,
+      "confianca": 0.023,
       "top": [
         {
           "fonte": "hn",
           "score": -0.9,
-          "texto": "Jensen Huang Is Out. The Scandal Is Just Beginning "
+          "texto": "Which Jensen Huang Nvidia Scandal Did You See? "
         },
         {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "Cameron Warns Burnham Not to Seek to Rejoin EU Decade After Brexit - Bloomberg.com"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Archive Team is archiving the Apple Support Community (closes November 20, 2026) "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Oracle Critical Security Patch Update Pre-Release Announcement – November 2026 "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Play retro games on an Eastern European-inspired setup POV: It&#x27;s November 2004, you just came back from school and want to play some games on your"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "GitHub Copilot models deprecated on November 16, 2026 "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "New privacy rules for Google's Gemini Apps (updated November 16, 2026) "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Spamhaus new email sender requirements in November "
         }
       ]
     }
