@@ -743,48 +743,40 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1794982546.2435448,
+    "ts": 1795043957.6314738,
     "resultado": {
       "n": 34,
-      "score": -0.032,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "score": -0.006,
+      "z": -0.011,
+      "p": 0.4947,
+      "confianca": 0.005,
       "top": [
         {
           "fonte": "news",
-          "score": -0.9,
-          "texto": "Ex-CEO Jensen Huang signals interest in returning to Nvidia after resigning amid scandal - PBS"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "USCCB president, US nuncio highlight communion, mission in fall meeting’s opening addresses - OSV News"
+          "score": -0.6,
+          "texto": "Democrats probe Lutnick over possible Nvidia conflict of interest - The Hill"
         },
         {
           "fonte": "news",
           "score": 0.5,
-          "texto": "Canadian home sales edge higher as BoC raises interest rates - Reuters"
+          "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News"
+        },
+        {
+          "fonte": "news",
+          "score": -0.1,
+          "texto": "Grains Fall on Strong Dollar, China Meeting Caution: Cattle Try to Stabilize - AgWeb"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Interesting Learnings Working for a Startup 1. product isn&#x27;t important, sales is important<p>2. infra isn&#x27;t important, talent to build it is important"
+          "texto": "Show HN: Pf2e.fyi, an Obsidian-inspired searchable index of Pathfinder 2e rules Hey folks! I was looking for a more interesting interface to search rules for th"
         },
         {
           "fonte": "news",
           "score": 0.0,
           "texto": "\"interest\" - Google News"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes para as decisões de taxas de juros do Federal Reserve em dezembro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "election|presidential|vance": {
@@ -2100,6 +2092,43 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Ask HN: What are you reading? (November 2026) I miss the serendipity of finding interesting new books when there used to be more bookstores with bigger selectio"
+        }
+      ]
+    }
+  },
+  "$1.25t|anthropic|close": {
+    "ts": 1795044155.3068326,
+    "resultado": {
+      "n": 51,
+      "score": 0.02,
+      "z": 0.051,
+      "p": 0.5242,
+      "confianca": 0.025,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "OpenAI Secures $11B at $1.25T Valuation as Funding Round Falls Short of Earlier Target - AI Insider"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Anthropic Prices IPO at $83 a Share on Strong Demand - WSJ"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Analysis: Trump is about to see up close why US efforts won’t stop China’s rise as tech powerhouse - CNN"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.5,
+          "texto": "OpenAI trims valuation target to $1.25T after pitching higher price "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Anthropic reportedly prices its IPO at $83 per share, valuing at $1.5T "
         }
       ]
     }
