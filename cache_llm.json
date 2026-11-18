@@ -1957,50 +1957,50 @@
     }
   },
   "december|nvidia": {
-    "ts": 1794959339.0433927,
+    "ts": 1795018605.8268788,
     "resultado": {
-      "n": 25,
-      "score": 0.072,
-      "z": 0.15,
-      "p": 0.5652,
-      "confianca": 0.075,
+      "n": 40,
+      "score": 0.05,
+      "z": 0.08,
+      "p": 0.5371,
+      "confianca": 0.04,
       "top": [
         {
-          "fonte": "hn",
-          "score": 0.9,
-          "texto": "Nvidia Beats Estimates, Raises Guidance After Huang's Ouster "
-        },
-        {
-          "fonte": "hn",
+          "fonte": "news",
           "score": -0.9,
-          "texto": "Which Jensen Huang Nvidia Scandal Did You See? "
-        },
-        {
-          "fonte": "news",
-          "score": 0.9,
-          "texto": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO - Yahoo Finance"
-        },
-        {
-          "fonte": "news",
-          "score": 0.9,
-          "texto": "Nvidia Earnings Live Updates: First Report Since Jensen Huang’s Resignation Beats Expectations - The New York Times"
+          "texto": "Democrats on House Judiciary and Foreign Affairs probing Lutnick family’s role in Nvidia scandal - Politico"
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
+          "score": 0.8,
+          "texto": "Nvidia halts all AI chip sales to China, including US-approved H200 "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Nvidia Stops Selling AI Chips to China Despite US Approval "
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Nvidia stops shipping US-approved AI chips to China - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Stock market today: S&P 500, Nasdaq rise after Nvidia clears hurdle, Anthropic prepares to price its IPO - Yahoo Finance"
         }
       ]
     }
   },
   "jensen|november|rejoin": {
-    "ts": 1794959552.4168882,
+    "ts": 1795018712.5250223,
     "resultado": {
-      "n": 53,
-      "score": -0.017,
-      "z": -0.047,
-      "p": 0.4776,
-      "confianca": 0.023,
+      "n": 56,
+      "score": -0.032,
+      "z": -0.081,
+      "p": 0.4626,
+      "confianca": 0.04,
       "top": [
         {
           "fonte": "hn",
@@ -2008,9 +2008,14 @@
           "texto": "Which Jensen Huang Nvidia Scandal Did You See? "
         },
         {
+          "fonte": "news",
+          "score": -0.9,
+          "texto": "Nvidia: China fears Jensen Huang scandal could shut it out of US AI tech before Xi-Trump summit - BBC"
+        },
+        {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Archive Team is archiving the Apple Support Community (closes November 20, 2026) "
+          "texto": "The State of Small-Business Websites, November 2026 "
         },
         {
           "fonte": "hn",
@@ -2021,11 +2026,6 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Show HN: Play retro games on an Eastern European-inspired setup POV: It&#x27;s November 2004, you just came back from school and want to play some games on your"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "GitHub Copilot models deprecated on November 16, 2026 "
         }
       ]
     }
