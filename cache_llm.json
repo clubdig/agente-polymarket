@@ -1240,38 +1240,38 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1794771446.155798,
+    "ts": 1795130917.9659326,
     "resultado": {
-      "n": 43,
-      "score": 0.012,
-      "z": 0.027,
-      "p": 0.5132,
-      "confianca": 0.014,
+      "n": 40,
+      "score": -0.028,
+      "z": -0.046,
+      "p": 0.4779,
+      "confianca": 0.023,
       "top": [
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Allumbaugh Street rebuild to start in December; detours expected through fall 2027 - KBOI"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+          "score": -0.6,
+          "texto": "Amazon warns NYC shoppers of potential $5 per-order increase over proposed delivery law - Fox Business"
         },
         {
           "fonte": "news",
           "score": -0.6,
-          "texto": "Local police department issues warning about increase in car thefts - WHIO TV"
+          "texto": "AI demand will push up interest rates around the world, IMF head warns - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Is Interactive Brokers (IBKR) Stock a Buy After a 71% Dividend Increase? - Yahoo Finance"
+          "score": 0.5,
+          "texto": "Mortgage rates move higher again as inflation jitters mount: Mortgage and refinance interest rates today, Thursday, November 19, 2026 - Yahoo Finance"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Interest rate rises likely in coming months, Bank of England’s chief economist says - The Guardian"
+          "score": -0.4,
+          "texto": "Fed's Barr worried regulatory changes may increase financial sector risks - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Slitting organ donors' necks will not increase trust in transplant system "
         }
       ]
     }
@@ -1830,14 +1830,19 @@
     }
   },
   "december|jensen|rejoin": {
-    "ts": 1795069203.9610987,
+    "ts": 1795130791.7584333,
     "resultado": {
-      "n": 55,
-      "score": -0.007,
+      "n": 53,
+      "score": -0.058,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
+        {
+          "fonte": "news",
+          "score": -1.5,
+          "texto": "California attorney general opens probe into Nvidia over Jensen Huang scandal - Politico"
+        },
         {
           "fonte": "news",
           "score": -0.9,
@@ -1845,32 +1850,27 @@
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News"
+          "score": -0.7,
+          "texto": "Jensen Huang’s fall is bad news for Silicon Valley’s accelerationists - The Economist"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Last.fm API keys will require Pro from first December "
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO - WSJ"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Barnier Warns UK Against Cherry Picking if It Looks to Rejoin EU - Bloomberg.com"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "As noticias fornecidas sao inteiramente irrelevantes para Jensen Huang e a NVIDIA.",
+        "motivo": "As notícias fornecidas não mencionam Jensen Huang ou a NVIDIA, sendo irrelevantes para determinar a probabilidade do evento.",
         "n": 25,
-        "modelo": "gemini-3.6-flash"
+        "modelo": "gemini-3.8-flash"
       }
     }
   },
