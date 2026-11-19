@@ -743,18 +743,28 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795043957.6314738,
+    "ts": 1795105797.136928,
     "resultado": {
-      "n": 34,
-      "score": -0.006,
-      "z": -0.011,
-      "p": 0.4947,
-      "confianca": 0.005,
+      "n": 35,
+      "score": 0.046,
+      "z": 0.068,
+      "p": 0.5319,
+      "confianca": 0.034,
       "top": [
         {
           "fonte": "news",
+          "score": 1.0,
+          "texto": "Protestors Rally Outside Radcliffe Interim Dean Gabriella Blum’s First All-Staff Meeting - The Harvard Crimson"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "New vehicle affordability squeezed as record prices and high interest rates hit buyers - Fox Business"
+        },
+        {
+          "fonte": "news",
           "score": -0.6,
-          "texto": "Democrats probe Lutnick over possible Nvidia conflict of interest - The Hill"
+          "texto": "AI demand will push up interest rates around the world, IMF head warns - The Guardian"
         },
         {
           "fonte": "news",
@@ -762,19 +772,9 @@
           "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News"
         },
         {
-          "fonte": "news",
-          "score": -0.1,
-          "texto": "Grains Fall on Strong Dollar, China Meeting Caution: Cattle Try to Stabilize - AgWeb"
-        },
-        {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Pf2e.fyi, an Obsidian-inspired searchable index of Pathfinder 2e rules Hey folks! I was looking for a more interesting interface to search rules for th"
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "texto": "Keith Snook – The Valve Audio (& Hi-Fi) Interest Pages Since 1993 "
         }
       ]
     }
@@ -2105,14 +2105,29 @@
     }
   },
   "$1.25t|anthropic|close": {
-    "ts": 1795044155.3068326,
+    "ts": 1795105563.3544314,
     "resultado": {
-      "n": 51,
-      "score": 0.02,
-      "z": 0.051,
-      "p": 0.5242,
-      "confianca": 0.025,
+      "n": 52,
+      "score": 0.015,
+      "z": 0.034,
+      "p": 0.5162,
+      "confianca": 0.017,
       "top": [
+        {
+          "fonte": "news",
+          "score": -0.8,
+          "texto": "Dow falls 500 points, Nasdaq gives up gain as Anthropic IPO fails to spark AI rebound: Live updates - CNBC"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Anthropic raises $81B in record IPO "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Anthropic raises record $81B in IPO at $1.5T valuation "
+        },
         {
           "fonte": "news",
           "score": -0.7,
@@ -2120,23 +2135,8 @@
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Anthropic Prices IPO at $83 a Share on Strong Demand - WSJ"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Analysis: Trump is about to see up close why US efforts won’t stop China’s rise as tech powerhouse - CNN"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.5,
-          "texto": "OpenAI trims valuation target to $1.25T after pitching higher price "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Anthropic reportedly prices its IPO at $83 per share, valuing at $1.5T "
+          "score": -0.7,
+          "texto": "Newport Creamery announces it will close locations in Providence and Fall River - WJAR"
         }
       ]
     }
