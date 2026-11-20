@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795105797.136928,
+    "ts": 1795154464.9921544,
     "resultado": {
-      "n": 35,
-      "score": 0.046,
-      "z": 0.068,
-      "p": 0.5319,
-      "confianca": 0.034,
+      "n": 36,
+      "score": -0.003,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "news",
@@ -758,25 +758,33 @@
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "New vehicle affordability squeezed as record prices and high interest rates hit buyers - Fox Business"
-        },
-        {
-          "fonte": "news",
           "score": -0.6,
           "texto": "AI demand will push up interest rates around the world, IMF head warns - The Guardian"
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News"
+          "score": -0.5,
+          "texto": "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Keith Snook – The Valve Audio (& Hi-Fi) Interest Pages Since 1993 "
+          "texto": "Show HN: Fire Circle – 15-minute 1-on-1 virtual breaks based on shared interests "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Wellness Tracker for AI Usage Hello There,<p>I built a small chrome extension to track my chat-based AI usage. I&#x27;m interested in understanding how"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "Notícias não trazem dados específicos sobre a reunião do Fed de dezembro de 2026, sendo a maioria dos artigos irrelevante.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "election|presidential|vance": {
@@ -1277,38 +1285,38 @@
     }
   },
   "ceasefire|continues|november": {
-    "ts": 1794521482.6659894,
+    "ts": 1795154600.2547853,
     "resultado": {
       "n": 45,
-      "score": -0.004,
-      "z": -0.012,
-      "p": 0.4942,
-      "confianca": 0.006,
+      "score": -0.158,
+      "z": -0.227,
+      "p": 0.4076,
+      "confianca": 0.113,
       "top": [
         {
           "fonte": "news",
-          "score": -0.8,
-          "texto": "Carrick pays the price as Manchester United's cycle of failure continues - Reuters"
+          "score": -1.6,
+          "texto": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse - Bloomberg.com"
+        },
+        {
+          "fonte": "news",
+          "score": -1.6,
+          "texto": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - PIX11"
+        },
+        {
+          "fonte": "news",
+          "score": -1.6,
+          "texto": "Board of Peace warns Gaza ceasefire faces imminent collapse without action - Al Jazeera"
+        },
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Family continues grieving Liberty High School lacrosse player killed in Delaware County crash - 10TV"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Russia Exploits Five-Day Ceasefire to Reverse Months of Ukrainian Gains in Kherson - UNITED24 Media"
-        },
-        {
-          "fonte": "hn",
-          "score": -0.1,
-          "texto": "OpenAI Continues to Suffer Heavy Losses as Revenue Rises to $10B "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Oleshky Ceasefire Shows That Russia Can, but Won't End Civilian Suffering in Ukr "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Trump rejects Iran's conditional ceasefire proposal "
+          "texto": "Chicago weather: Mild stretch continues with near-record warmth Friday and Saturday - CBS News"
         }
       ]
     }
