@@ -1248,14 +1248,19 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795130917.9659326,
+    "ts": 1795190252.0117102,
     "resultado": {
-      "n": 40,
-      "score": -0.028,
-      "z": -0.046,
-      "p": 0.4779,
-      "confianca": 0.023,
+      "n": 46,
+      "score": -0.024,
+      "z": -0.058,
+      "p": 0.4726,
+      "confianca": 0.029,
       "top": [
+        {
+          "fonte": "hn",
+          "score": 0.6,
+          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+        },
         {
           "fonte": "news",
           "score": -0.6,
@@ -1268,18 +1273,13 @@
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Mortgage rates move higher again as inflation jitters mount: Mortgage and refinance interest rates today, Thursday, November 19, 2026 - Yahoo Finance"
-        },
-        {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Fed's Barr worried regulatory changes may increase financial sector risks - Reuters"
+          "score": -0.5,
+          "texto": "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Slitting organ donors' necks will not increase trust in transplant system "
+          "texto": "Ask HN: Does AI slop require more marketing in the future? Now that after Anthropic&#x27;s IPO debut and with OpenAPI IPO in the works there is no doubt that th"
         }
       ]
     }
