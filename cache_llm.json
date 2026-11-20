@@ -743,19 +743,14 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795154464.9921544,
+    "ts": 1795213934.138804,
     "resultado": {
       "n": 36,
-      "score": -0.003,
+      "score": -0.031,
       "z": 0.0,
       "p": 0.5,
       "confianca": 0.25,
       "top": [
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Protestors Rally Outside Radcliffe Interim Dean Gabriella Blum’s First All-Staff Meeting - The Harvard Crimson"
-        },
         {
           "fonte": "news",
           "score": -0.6,
@@ -769,19 +764,24 @@
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Fire Circle – 15-minute 1-on-1 virtual breaks based on shared interests "
+          "texto": "The internet should be a paradise of niche interests "
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Wellness Tracker for AI Usage Hello There,<p>I built a small chrome extension to track my chat-based AI usage. I&#x27;m interested in understanding how"
+          "texto": "Show HN: Online curling game/SIM with Three.js Hello!<p>One of my hobbies is curling in a league with the local curling club. From time to time, there&#x27;s a "
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"interest\" - Google News"
         }
       ],
       "llm": {
         "p": 0.5,
         "confianca": 0.25,
         "forca": "fraca",
-        "motivo": "Notícias não trazem dados específicos sobre a reunião do Fed de dezembro de 2026, sendo a maioria dos artigos irrelevante.",
+        "motivo": "As notícias apresentadas são irrelevantes para a decisão da taxa de juros do Fed na reunião de dezembro de 2026.",
         "n": 25,
         "modelo": "gemini-3.8-flash"
       }
@@ -1285,40 +1285,48 @@
     }
   },
   "ceasefire|continues|november": {
-    "ts": 1795154600.2547853,
+    "ts": 1795213957.4995432,
     "resultado": {
-      "n": 45,
-      "score": -0.158,
-      "z": -0.227,
-      "p": 0.4076,
-      "confianca": 0.113,
+      "n": 47,
+      "score": -0.034,
+      "z": -1.4,
+      "p": 0.15,
+      "confianca": 0.5,
       "top": [
         {
           "fonte": "news",
           "score": -1.6,
-          "texto": "Trump’s Board of Peace Warns Gaza Ceasefire Could Collapse - Bloomberg.com"
+          "texto": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - NBC News"
         },
         {
           "fonte": "news",
-          "score": -1.6,
-          "texto": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - PIX11"
+          "score": -0.6,
+          "texto": "US tech sell-off continues as Anthropic tumbles after mega IPO - Al Jazeera"
         },
         {
           "fonte": "news",
-          "score": -1.6,
-          "texto": "Board of Peace warns Gaza ceasefire faces imminent collapse without action - Al Jazeera"
+          "score": 0.6,
+          "texto": "Carnival Cruise Line to Build Two Smaller Cruise Ships as Growth Continues - The Maritime Executive"
         },
         {
-          "fonte": "news",
-          "score": -1.0,
-          "texto": "Family continues grieving Liberty High School lacrosse player killed in Delaware County crash - 10TV"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Oleshky Ceasefire Shows That Russia Can, but Won't End Civilian Suffering in Ukr "
         },
         {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Chicago weather: Mild stretch continues with near-record warmth Friday and Saturday - CBS News"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump rejects Iran's conditional ceasefire proposal "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.15,
+        "confianca": 0.5,
+        "forca": "media",
+        "motivo": "Notícias relatam novos ataques mútuos entre Israel e Irã e declarações afirmando que o cessar-fogo acabou.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "ceasefire|continues|effective": {
