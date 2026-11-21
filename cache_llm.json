@@ -1277,48 +1277,40 @@
     }
   },
   "ceasefire|continues|november": {
-    "ts": 1795213957.4995432,
+    "ts": 1795291174.9313986,
     "resultado": {
       "n": 47,
-      "score": -0.034,
-      "z": -1.4,
-      "p": 0.15,
-      "confianca": 0.5,
+      "score": -0.03,
+      "z": -0.056,
+      "p": 0.4734,
+      "confianca": 0.028,
       "top": [
         {
           "fonte": "news",
-          "score": -1.6,
-          "texto": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - NBC News"
+          "score": -0.7,
+          "texto": "Byron death investigation continues; Sheriff’s office seeks tips - WGXA"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "US tech sell-off continues as Anthropic tumbles after mega IPO - Al Jazeera"
+          "score": 0.7,
+          "texto": "Andreescu continues sizzling play, leading Canada to opening win at BJK Cup playoff tie - CBC"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Carnival Cruise Line to Build Two Smaller Cruise Ships as Growth Continues - The Maritime Executive"
+          "score": -0.7,
+          "texto": "AMD slumps 13% as China chip scrutiny continues, tech stocks fall (AMD:NASDAQ) - Seeking Alpha"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "UCS announces leadership layoffs as restructuring continues - Bennington banner"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Oleshky Ceasefire Shows That Russia Can, but Won't End Civilian Suffering in Ukr "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Trump rejects Iran's conditional ceasefire proposal "
         }
-      ],
-      "llm": {
-        "p": 0.15,
-        "confianca": 0.5,
-        "forca": "media",
-        "motivo": "Notícias relatam novos ataques mútuos entre Israel e Irã e declarações afirmando que o cessar-fogo acabou.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|effective": {
