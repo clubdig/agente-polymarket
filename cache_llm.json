@@ -743,48 +743,40 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795213934.138804,
+    "ts": 1795263216.8789158,
     "resultado": {
-      "n": 36,
-      "score": -0.031,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 35,
+      "score": 0.031,
+      "z": 0.054,
+      "p": 0.5255,
+      "confianca": 0.027,
       "top": [
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "AI demand will push up interest rates around the world, IMF head warns - The Guardian"
+          "score": 0.6,
+          "texto": "20 Best Undervalued Stocks Now To Buy For December 2026 - Forbes"
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios"
+          "score": 0.5,
+          "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - Yahoo Finance"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: I'm in highschool, what would y'all recommend to learn? Hi HN,<p>I&#x27;m a dude in highschool who&#x27;s interested in AI and systems design, all that "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Ask HN: Has the quality of HN content/discussions gone down? Not sure if its a one off feeling or is there anything more to it. I have been reading HN for a whi"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "The internet should be a paradise of niche interests "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Online curling game/SIM with Three.js Hello!<p>One of my hobbies is curling in a league with the local curling club. From time to time, there&#x27;s a "
-        },
-        {
-          "fonte": "news",
-          "score": 0.0,
-          "texto": "\"interest\" - Google News"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias apresentadas são irrelevantes para a decisão da taxa de juros do Fed na reunião de dezembro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "election|presidential|vance": {
@@ -1891,48 +1883,40 @@
     }
   },
   "bitcoin|december": {
-    "ts": 1794749683.9163954,
+    "ts": 1795263319.648034,
     "resultado": {
-      "n": 35,
-      "score": 0.014,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 32,
+      "score": -0.091,
+      "z": -0.128,
+      "p": 0.4433,
+      "confianca": 0.064,
       "top": [
         {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Bitcoin and AI Stocks Plunge as Tech Selloff Deepens - Gizmodo"
+        },
+        {
           "fonte": "hn",
+          "score": -0.7,
+          "texto": "Bitcoin falls to its lowest in two years "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Bitcoin falls to its lowest in two years - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Bitcoin falls below $56,000 as liquidity squeeze deepens crypto selloff - Investing.com"
+        },
+        {
+          "fonte": "news",
           "score": 0.6,
-          "texto": "Ask HN: What use are the non-major cryptocurrencies? I am curious - what use are the cryptocurrencies&#x2F;tokens that are not one of the major ones (like USDT,"
-        },
-        {
-          "fonte": "news",
-          "score": -0.4,
-          "texto": "Bitcoin Faces Final Capitulation Risk: Could $40,000 Be Next? - Benzinga"
-        },
-        {
-          "fonte": "news",
-          "score": 0.3,
-          "texto": "Key facts: Bitcoin ETFs lose $2.35B; BTCUSD drops, shorts surge - TradingView"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Windows 11's modern Run box arrives in December. Nobody clicked Browse button "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Inception.ai winding down their Mercury API service I got the following email from Inception.ai today:<p>Update - ACTION NEEDED by December 28\n­\n­<p>Hi ,<p>We w"
+          "texto": "20 Best Undervalued Stocks Now To Buy For December 2026 - Forbes"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As noticias fornecidas nao mencionam Bitcoin ou o mercado de criptomoedas, sendo irrelevantes para prever o preco do ativo.",
-        "n": 25,
-        "modelo": "gemini-3.8-flash"
-      }
+      ]
     }
   },
   "nomination|presidential|republican": {
