@@ -1359,13 +1359,13 @@
     }
   },
   "invade|iran|u.s.": {
-    "ts": 1795333847.650055,
+    "ts": 1795383879.5845613,
     "resultado": {
       "n": 38,
-      "score": -0.024,
-      "z": -0.058,
-      "p": 0.4728,
-      "confianca": 0.029,
+      "score": -0.039,
+      "z": -0.094,
+      "p": 0.4571,
+      "confianca": 0.047,
       "top": [
         {
           "fonte": "hn",
@@ -1383,14 +1383,14 @@
           "texto": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News"
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "/Bin/Sh Invaders "
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’ - Fox News"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "A Scenario Where China Invades Taiwan "
+          "texto": "/Bin/Sh Invaders "
         }
       ]
     }
@@ -1949,38 +1949,38 @@
     }
   },
   "december|nvidia": {
-    "ts": 1795018605.8268788,
+    "ts": 1795383755.4470382,
     "resultado": {
-      "n": 40,
-      "score": 0.05,
-      "z": 0.08,
-      "p": 0.5371,
-      "confianca": 0.04,
+      "n": 34,
+      "score": -0.076,
+      "z": -0.109,
+      "p": 0.4509,
+      "confianca": 0.055,
       "top": [
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": -0.9,
-          "texto": "Democrats on House Judiciary and Foreign Affairs probing Lutnick family’s role in Nvidia scandal - Politico"
+          "texto": "China's Spies Set Sights on A.I. Chips Years Before Nvidia Scandal "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.9,
+          "texto": "Intel says its graphics-free GPU beats Nvidia's by up to 5.9x in benchmarks "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "American State Capitalism Helped Produce the Nvidia Scandal "
         },
         {
           "fonte": "hn",
           "score": 0.8,
-          "texto": "Nvidia halts all AI chip sales to China, including US-approved H200 "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.8,
-          "texto": "Nvidia Stops Selling AI Chips to China Despite US Approval "
+          "texto": "Officials approved the sale of 580k Nvidia chips to Chinese companies "
         },
         {
           "fonte": "news",
-          "score": 0.8,
-          "texto": "Nvidia stops shipping US-approved AI chips to China - Reuters"
-        },
-        {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "Stock market today: S&P 500, Nasdaq rise after Nvidia clears hurdle, Anthropic prepares to price its IPO - Yahoo Finance"
+          "score": -0.7,
+          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
         }
       ]
     }
