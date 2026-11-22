@@ -1359,19 +1359,14 @@
     }
   },
   "invade|iran|u.s.": {
-    "ts": 1794387550.8988504,
+    "ts": 1795333847.650055,
     "resultado": {
-      "n": 42,
-      "score": -0.026,
+      "n": 38,
+      "score": -0.024,
       "z": -0.058,
-      "p": 0.4726,
+      "p": 0.4728,
       "confianca": 0.029,
       "top": [
-        {
-          "fonte": "hn",
-          "score": -1.4,
-          "texto": "U.S. Obesity Rate Drops as Use of GLP-1 Weight Loss Drugs Surges "
-        },
         {
           "fonte": "hn",
           "score": -1.0,
@@ -1380,12 +1375,17 @@
         {
           "fonte": "hn",
           "score": 0.7,
-          "texto": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000 "
+          "texto": "Bigfoot believers get a boost from an unlikely ally: The U.S. Forest Service "
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "European Gas Prices Rise as Uncertainty Swirls Over Iran War - Bloomberg.com"
+          "score": -0.6,
+          "texto": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "/Bin/Sh Invaders "
         },
         {
           "fonte": "hn",
@@ -2166,6 +2166,43 @@
           "fonte": "hn",
           "score": 0.7,
           "texto": "Anthropic raises record $81B in IPO at $1.5T valuation "
+        }
+      ]
+    }
+  },
+  "bamba|launch|sheck": {
+    "ts": 1795333870.7181475,
+    "resultado": {
+      "n": 42,
+      "score": -0.014,
+      "z": -0.022,
+      "p": 0.4891,
+      "confianca": 0.011,
+      "top": [
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "‘GTA 6’ live updates: Record $3.8 billion launch, viral clips and the secrets players are finding in Leonida - Yahoo Tech"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "GTA 6's Impact on Steam and Roblox After Record-Breaking Launch Revealed - Polygon.com"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation - The Guardian"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Mo Bamba after Jazz loss: “We’re frustrated, but there’s light at the end of the tunnel” - KSL Sports"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "FBI Launches Formal Probe into SecurityScorecard CEO Aleksandr Yampolskiy "
         }
       ]
     }
