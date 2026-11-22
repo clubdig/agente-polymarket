@@ -743,33 +743,33 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795306585.2728977,
+    "ts": 1795363296.5443895,
     "resultado": {
       "n": 37,
-      "score": -0.019,
-      "z": -0.033,
-      "p": 0.4839,
+      "score": 0.022,
+      "z": 0.035,
+      "p": 0.5169,
       "confianca": 0.017,
       "top": [
         {
           "fonte": "news",
+          "score": 0.8,
+          "texto": "Huntington Budget Approved By Default After Board Members Miss Meeting - News12 | Long Island"
+        },
+        {
+          "fonte": "news",
           "score": -0.7,
-          "texto": "CBS Sets Fall Finale Dates For Boston Blue, NCIS, Tracker, And Others — See Full December Schedule - TVLine"
+          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Huntington sets up another meeting with Martinsburg after 31-24 win at University - WV MetroNews"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Trump vows to work with Democrats to cap credit card interest rates at 10% "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: I'm in highschool, what would y'all recommend to learn? Hi HN,<p>I&#x27;m a dude in highschool who&#x27;s interested in AI and systems design, all that "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Ask HN: Has the quality of HN content/discussions gone down? Not sure if its a one off feeling or is there anything more to it. I have been reading HN for a whi"
+          "texto": "Ask HN: What made you pivot your interest to the field of AI? If you work in the field of AI, machine learning what made you do so? What sparked your interest a"
         },
         {
           "fonte": "news",
@@ -1240,28 +1240,23 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795306693.521099,
+    "ts": 1795363492.9466858,
     "resultado": {
-      "n": 39,
-      "score": -0.054,
-      "z": -0.086,
-      "p": 0.4606,
-      "confianca": 0.043,
+      "n": 30,
+      "score": -0.01,
+      "z": -0.018,
+      "p": 0.4911,
+      "confianca": 0.009,
       "top": [
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Oil shipped through Hormuz falls as Iranian strikes increase - Financial Times"
+          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Corn Holds onto Friday Losses as Specs Increase Short - Barchart.com"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "CBS Sets Fall Finale Dates For Boston Blue, NCIS, Tracker, And Others — See Full December Schedule - TVLine"
+          "score": 0.4,
+          "texto": "Procter & Gamble to Increase Factory Shifts Without Humans to Cut Costs - The New York Times"
         },
         {
           "fonte": "hn",
@@ -1272,6 +1267,11 @@
           "fonte": "hn",
           "score": 0.0,
           "texto": "Slitting organ donors' necks will not increase trust in transplant system "
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Microsoft increases its competitiveness against OpenAI and other AI companies "
         }
       ]
     }
