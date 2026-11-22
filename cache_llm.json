@@ -743,23 +743,23 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795263216.8789158,
+    "ts": 1795306585.2728977,
     "resultado": {
-      "n": 35,
-      "score": 0.031,
-      "z": 0.054,
-      "p": 0.5255,
-      "confianca": 0.027,
+      "n": 37,
+      "score": -0.019,
+      "z": -0.033,
+      "p": 0.4839,
+      "confianca": 0.017,
       "top": [
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "20 Best Undervalued Stocks Now To Buy For December 2026 - Forbes"
+          "score": -0.7,
+          "texto": "CBS Sets Fall Finale Dates For Boston Blue, NCIS, Tracker, And Others — See Full December Schedule - TVLine"
         },
         {
-          "fonte": "news",
-          "score": 0.5,
-          "texto": "Fed minutes: Higher interest rates needed in December as inflation worries mount - Yahoo Finance"
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Trump vows to work with Democrats to cap credit card interest rates at 10% "
         },
         {
           "fonte": "hn",
@@ -772,9 +772,9 @@
           "texto": "Ask HN: Has the quality of HN content/discussions gone down? Not sure if its a one off feeling or is there anything more to it. I have been reading HN for a whi"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.0,
-          "texto": "The internet should be a paradise of niche interests "
+          "texto": "\"interest\" - Google News"
         }
       ]
     }
@@ -1240,38 +1240,38 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795190252.0117102,
+    "ts": 1795306693.521099,
     "resultado": {
-      "n": 46,
-      "score": -0.024,
-      "z": -0.058,
-      "p": 0.4726,
-      "confianca": 0.029,
+      "n": 39,
+      "score": -0.054,
+      "z": -0.086,
+      "p": 0.4606,
+      "confianca": 0.043,
       "top": [
         {
-          "fonte": "hn",
-          "score": 0.6,
-          "texto": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years U.S. producer prices rose 6.5% YoY in October, the highest since November 2022, below expectations"
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Oil shipped through Hormuz falls as Iranian strikes increase - Financial Times"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Amazon warns NYC shoppers of potential $5 per-order increase over proposed delivery law - Fox Business"
+          "score": -0.7,
+          "texto": "Corn Holds onto Friday Losses as Specs Increase Short - Barchart.com"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "AI demand will push up interest rates around the world, IMF head warns - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": -0.5,
-          "texto": "House Democrats recoil at forcing December shutdown to cut Iran war funding - Axios"
+          "score": -0.7,
+          "texto": "CBS Sets Fall Finale Dates For Boston Blue, NCIS, Tracker, And Others — See Full December Schedule - TVLine"
         },
         {
           "fonte": "hn",
           "score": 0.0,
           "texto": "Ask HN: Does AI slop require more marketing in the future? Now that after Anthropic&#x27;s IPO debut and with OpenAPI IPO in the works there is no doubt that th"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Slitting organ donors' necks will not increase trust in transplant system "
         }
       ]
     }
