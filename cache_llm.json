@@ -1949,13 +1949,13 @@
     }
   },
   "december|nvidia": {
-    "ts": 1795383755.4470382,
+    "ts": 1795434910.5449004,
     "resultado": {
-      "n": 34,
-      "score": -0.076,
-      "z": -0.109,
-      "p": 0.4509,
-      "confianca": 0.055,
+      "n": 31,
+      "score": -0.052,
+      "z": -0.076,
+      "p": 0.4649,
+      "confianca": 0.038,
       "top": [
         {
           "fonte": "hn",
@@ -1968,56 +1968,56 @@
           "texto": "Intel says its graphics-free GPU beats Nvidia's by up to 5.9x in benchmarks "
         },
         {
-          "fonte": "hn",
-          "score": -0.9,
-          "texto": "American State Capitalism Helped Produce the Nvidia Scandal "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.8,
-          "texto": "Officials approved the sale of 580k Nvidia chips to Chinese companies "
-        },
-        {
           "fonte": "news",
+          "score": -0.9,
+          "texto": "Trump doubles down on call for Nvidia to rehire Jensen Huang amid alleged Chinese spy scandal - Fox Business"
+        },
+        {
+          "fonte": "hn",
           "score": -0.7,
-          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
+          "texto": "Why Nvidia Must Fall: The End of the GPU Monopoly Era "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.6,
+          "texto": "California Nvidia Probe Covers Potential Criminal Law Violations "
         }
       ]
     }
   },
   "jensen|november|rejoin": {
-    "ts": 1795018712.5250223,
+    "ts": 1795435038.8826818,
     "resultado": {
-      "n": 56,
-      "score": -0.032,
-      "z": -0.081,
-      "p": 0.4626,
-      "confianca": 0.04,
+      "n": 57,
+      "score": -0.042,
+      "z": -0.102,
+      "p": 0.4537,
+      "confianca": 0.051,
       "top": [
         {
           "fonte": "hn",
           "score": -0.9,
-          "texto": "Which Jensen Huang Nvidia Scandal Did You See? "
+          "texto": "The Normal Person's Guide to the Jensen Huang Scandal "
         },
         {
           "fonte": "news",
           "score": -0.9,
-          "texto": "Nvidia: China fears Jensen Huang scandal could shut it out of US AI tech before Xi-Trump summit - BBC"
+          "texto": "Trump doubles down on call for Nvidia to rehire Jensen Huang amid alleged Chinese spy scandal - Fox Business"
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "The State of Small-Business Websites, November 2026 "
+          "score": 0.7,
+          "texto": "Yann LeCun correcting the record on Jensen Huang "
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Oracle Critical Security Patch Update Pre-Release Announcement – November 2026 "
+          "score": -0.7,
+          "texto": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists "
         },
         {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Show HN: Play retro games on an Eastern European-inspired setup POV: It&#x27;s November 2004, you just came back from school and want to play some games on your"
+          "fonte": "news",
+          "score": -0.6,
+          "texto": "UK should only rejoin EU if it innovates on technology, Blair warns - BBC"
         }
       ]
     }
