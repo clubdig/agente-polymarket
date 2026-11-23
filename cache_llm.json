@@ -743,38 +743,38 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795363296.5443895,
+    "ts": 1795476837.4486,
     "resultado": {
-      "n": 37,
-      "score": 0.022,
-      "z": 0.035,
-      "p": 0.5169,
-      "confianca": 0.017,
+      "n": 34,
+      "score": 0.012,
+      "z": 0.029,
+      "p": 0.5142,
+      "confianca": 0.015,
       "top": [
         {
-          "fonte": "news",
-          "score": 0.8,
-          "texto": "Huntington Budget Approved By Default After Board Members Miss Meeting - News12 | Long Island"
-        },
-        {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Huntington sets up another meeting with Martinsburg after 31-24 win at University - WV MetroNews"
+          "texto": "Inside Tarik Skubal’s Mets meeting that launched a record price: ‘Tarik is the guy you bet on’ - The Athletic - The New York Times"
+        },
+        {
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Ask HN: What made you pivot your interest to the field of AI? If you work in the field of AI, machine learning what made you do so? What sparked your interest a"
+          "texto": "Bored.com: Fun, interesting and cool websites to explore when bored "
         },
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "texto": "Show HN: Console.tty – terminal emulator in browser console I saw <a href=\"https:&#x2F;&#x2F;textjs.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;textjs.org&#x2F;"
         }
       ]
     }
@@ -1240,40 +1240,48 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795363492.9466858,
+    "ts": 1795476642.5127835,
     "resultado": {
-      "n": 30,
-      "score": -0.01,
-      "z": -0.018,
-      "p": 0.4911,
-      "confianca": 0.009,
+      "n": 39,
+      "score": 0.021,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "NASCAR Lawsuit Heads Toward Major Legal Showdown in December - Autoweek"
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
         },
         {
           "fonte": "news",
+          "score": 0.7,
+          "texto": "Pacific Power wants 57% rate increase for Shasta, Siskiyou customers - Record Searchlight"
+        },
+        {
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
+        },
+        {
+          "fonte": "hn",
           "score": 0.4,
-          "texto": "Procter & Gamble to Increase Factory Shifts Without Humans to Cut Costs - The New York Times"
+          "texto": "Procter and Gamble to Increase Factory Shifts Without Humans to Cut Costs "
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Ask HN: Does AI slop require more marketing in the future? Now that after Anthropic&#x27;s IPO debut and with OpenAPI IPO in the works there is no doubt that th"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Slitting organ donors' necks will not increase trust in transplant system "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Microsoft increases its competitiveness against OpenAI and other AI companies "
+          "texto": "Amazon S3 increases the read request rate for buckets by up to 2x (11k rps) "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes sobre a política monetária do Federal Reserve ou a reunião de dezembro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   },
   "ceasefire|continues|november": {
