@@ -2214,5 +2214,79 @@
         }
       ]
     }
+  },
+  "democratic|nomination|presidential": {
+    "ts": 1795510097.8547022,
+    "resultado": {
+      "n": 36,
+      "score": 0.1,
+      "z": 0.221,
+      "p": 0.5906,
+      "confianca": 0.111,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.8,
+          "texto": "Trump critic Lula wins reelection in Brazil, securing fourth presidential term "
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Hakeem Jeffries overwhelmingly wins House speaker nomination despite threats from ultra-progressives - CNN"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "US Democrats Win Enough Seats Nationwide to End Presidential Electoral College "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "French hard-left leader Melenchon gains in presidential runoff opinion poll - Reuters"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "Can AOC win the Democratic nomination? "
+        }
+      ]
+    }
+  },
+  "december|fourth|reported": {
+    "ts": 1795510180.6803372,
+    "resultado": {
+      "n": 30,
+      "score": -0.007,
+      "z": -0.015,
+      "p": 0.4924,
+      "confianca": 0.008,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Game Recap: Suns defeat Pelicans 123-119 in OT for fourth straight road win - Bright Side Of The Sun"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Did Jags mismanage the fourth quarter in loss to Giants? - ESPN"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Amazon to buy Israeli startup Decart for a reported $7.5 billion, tapping AI talent - The Times of Israel"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Tell HN: LinkedIn to block email and job title export starting in Dec Starting in December, LinkedIn will no longer allow you to export certain data about your "
+        }
+      ]
+    }
   }
 }
