@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795476837.4486,
+    "ts": 1795550424.4642656,
     "resultado": {
-      "n": 34,
-      "score": 0.012,
-      "z": 0.029,
-      "p": 0.5142,
-      "confianca": 0.015,
+      "n": 39,
+      "score": -0.033,
+      "z": -0.084,
+      "p": 0.4611,
+      "confianca": 0.042,
       "top": [
         {
           "fonte": "hn",
@@ -758,8 +758,8 @@
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Inside Tarik Skubal’s Mets meeting that launched a record price: ‘Tarik is the guy you bet on’ - The Athletic - The New York Times"
+          "score": -0.6,
+          "texto": "Vance Hit With Bombshell Probe Over Secret Ski Trip Meeting - The Daily Beast"
         },
         {
           "fonte": "news",
@@ -768,13 +768,13 @@
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Bored.com: Fun, interesting and cool websites to explore when bored "
+          "score": -0.4,
+          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Console.tty – terminal emulator in browser console I saw <a href=\"https:&#x2F;&#x2F;textjs.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;textjs.org&#x2F;"
+          "texto": "Orgs that leak data 'prioritize corporate interests over customers' "
         }
       ]
     }
@@ -1240,23 +1240,23 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795476642.5127835,
+    "ts": 1795550474.979732,
     "resultado": {
-      "n": 39,
-      "score": 0.021,
-      "z": 0.0,
-      "p": 0.5,
-      "confianca": 0.25,
+      "n": 42,
+      "score": 0.017,
+      "z": 0.04,
+      "p": 0.5193,
+      "confianca": 0.02,
       "top": [
+        {
+          "fonte": "news",
+          "score": 1.0,
+          "texto": "Peco customers will see electric supply rate increase Dec. 1 because of surge on power grid by data centers - Inquirer.com"
+        },
         {
           "fonte": "hn",
           "score": -0.8,
           "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Pacific Power wants 57% rate increase for Shasta, Siskiyou customers - Record Searchlight"
         },
         {
           "fonte": "news",
@@ -1270,18 +1270,10 @@
         },
         {
           "fonte": "hn",
-          "score": 0.0,
-          "texto": "Amazon S3 increases the read request rate for buckets by up to 2x (11k rps) "
+          "score": -0.4,
+          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         }
-      ],
-      "llm": {
-        "p": 0.5,
-        "confianca": 0.25,
-        "forca": "fraca",
-        "motivo": "As notícias fornecidas são irrelevantes sobre a política monetária do Federal Reserve ou a reunião de dezembro de 2026.",
-        "n": 25,
-        "modelo": "gemini-3.5-flash"
-      }
+      ]
     }
   },
   "ceasefire|continues|november": {
