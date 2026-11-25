@@ -2023,38 +2023,38 @@
     }
   },
   "chiang|election|taipei": {
-    "ts": 1794805939.826471,
+    "ts": 1795647923.7618098,
     "resultado": {
-      "n": 27,
-      "score": 0.107,
-      "z": 0.151,
-      "p": 0.5656,
-      "confianca": 0.075,
+      "n": 29,
+      "score": 0.045,
+      "z": 0.06,
+      "p": 0.5284,
+      "confianca": 0.03,
       "top": [
         {
           "fonte": "news",
-          "score": 0.9,
-          "texto": "Japan beat Chinese Taipei, claim WBSC U-23 Baseball World Cup bronze medal - World Baseball Softball Confederation (WBSC)"
+          "score": -0.8,
+          "texto": "China financing scheme bound to fail: experts - Taipei Times"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "U.S. House Elections 2026 Live Results: Democrats Win Control - NBC News"
+          "texto": "Democrat Victoria Broderick unseats eight-term Republican incumbent in Tennessee to win election - The Guardian"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Taiwan’s Lin, Tian win World Para Table Tennis gold - Taipei Times"
+          "texto": "U.S. House Midterm Election 2026 Live Results: Democrats Win Majority - The New York Times"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "Chiang Rai hosts ‘Unlocking New Growth’ forum - Thai PBS World"
+          "score": 0.7,
+          "texto": "Dr. Clemen Chiang Publishes The Last Line, Completing the Four-Book Series The Disclosed Record - Yahoo Finance"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Ask HN: What are you reading? (November 2026) I miss the serendipity of finding interesting new books when there used to be more bookstores with bigger selectio"
+          "texto": "Elections and the Base Rate Fallacy "
         }
       ]
     }
@@ -2324,6 +2324,43 @@
         "n": 25,
         "modelo": "gemini-3.6-flash"
       }
+    }
+  },
+  "bitcoin|november": {
+    "ts": 1795648036.0426996,
+    "resultado": {
+      "n": 36,
+      "score": -0.067,
+      "z": -0.093,
+      "p": 0.4577,
+      "confianca": 0.046,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.4,
+          "texto": "Bitcoin falls below $58,000 as CoinShares' Butterfill sees 'tail end of the bear market' - The Block"
+        },
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "It’s ‘Coming’—Massive AI Crash Predicted To Trigger $25 Trillion Bitcoin Price Boom - Forbes"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Bitcoin falls to its lowest in two years "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Bitcoin Surrenders Most Gains Amid Sustained ETF Outflows - Bloomberg"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "CachyOS November 2026 Adds Easy Anti-Cheat Linux v2 Support "
+        }
+      ]
     }
   }
 }
