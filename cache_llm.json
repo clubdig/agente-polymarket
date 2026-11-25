@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795550424.4642656,
+    "ts": 1795615069.0056634,
     "resultado": {
-      "n": 39,
-      "score": -0.033,
-      "z": -0.084,
-      "p": 0.4611,
-      "confianca": 0.042,
+      "n": 35,
+      "score": -0.037,
+      "z": -0.093,
+      "p": 0.4575,
+      "confianca": 0.046,
       "top": [
         {
           "fonte": "hn",
@@ -759,7 +759,7 @@
         {
           "fonte": "news",
           "score": -0.6,
-          "texto": "Vance Hit With Bombshell Probe Over Secret Ski Trip Meeting - The Daily Beast"
+          "texto": "Senate Democrats open probe into reported secret meeting between Vance and gas trader - MS NOW"
         },
         {
           "fonte": "news",
@@ -772,9 +772,9 @@
           "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         },
         {
-          "fonte": "hn",
+          "fonte": "news",
           "score": 0.0,
-          "texto": "Orgs that leak data 'prioritize corporate interests over customers' "
+          "texto": "\"interest\" - Google News"
         }
       ]
     }
@@ -1240,19 +1240,14 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795550474.979732,
+    "ts": 1795615166.34829,
     "resultado": {
-      "n": 42,
-      "score": 0.017,
-      "z": 0.04,
-      "p": 0.5193,
-      "confianca": 0.02,
+      "n": 37,
+      "score": -0.059,
+      "z": -0.139,
+      "p": 0.4388,
+      "confianca": 0.07,
       "top": [
-        {
-          "fonte": "news",
-          "score": 1.0,
-          "texto": "Peco customers will see electric supply rate increase Dec. 1 because of surge on power grid by data centers - Inquirer.com"
-        },
         {
           "fonte": "hn",
           "score": -0.8,
@@ -1260,18 +1255,23 @@
         },
         {
           "fonte": "news",
+          "score": -0.7,
+          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Ripple XRP Price Drops To $0.92 As Buying Interest Fades - MarketForces Africa"
+        },
+        {
+          "fonte": "news",
+          "score": -0.5,
+          "texto": "Memphis City Council delays vote for MLGW rate increase - WREG.com"
+        },
+        {
+          "fonte": "news",
           "score": 0.5,
           "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.4,
-          "texto": "Procter and Gamble to Increase Factory Shifts Without Humans to Cut Costs "
-        },
-        {
-          "fonte": "hn",
-          "score": -0.4,
-          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         }
       ]
     }
