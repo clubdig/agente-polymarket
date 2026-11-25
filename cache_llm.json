@@ -1645,38 +1645,38 @@
     }
   },
   "announced|december|resignation": {
-    "ts": 1794439542.839035,
+    "ts": 1795577453.3488767,
     "resultado": {
-      "n": 37,
-      "score": -0.035,
-      "z": -0.089,
-      "p": 0.459,
-      "confianca": 0.045,
+      "n": 39,
+      "score": -0.036,
+      "z": -0.086,
+      "p": 0.4603,
+      "confianca": 0.043,
       "top": [
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Phoenix Stage 2 drought plan: Surcharges, voluntary cuts announced - FOX 10 Phoenix"
+          "score": -0.9,
+          "texto": "Jensen Huang Returns: Timeline Of The Scandal That Led To Resignation And Comeback - Forbes"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.8,
+          "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
         },
         {
           "fonte": "news",
-          "score": -0.4,
-          "texto": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters"
+          "score": 0.7,
+          "texto": "World Record Holders Josh Liendo, Jordan Crooks Announced for Commonwealth Team Members for ISL All-Star Match - SwimSwam"
         },
         {
-          "fonte": "news",
+          "fonte": "hn",
           "score": -0.4,
-          "texto": "Federal THC restrictions could put Texas hemp businesses at risk as December deadline approaches - Click2Houston"
+          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "WordPress Board Resignations "
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "What David Sachs Got Right About the Anthropic Resignation "
+          "texto": "Jensen Huang's 'Lying' Alarmed Nvidia Board Ahead of His Resignation "
         }
       ]
     }
@@ -2279,6 +2279,51 @@
           "texto": "Tell HN: LinkedIn to block email and job title export starting in Dec Starting in December, LinkedIn will no longer allow you to export certain data about your "
         }
       ]
+    }
+  },
+  "average|january|rental": {
+    "ts": 1795577472.3808854,
+    "resultado": {
+      "n": 42,
+      "score": -0.019,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
+      "top": [
+        {
+          "fonte": "hn",
+          "score": 0.7,
+          "texto": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000 "
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Average 401(k), IRA balances fall as more workers tap their accounts, Fidelity says - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Average Philadelphia gas prices fall below $4 a gallon for first time in months, just in time for Thanksgiving travel - 6abc Philadelphia"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Authorities drop criminal charge against incoming House Democrat over unreturned rental car - NBC News"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "Average cost of a Thanksgiving dinner in Minnesota rises by over 4% in 2026 - Bring Me The News"
+        }
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são irrelevantes para o preço de aluguel do H100 na Ornn, cobrindo apenas o termo genérico 'average'.",
+        "n": 25,
+        "modelo": "gemini-3.6-flash"
+      }
     }
   }
 }
