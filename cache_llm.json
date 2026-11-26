@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795615069.0056634,
+    "ts": 1795677250.8479083,
     "resultado": {
       "n": 35,
-      "score": -0.037,
-      "z": -0.093,
-      "p": 0.4575,
-      "confianca": 0.046,
+      "score": -0.009,
+      "z": -0.02,
+      "p": 0.4901,
+      "confianca": 0.01,
       "top": [
         {
           "fonte": "hn",
@@ -758,8 +758,13 @@
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "Senate Democrats open probe into reported secret meeting between Vance and gas trader - MS NOW"
+          "score": -0.7,
+          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg.com"
+        },
+        {
+          "fonte": "news",
+          "score": 0.6,
+          "texto": "South Korea’s central bank hikes interest rates, raises GDP growth forecast - Al Jazeera"
         },
         {
           "fonte": "news",
@@ -767,14 +772,9 @@
           "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
         },
         {
-          "fonte": "hn",
-          "score": -0.4,
-          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
-        },
-        {
           "fonte": "news",
-          "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "score": 0.5,
+          "texto": "Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance"
         }
       ]
     }
@@ -1240,13 +1240,13 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795615166.34829,
+    "ts": 1795677280.0905106,
     "resultado": {
-      "n": 37,
-      "score": -0.059,
-      "z": -0.139,
-      "p": 0.4388,
-      "confianca": 0.07,
+      "n": 38,
+      "score": 0.008,
+      "z": 0.018,
+      "p": 0.5088,
+      "confianca": 0.009,
       "top": [
         {
           "fonte": "hn",
@@ -1256,17 +1256,17 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg"
+          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg.com"
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "Ripple XRP Price Drops To $0.92 As Buying Interest Fades - MarketForces Africa"
+          "score": 0.6,
+          "texto": "Thanksgiving travel demand rises as Amtrak and bus bookings increase - KCRA"
         },
         {
           "fonte": "news",
-          "score": -0.5,
-          "texto": "Memphis City Council delays vote for MLGW rate increase - WREG.com"
+          "score": 0.6,
+          "texto": "South Korea’s central bank hikes interest rates, raises GDP growth forecast - Al Jazeera"
         },
         {
           "fonte": "news",
