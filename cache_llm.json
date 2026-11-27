@@ -2362,5 +2362,79 @@
         }
       ]
     }
+  },
+  "between|bitcoin|november": {
+    "ts": 1795745090.1418457,
+    "resultado": {
+      "n": 51,
+      "score": 0.016,
+      "z": 0.023,
+      "p": 0.5113,
+      "confianca": 0.012,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "It’s ‘Coming’—Massive AI Crash Predicted To Trigger $25 Trillion Bitcoin Price Boom - Forbes"
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "Record temperature surge in November as world fails to agree on climate action - Financial Times"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Bitcoin falls to its lowest in two years "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "JPMorgan says bitcoin 'capitulation' signaled by Strategy's record-low NAV multiple - The Block"
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Bridges become new battlefield between Russia and Ukraine as front line gains freeze - The Kyiv Independent"
+        }
+      ]
+    }
+  },
+  "average|price|rental": {
+    "ts": 1795745295.9837503,
+    "resultado": {
+      "n": 34,
+      "score": -0.132,
+      "z": -0.151,
+      "p": 0.4344,
+      "confianca": 0.076,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.6,
+          "texto": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Bitcoin Faces 6-Year Moving Average Test Only Seen During FTX Collapse - Bitcoin Magazine"
+        },
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Sandisk Trades at Under 3x Earnings After an 8-for-1 Split and a 70% Crash. Why SNDK Stock Isn’t Doomed Despite NAND Price Warnings. - Barchart.com"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Average 401(k), IRA balances fall as more workers tap their accounts, Fidelity says - CNBC"
+        },
+        {
+          "fonte": "news",
+          "score": -0.7,
+          "texto": "Average Philadelphia gas prices fall below $4 a gallon for first time in months, just in time for Thanksgiving travel - 6abc Philadelphia"
+        }
+      ]
+    }
   }
 }
