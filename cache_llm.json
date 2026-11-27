@@ -743,13 +743,13 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795677250.8479083,
+    "ts": 1795780311.9176743,
     "resultado": {
-      "n": 35,
-      "score": -0.009,
-      "z": -0.02,
-      "p": 0.4901,
-      "confianca": 0.01,
+      "n": 39,
+      "score": -0.026,
+      "z": -0.069,
+      "p": 0.4679,
+      "confianca": 0.034,
       "top": [
         {
           "fonte": "hn",
@@ -757,24 +757,24 @@
           "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
         },
         {
-          "fonte": "news",
-          "score": -0.7,
-          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg.com"
+          "fonte": "hn",
+          "score": -0.4,
+          "texto": "Show HN: Advent of AI Security 2026 One OWASP LLM Top 10 risk per door, a new one every two or three days from 1 December to Christmas Eve. Every door ends in a"
         },
         {
           "fonte": "news",
-          "score": 0.6,
-          "texto": "South Korea’s central bank hikes interest rates, raises GDP growth forecast - Al Jazeera"
+          "score": 0.2,
+          "texto": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist - WSJ"
+        },
+        {
+          "fonte": "hn",
+          "score": 0.0,
+          "texto": "Show HN: Isekai Boys – a free browser otome game with over 100 love interests "
         },
         {
           "fonte": "news",
-          "score": 0.5,
-          "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
-        },
-        {
-          "fonte": "news",
-          "score": 0.5,
-          "texto": "Newly proposed tariffs raise chances of the Fed keeping interest rates higher for longer - Yahoo Finance"
+          "score": 0.0,
+          "texto": "\"interest\" - Google News"
         }
       ]
     }
@@ -2023,38 +2023,38 @@
     }
   },
   "chiang|election|taipei": {
-    "ts": 1795716831.36638,
+    "ts": 1795780462.2444348,
     "resultado": {
-      "n": 28,
-      "score": 0.054,
-      "z": 0.073,
-      "p": 0.5341,
-      "confianca": 0.037,
+      "n": 29,
+      "score": -0.021,
+      "z": -0.029,
+      "p": 0.4857,
+      "confianca": 0.015,
       "top": [
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "U.S. House Midterm Election 2026 Live Results: Democrats Win Majority - The New York Times"
+          "texto": "U.S. House Elections 2026 Live Results: Democrats Win Control - NBC News"
         },
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "Democrat Victoria Broderick unseats eight-term Republican incumbent in Tennessee to win election - The Guardian"
-        },
-        {
-          "fonte": "news",
-          "score": 0.7,
-          "texto": "Dr. Clemen Chiang Publishes The Last Line, Completing the Four-Book Series The Disclosed Record - Yahoo Finance"
+          "score": -0.7,
+          "texto": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department - Yahoo"
         },
         {
           "fonte": "news",
           "score": -0.6,
-          "texto": "MAC watches Shanghai probe amid forum uncertainty - Taipei Times"
+          "texto": "US report warns of Chinese AI persona tactics targeting Taiwan elections - Taipei Times"
         },
         {
           "fonte": "hn",
           "score": 0.0,
-          "texto": "Elections and the Base Rate Fallacy "
+          "texto": "Show HN: Mobile-friendly image editor inspired by GIMP (layers, selection, etc) I don&#x27;t know if anyone else is still out here crafting memes by hand... but"
+        },
+        {
+          "fonte": "news",
+          "score": 0.0,
+          "texto": "\"election\" - Google News"
         }
       ]
     }
