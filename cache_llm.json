@@ -1240,14 +1240,24 @@
     }
   },
   "december|increase|interest": {
-    "ts": 1795677280.0905106,
+    "ts": 1795812547.6779516,
     "resultado": {
-      "n": 38,
-      "score": 0.008,
-      "z": 0.018,
-      "p": 0.5088,
-      "confianca": 0.009,
+      "n": 44,
+      "score": -0.018,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "UN warns famine risks rising as hunger hotspots increase - Reuters"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "The Latest Interest Rate Forecast Is In, and It Spells Trouble for a Historically Expensive AI-Driven Bull Market - Yahoo Finance"
+        },
         {
           "fonte": "hn",
           "score": -0.8,
@@ -1255,25 +1265,23 @@
         },
         {
           "fonte": "news",
-          "score": -0.7,
-          "texto": "ECB Can’t Fall Behind Curve on Interest Rates, Kocher Says - Bloomberg.com"
-        },
-        {
-          "fonte": "news",
           "score": 0.6,
-          "texto": "Thanksgiving travel demand rises as Amtrak and bus bookings increase - KCRA"
+          "texto": "Should You Buy Tesla Stock Before December? - The Motley Fool"
         },
         {
-          "fonte": "news",
-          "score": 0.6,
-          "texto": "South Korea’s central bank hikes interest rates, raises GDP growth forecast - Al Jazeera"
-        },
-        {
-          "fonte": "news",
-          "score": 0.5,
-          "texto": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC"
+          "fonte": "hn",
+          "score": 0.4,
+          "texto": "Procter and Gamble to Increase Factory Shifts Without Humans to Cut Costs "
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas são totalmente irrelevantes para a decisão de taxa de juros do Fed em dezembro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.5-flash"
+      }
     }
   },
   "ceasefire|continues|november": {
@@ -2060,38 +2068,38 @@
     }
   },
   "election|mayor|taipei": {
-    "ts": 1795716849.531439,
+    "ts": 1795812442.4374537,
     "resultado": {
-      "n": 27,
-      "score": 0.004,
-      "z": 0.005,
-      "p": 0.5025,
-      "confianca": 0.003,
+      "n": 29,
+      "score": 0.024,
+      "z": 0.03,
+      "p": 0.5144,
+      "confianca": 0.015,
       "top": [
         {
           "fonte": "news",
-          "score": 0.7,
-          "texto": "U.S. House Midterm Election 2026 Live Results: Democrats Win Majority - The New York Times"
+          "score": -1.0,
+          "texto": "Bonita Springs Mayor Michael Gibson arrested on DUI charges after crash - Gulf Coast News and Weather"
+        },
+        {
+          "fonte": "news",
+          "score": 0.9,
+          "texto": "The mayor of Cannes thinks he can beat Marine Le Pen - The Economist"
+        },
+        {
+          "fonte": "news",
+          "score": 0.8,
+          "texto": "Los Angeles Mayor Election 2026 Live Results: Nithya Raman Wins - NBC News"
         },
         {
           "fonte": "news",
           "score": 0.7,
-          "texto": "Democrat Victoria Broderick unseats eight-term Republican incumbent in Tennessee to win election - The Guardian"
+          "texto": "U.S. House Elections 2026 Live Results: Democrats Win Control - NBC News"
         },
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Wentzville Ice Arena collapses under heavy snowfall. 'Total loss' mayor says - STLtoday.com"
-        },
-        {
-          "fonte": "news",
-          "score": -0.6,
-          "texto": "MAC watches Shanghai probe amid forum uncertainty - Taipei Times"
-        },
-        {
-          "fonte": "hn",
-          "score": 0.0,
-          "texto": "Elections and the Base Rate Fallacy "
+          "texto": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department - Yahoo"
         }
       ]
     }
