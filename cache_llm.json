@@ -2452,5 +2452,42 @@
         }
       ]
     }
+  },
+  "minister|nchez|pedro": {
+    "ts": 1795870012.8977203,
+    "resultado": {
+      "n": 28,
+      "score": -0.05,
+      "z": -0.073,
+      "p": 0.466,
+      "confianca": 0.037,
+      "top": [
+        {
+          "fonte": "news",
+          "score": -1.0,
+          "texto": "Pedro Acosta sends defiant Ducati message as Marc Marquez retires - Crash.net"
+        },
+        {
+          "fonte": "hn",
+          "score": -0.9,
+          "texto": "South Korea education minister resigns over exam cheating scandal "
+        },
+        {
+          "fonte": "hn",
+          "score": -0.7,
+          "texto": "Dutch foreign minister urges U.S. to drop proposed restrictions on ASML in China "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Sánchez seeks unlikely win with plea for Spaniards to go vote - The Spokesman-Review"
+        },
+        {
+          "fonte": "news",
+          "score": 0.5,
+          "texto": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened - The Guardian"
+        }
+      ]
+    }
   }
 }
