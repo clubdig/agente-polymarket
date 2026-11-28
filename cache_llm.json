@@ -743,18 +743,23 @@
     }
   },
   "december|interest|meeting": {
-    "ts": 1795780311.9176743,
+    "ts": 1795835273.0600457,
     "resultado": {
-      "n": 39,
-      "score": -0.026,
-      "z": -0.069,
-      "p": 0.4679,
-      "confianca": 0.034,
+      "n": 37,
+      "score": -0.014,
+      "z": 0.0,
+      "p": 0.5,
+      "confianca": 0.25,
       "top": [
         {
           "fonte": "hn",
           "score": -0.8,
           "texto": "Stop the Hemp Ban Before December 11th – U.S. Hemp Roundtable "
+        },
+        {
+          "fonte": "news",
+          "score": 0.7,
+          "texto": "Canadian dollar holds on to weekly gain as investors bet on December rate hike - Reuters"
         },
         {
           "fonte": "hn",
@@ -763,20 +768,23 @@
         },
         {
           "fonte": "news",
-          "score": 0.2,
-          "texto": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist - WSJ"
-        },
-        {
-          "fonte": "hn",
           "score": 0.0,
-          "texto": "Show HN: Isekai Boys – a free browser otome game with over 100 love interests "
+          "texto": "\"interest\" - Google News"
         },
         {
           "fonte": "news",
           "score": 0.0,
-          "texto": "\"interest\" - Google News"
+          "texto": "South Korea’s central bank raises key interest rate to fight inflation - AP News"
         }
-      ]
+      ],
+      "llm": {
+        "p": 0.5,
+        "confianca": 0.25,
+        "forca": "fraca",
+        "motivo": "As notícias fornecidas não contêm informações sobre decisões ou taxas de juros do Federal Reserve para dezembro de 2026.",
+        "n": 25,
+        "modelo": "gemini-3.8-flash"
+      }
     }
   },
   "election|presidential|vance": {
@@ -2031,13 +2039,13 @@
     }
   },
   "chiang|election|taipei": {
-    "ts": 1795780462.2444348,
+    "ts": 1795835409.6739705,
     "resultado": {
-      "n": 29,
-      "score": -0.021,
-      "z": -0.029,
-      "p": 0.4857,
-      "confianca": 0.015,
+      "n": 20,
+      "score": 0.025,
+      "z": 0.034,
+      "p": 0.5165,
+      "confianca": 0.017,
       "top": [
         {
           "fonte": "news",
@@ -2047,12 +2055,12 @@
         {
           "fonte": "news",
           "score": -0.7,
-          "texto": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department - Yahoo"
+          "texto": "Georgia Republican lawmaker asks judge to toss out her midterm loss, order new election - CBS News"
         },
         {
           "fonte": "news",
-          "score": -0.6,
-          "texto": "US report warns of Chinese AI persona tactics targeting Taiwan elections - Taipei Times"
+          "score": 0.5,
+          "texto": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened - The Guardian"
         },
         {
           "fonte": "hn",
